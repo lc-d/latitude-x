@@ -1,0 +1,104 @@
+/* TailwindCSS base styles */
+/* see https://tailwindcss.com/docs/functions-and-directives#tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Light */
+  @font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/eot/ProximaNova-Light.eot");
+    src: url("../fonts/eot/ProximaNova-Light.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/woff2/ProximaNova-Light.woff2") format("woff2"),
+      url("../fonts/woff/ProximaNova-Light.woff") format("woff"),
+      url("../fonts/ttf/ProximaNova-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+  }
+  /* Bold */
+  @font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/eot/ProximaNova-Bold.eot");
+    src: url("../fonts/eot/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/woff2/ProximaNova-Bold.woff2") format("woff2"),
+      url("../fonts/woff/ProximaNova-Bold.woff") format("woff"),
+      url("../fonts/ttf/ProximaNova-Bold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+  }
+  /* Italic */
+  @font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/eot/ProximaNova-LightItalic.eot");
+    src: url("../fonts/eot/ProximaNova-LightItalic.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/woff2/ProximaNova-LightItalic.woff2") format("woff2"),
+      url("../fonts/woff/ProximaNova-LightItalic.woff") format("woff"),
+      url("../fonts/ttf/ProximaNova-LightItalic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: block;
+  }
+  /* Bold italic */
+  @font-face {
+    font-family: "ProximaNova";
+    src: url("../fonts/eot/ProximaNova-BoldItalic.eot");
+    src: url("../fonts/eot/ProximaNova-BoldItalic.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/woff2/ProximaNova-BoldItalic.woff2") format("woff2"),
+      url("../fonts/woff/ProximaNova-BoldItalic.woff") format("woff"),
+      url("../fonts/ttf/ProximaNova-BoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: block;
+  }
+}
+
+@layer components {
+  .wrapper {
+    width: 100%;
+    max-width: 1280px;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+  }
+  .wrapper-md {
+    max-width: 740px;
+  }
+  .grid-12 {
+    @apply grid grid-cols-4 sm:grid-cols-6 md:grid-cols-12 gap-4;
+  }
+  .grid-6 {
+    @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-2 md:gap-4;
+  }
+  .grid-4 {
+    @apply grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4;
+  }
+  .grid-3 {
+    @apply grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-4;
+  }
+  .grid-2 {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-2;
+  }
+  .card {
+    @apply bg-white border border-grey-lighter p-2;
+  }
+  .btn {
+    @apply inline-block py-2 px-4 bg-primary text-white rounded;
+  }
+  .btn-sm {
+    @apply py-1 px-2 text-sm;
+  }
+  .h1-style {
+    @apply text-4xl  md:text-5xl leading-tight;
+  }
+  .h2-style {
+    @apply text-2xl md:text-3xl;
+  }
+  .h3-style {
+    @apply text-lg sm:text-xl md:text-2xl leading-normal;
+  }
+  .h4-style {
+    @apply text-base sm:text-lg md:text-xl leading-normal;
+  }
+}
