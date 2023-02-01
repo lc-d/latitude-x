@@ -1,9 +1,9 @@
 <template>
   <div class="bg-grey-lighter">
     <LayoutHeader />
-    <main>
-      <NuxtPage />  
-    </main>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
     <LayoutFooter />
   </div>
 </template>

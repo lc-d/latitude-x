@@ -1,6 +1,11 @@
 <template>
-  <NuxtLink :to="to" :title="title">
+  <NuxtLink
+    :to="to"
+    :title="title"
+    :class="{ 'text-primary underline underline-offset-2': isLink }"
+  >
     <slot />
+    <BaseIcon v-if="isLink" :icon="'arrow-next'" class="ml-2" />
   </NuxtLink>
 </template>
 
@@ -8,11 +13,15 @@
 const props = defineProps({
   to: {
     type: String,
-    default: "#",
+    default: '#',
   },
   title: {
     type: String,
-    default: "",
+    default: null,
   },
-});
+  isLink: {
+    type: Boolean,
+    default: true,
+  },
+})
 </script>

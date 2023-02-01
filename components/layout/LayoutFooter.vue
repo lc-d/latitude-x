@@ -1,7 +1,7 @@
 <template>
   <footer
     :style="{ backgroundImage: `url('/img/default/hero-footer.png')` }"
-    class="hero hero-footer"
+    class="hero hero-footer mt-12"
   >
     <div class="text-center text-false-white">
       <BaseImage

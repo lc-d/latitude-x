@@ -4,5 +4,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxt/image-edge',
-  ]
+  ],
+  content: {
+    documentDriven: true
+  }
 })

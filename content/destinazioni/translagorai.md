@@ -4,7 +4,8 @@ cover_image: '/img/sassorosso-lagorai_estate-2021.jpg'
 location_name: 'Lagorai'
 season: 'estate'
 difficulty: 'alta'
-activity: ['trekking']
+activity: 'trekking'
+layout: 'destinazioni'
 ---
 
 ### Descrizione del percorso, dislivello, lunghezza, tempo di percorrenza

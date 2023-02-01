@@ -6,7 +6,7 @@
   >
     <div class="wrapper flex justify-between items-center">
       <div class="sm:w-1/3">
-        <BaseLink :to="'/'" :title="'Torna alla homepage'">
+        <BaseLink :to="'/'" :title="'Torna alla homepage'" :isLink="false">
           <BaseImage
             height="50"
             width="186"

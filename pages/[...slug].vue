@@ -1,7 +1,5 @@
 <template>
-  <div class="wrapper wrapper-md">
-    <div class="prose">
+  <div>
       <ContentDoc />
-    </div>
   </div>
 </template>
