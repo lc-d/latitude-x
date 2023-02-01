@@ -1,11 +1,11 @@
 <template>
   <footer
-    :style="{ backgroundImage: `url('img/default/hero-footer.png')` }"
+    :style="{ backgroundImage: `url('/img/default/hero-footer.png')` }"
     class="hero hero-footer"
   >
     <div class="text-center text-false-white">
       <BaseImage
-        :src="'logo/latitudex-logo-icon.svg'"
+        :src="'/logo/latitudex-logo-icon.svg'"
         width="105"
         class="m-auto pt-24"
       />
