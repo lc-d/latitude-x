@@ -1,20 +1,28 @@
 <template>
-  <article class="card" :class="{ 'grid grid-cols-2 space-x-4': horizontal }">
-    <BaseLink :to="path" :isLink="false" :class="{ 'img-spacer ratio-1x1': horizontal }">
-
+  <article
+    class="card"
+    :class="{ 'grid grid-cols-2 space-x-4': horizontal, 'card-border': border }"
+  >
+    <BaseLink
+      :to="path"
+      :isLink="false"
+      class="block"
+      :class="{ relative: hasVideo }"
+    >
+      <span
+        class="img-spacer"
+        :class="{ 'ratio-1x1': horizontal, 'ratio-3x2': !horizontal }"
+      >
+        <BaseImage :src="image" :alt="alt" />
+      </span>
       <BaseImage
-        :src="image"
-        :alt="alt"
+        v-if="hasVideo"
+        class="absolute z-10 right-0 bottom-0 w-8 h-8"
+        :src="'/img/default/play.svg'"
       />
-      </BaseLink>
-    <div>
-      <header>
-        <h3 class="h4-style">
-          <BaseLink :to="path" :isLink="false">
-            <b>{{ title }}</b>
-          </BaseLink>
-        </h3>
-      </header>
+    </BaseLink>
+    <div :class="{ 'p-1': !border }">
+      {{ hasVideo }}
       <slot />
     </div>
   </article>
@@ -23,10 +31,6 @@
 <script setup lang="ts">
 const props = defineProps({
   image: {
-    type: String,
-    default: '',
-  },
-  title: {
     type: String,
     default: '',
   },
@@ -42,8 +46,13 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
-})
-const hasImage = computed(() => {
-  return props.image ? true : false
+  border: {
+    type: Boolean,
+    default: false,
+  },
+  hasVideo: {
+    type: Boolean,
+    default: false,
+  },
 })
 </script>

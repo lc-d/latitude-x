@@ -4,11 +4,11 @@
       :style="{ backgroundImage: `url('/img/default/hero-destinazioni.png')` }"
       class="hero"
     ></div>
-    <section class="top-section wrapper md:flex">
-      <header class="md:w-1/3 mb-12">
+    <section class="top-section wrapper lg:flex">
+      <header class="lg:w-1/3 mb-8">
         <div class="sticky top-20">
           <h1 class="h1-style">
-            Destinazioni
+            <b>Destinazioni</b>
           </h1>
           <small class="text-2xl">
             <b>Scegli la tua meta</b>
@@ -19,16 +19,23 @@
           </p>
         </div>
       </header>
-      <div class="md:w-2/3">
+      <div class="lg:w-2/3">
         <ul class="grid-2">
           <li v-for="(article, index) in articles" :key="index">
             <BaseCard
               :image="article.cover_image"
-              :title="article.title"
               :path="article._path"
               :horizontal="true"
+              :border="true"
             >
-              <ul class="space-y-3 mt-2 text-sm capitalize">
+            <header>
+              <h3 class="h4-style mt-1">
+                <BaseLink :to="article._path" :isLink="false">
+                  {{ article.title }}
+                </BaseLink>
+              </h3>
+            </header>
+              <ul class="space-y-3 mt-4 text-sm capitalize">
                 <li>
                   <BaseIcon :icon="article.activity" class="text-primary mr-1" />
                   {{ article.activity }}
@@ -64,11 +71,11 @@ const articles = await queryContent('/destinazioni/').find()
 
 <style scoped lang="scss">
 .hero {
-  height: 560px;
+  height: 400px;
   max-width: 1440px;
-  margin: 0 auto -80px auto;
+  margin: 0 auto -120px auto;
   background-size: cover;
-  background-position: center right;
+  background-position: bottom center;
   background-repeat: no-repeat;
 }
 </style>

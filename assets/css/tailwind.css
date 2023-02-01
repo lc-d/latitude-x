@@ -84,7 +84,10 @@
     @apply grid grid-cols-1 sm:grid-cols-2 gap-4;
   }
   .card {
-    @apply bg-false-white border border-grey-lighter p-1 shadow hover:shadow-lg;
+    @apply bg-false-white shadow hover:shadow-lg;
+  }
+  .card-border {
+    @apply border border-grey-lighter p-1
   }
   .btn {
     @apply inline-block py-2 px-4 bg-primary text-white rounded;

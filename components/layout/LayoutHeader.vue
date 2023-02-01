@@ -37,8 +37,12 @@
           class="flex text-sm"
           :class="{ 'space-x-4': !isOpen, 'space-y-8': isOpen }"
         >
-          <li>DIARIO DEI VIAGGI</li>
-          <li>DESTINAZIONI</li>
+          <li>
+            <BaseLink :to="'/viaggi'" :isLink="false">DIARIO DEI VIAGGI</BaseLink>
+          </li>
+          <li>
+            <BaseLink :to="'/destinazioni'" :isLink="false">DESTINAZIONI</BaseLink>
+          </li>
           <li>FORMAZIONE</li>
           <li>CHI SIAMO</li>
         </ul>

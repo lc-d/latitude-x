@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="mb-24">
     <div class="wrapper wrapper-lg prose">
         <div class="pt-24 text-3xl">destinazioni</div>
         <pre>{{page}}</pre>
