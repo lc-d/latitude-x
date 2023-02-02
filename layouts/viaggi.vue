@@ -10,5 +10,5 @@
 
 <script setup>
 const { page } = useContent() 
-console.log(page)
+// console.log(page)
 </script>

@@ -43,8 +43,12 @@
           <li>
             <BaseLink :to="'/destinazioni'" :isLink="false">DESTINAZIONI</BaseLink>
           </li>
-          <li>FORMAZIONE</li>
-          <li>CHI SIAMO</li>
+          <li>
+            <BaseLink :to="'/formazione'" :isLink="false">FORMAZIONE</BaseLink>
+          </li>
+          <li>
+            <BaseLink :to="'/chi-siamo'" :isLink="false">CHI SIAMO</BaseLink>
+          </li>
         </ul>
       </nav>
     </div>

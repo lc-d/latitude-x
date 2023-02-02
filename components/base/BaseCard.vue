@@ -11,7 +11,7 @@
     >
       <span
         class="img-spacer"
-        :class="{ 'ratio-1x1': horizontal, 'ratio-3x2': !horizontal }"
+        :class="{ 'ratio-1x1 h-full': horizontal, 'ratio-3x2': !horizontal }"
       >
         <BaseImage :src="image" :alt="alt" />
       </span>
@@ -22,7 +22,6 @@
       />
     </BaseLink>
     <div :class="{ 'p-1': !border }">
-      {{ hasVideo }}
       <slot />
     </div>
   </article>

@@ -4,7 +4,7 @@
       :style="{ backgroundImage: `url('/img/default/hero-destinazioni.png')` }"
       class="hero"
     ></div>
-    <section class="top-section wrapper lg:flex">
+    <section class="top-section wrapper lg:flex lg:space-x-4">
       <header class="lg:w-1/3 mb-8">
         <div class="sticky top-20">
           <h1 class="h1-style">
@@ -35,7 +35,7 @@
                 </BaseLink>
               </h3>
             </header>
-              <ul class="space-y-3 mt-4 text-sm capitalize">
+              <ul class="space-y-3 mt-3 text-sm capitalize">
                 <li>
                   <BaseIcon :icon="article.activity" class="text-primary mr-1" />
                   {{ article.activity }}
