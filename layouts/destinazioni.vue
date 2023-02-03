@@ -5,7 +5,7 @@
       :style="{ backgroundImage: `url('${page.cover_image}')` }"
       class="hero"
     />
-    <article
+    <div
       class="wrapper"
       :class="{
         'wrapper-lg': hasSidebar,
@@ -14,11 +14,11 @@
         'pt-24': !hasImage,
       }"
     >
-      <div :class="{ 'md:flex md:space-x-4': hasSidebar }">
-        <div :class="{ 'md:w-2/3': hasSidebar }">
+      <section :class="{ 'md:flex md:space-x-4': hasSidebar }">
+        <article :class="{ 'md:w-2/3': hasSidebar }">
           <header>
             <h1 class="h1-style">{{ page.title }}</h1>
-            <div class="sm:flex mt-3">
+            <div class="sm:flex mt-6">
               <div class="sm:w-1/2">
                 <ul class="space-y-3 text-sm">
                   <li>
@@ -44,7 +44,7 @@
                 </ul>
               </div>
 
-              <div class="sm:w-1/2">
+              <div class="sm:w-1/2 mt-6 sm:mt-0">
                 <h3 class="h3-style">Vuoi andare qui?</h3>
                 <p class="text-sm mt-2">
                   Contattaci manifestandoci il tuo interesse, se sarà possibile
@@ -61,24 +61,38 @@
           <div class="prose">
             <slot />
           </div>
-          <BaseShare :path="page._path" />
-        </div>
-        <div v-if="hasSidebar" class="md:w-1/3">
-          <h3 class="h3-style">Dal nostro diario dei viaggi</h3>
-          <ul class="space-y-4 mt-3 sticky top-20">
-            <li v-for="(viaggio, index) in viaggi" :key="index">
-              <SummaryViaggi :article="viaggio" />
-            </li>
-          </ul>
-        </div>
-      </div>
-    </article>
+          <BaseShare :path="page._path" class="mt-6" />
+        </article>
+        <aside v-if="hasSidebar" class="md:w-1/3">
+         
+            <h3 class="h3-style mt-12 md:mt-0">Dal nostro diario dei viaggi</h3>
+            <ul class="space-y-4 mt-3 sticky top-20">
+              <li v-for="(viaggio, index) in viaggi" :key="index" class="max-w-sm m-auto">
+                <SummaryViaggi :article="viaggio" />
+              </li>
+            </ul>
+        </aside>
+      </section>
+      <section class="max-w-3xl m-auto mt-12">
+        <header class="text-center">
+          <h2 class="h2-style">Scopri altre destinazioni</h2>
+        </header>
+        <ul class="mt-6 grid-2">
+          <li v-if="prev && prev.layout === 'destinazioni'">
+            <SummaryDestinazioni :article="prev" />
+          </li>
+          <li v-if="prev && next.layout === 'destinazioni'">
+            <SummaryDestinazioni :article="next" />
+          </li>
+        </ul>
+      </section>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 const isCtaOpen = ref(false)
-const { page, type } = useContent()
+const { page, next, prev } = useContent()
 const viaggi = await queryContent('viaggi')
   .where({ location_name: { $eq: page.value.location_name } })
   .limit(2)
