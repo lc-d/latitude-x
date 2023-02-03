@@ -2,7 +2,7 @@
   <NuxtLink
     :to="to"
     :title="title"
-    :class="{ 'text-primary underline underline-offset-2': isLink }"
+    :class="{ 'text-primary hover:text-primary-dark underline underline-offset-2': isLink }"
   >
     <slot />
     <BaseIcon v-if="isLink" :icon="'arrow-next'" class="ml-2" />

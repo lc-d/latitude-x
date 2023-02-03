@@ -11,7 +11,7 @@
         volte dovrete avere un po’ di pazienza.
       </i>
     </small>
-    <div class="max-w-sm m-auto flex space-x-4 mt-4">
+    <div class="max-w-sm m-auto flex space-x-4 mt-4 text-sm">
       <BaseLink
         class="text-primary underline underline-offset-2"
         :to="
