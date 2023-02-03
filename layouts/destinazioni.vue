@@ -66,7 +66,7 @@
         <aside v-if="hasSidebar" class="md:w-1/3">
          
             <h3 class="h3-style mt-12 md:mt-0">Dal nostro diario dei viaggi</h3>
-            <ul class="space-y-4 mt-3 sticky top-20">
+            <ul class="space-y-4 mt-3 sticky top-2">
               <li v-for="(viaggio, index) in viaggi" :key="index" class="max-w-sm m-auto">
                 <SummaryViaggi :article="viaggio" />
               </li>

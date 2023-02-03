@@ -40,7 +40,7 @@
         <h3 class="h3-style mt-12 md:mt-0 text-center md:text-left">
           Destinazioni in zona «{{ page.location_name }}»
         </h3>
-        <ul class="space-y-4 mt-3 sticky top-20">
+        <ul class="space-y-4 mt-3 sticky top-2">
           <li
             v-for="(destinazione, index) in destinazioni"
             :key="index"

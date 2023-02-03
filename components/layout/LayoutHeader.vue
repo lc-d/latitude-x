@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-primary-light-opacity z-10 fixed w-full backdrop-blur-sm"
+    class="bg-primary-light-opacity z-10 absolute w-full backdrop-blur-sm"
     :class="{ open: isOpen, 'backdrop-blur-md': isOpen }"
     @keydown.esc="isOpen = false"
   >
