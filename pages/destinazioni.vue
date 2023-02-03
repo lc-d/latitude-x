@@ -17,12 +17,17 @@
             Esprimi la tua preferenza, potremmo organizzare un viaggio per
             andarci insieme.
           </p>
+          <BaseButton class="btn mt-3" @click="isCtaOpen = !isCtaOpen">
+            <span v-if="isCtaOpen">Chiudi il box</span>
+            <span v-else>Voglio viaggiare con voi qui</span>
+          </BaseButton>
+          <LayoutCta v-if="isCtaOpen" />
         </div>
       </header>
       <div class="lg:w-2/3">
         <ul class="grid-2">
           <li v-for="(article, index) in articles" :key="index">
-              <SummaryDestinazioni :article="article" />
+            <SummaryDestinazioni :article="article" />
           </li>
         </ul>
       </div>
@@ -31,6 +36,7 @@
 </template>
 
 <script setup lang="ts">
+const isCtaOpen = ref(false)
 const articles = await queryContent('/destinazioni/').find()
 </script>
 
