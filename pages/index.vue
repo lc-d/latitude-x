@@ -6,7 +6,7 @@
     >
       <div class="hero-wrapper flex items-center">
         <div class="wrapper text-center md:text-left">
-          <PageLogo class="m-auto md:m-0" />
+          <LayoutLogo class="m-auto md:m-0" />
           <h1 class="h1-style text-false-white drop-shadow-text mt-3">
             Benvenuti a
             <b>Latitude X</b>

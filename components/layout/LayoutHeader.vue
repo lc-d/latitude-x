@@ -38,10 +38,14 @@
           :class="{ 'space-x-4': !isOpen, 'space-y-8': isOpen }"
         >
           <li>
-            <BaseLink :to="'/viaggi'" :isLink="false">DIARIO DEI VIAGGI</BaseLink>
+            <BaseLink :to="'/viaggi'" :isLink="false">
+              DIARIO DEI VIAGGI
+            </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/destinazioni'" :isLink="false">DESTINAZIONI</BaseLink>
+            <BaseLink :to="'/destinazioni'" :isLink="false">
+              DESTINAZIONI
+            </BaseLink>
           </li>
           <li>
             <BaseLink :to="'/formazione'" :isLink="false">FORMAZIONE</BaseLink>
@@ -68,6 +72,10 @@ header {
     height: 70px;
   }
 }
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 .open {
   height: 100vh;
   nav {
@@ -82,6 +90,10 @@ header {
     display: block;
     li {
       text-align: center;
+
+      a:hover {
+        text-decoration: underline;
+      }
     }
   }
   button {

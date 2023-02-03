@@ -7,6 +7,6 @@
 <script setup>
 const { page } = useContent()
 const hasImage = computed(()=> {
- return page.cover_image ? true : false
+ return page.value.cover_image ? true : false
 })
 </script>
