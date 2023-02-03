@@ -1,7 +1,12 @@
 <template>
-  <main class="py-24">
-    <div class="wrapper wrapper-md prose">
-      <slot />
-    </div>
-  </main>
+  <div class="wrapper wrapper-md prose" :class="{'pt-24':!hasImage}">
+    <slot />
+  </div>
 </template>
+
+<script setup>
+const { page } = useContent()
+const hasImage = computed(()=> {
+ return page.cover_image ? true : false
+})
+</script>

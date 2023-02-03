@@ -1,5 +1,9 @@
 <template>
-  <div>
-      <ContentDoc />
-  </div>
+  <NuxtLayout :name="page.layout">
+    <ContentDoc />
+  </NuxtLayout>
 </template>
+
+<script setup>
+const { page } = useContent()
+</script>

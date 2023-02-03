@@ -1,14 +1,6 @@
 <template>
-  <main class="mb-24">
-    <div class="wrapper wrapper-lg prose">
-        <div class="pt-24 text-3xl">destinazioni</div>
-        <pre>{{page}}</pre>
-      <slot />
-    </div>
-  </main>
+  <div class="wrapper wrapper-lg prose">
+    <div class="pt-24 text-3xl">destinazioni</div>
+    <slot />
+  </div>
 </template>
-
-<script setup>
-const { page } = useContent() 
-// console.log(page)
-</script>
