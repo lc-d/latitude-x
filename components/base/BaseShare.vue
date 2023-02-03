@@ -50,7 +50,7 @@
 </template>
 
 <script setup lang="ts">
-const { $domain } = useNuxtApp()
+const appConfig = useAppConfig()
 const props = defineProps({
   path: {
     type: String,
@@ -58,7 +58,7 @@ const props = defineProps({
   },
 })
 const getUrl = computed(() => {
-  return $domain() + props.path
+  return appConfig.info.domain + props.path
 })
 const isCopied = ref(false)
 const clipboard = function () {

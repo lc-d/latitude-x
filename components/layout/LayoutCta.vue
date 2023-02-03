@@ -16,7 +16,7 @@
         class="text-primary underline underline-offset-2"
         :to="
           'https://wa.me/' +
-          $tel() +
+          appConfig.info.tel +
           '?text=' +
           getTitle
         "
@@ -30,7 +30,7 @@
         class="text-primary underline underline-offset-2"
         :to="
           'mailto:' +
-          $mail() +
+          appConfig.info.mail +
           '?subject=' +
           getTitle
         "
@@ -45,7 +45,7 @@
 </template>
 
 <script setup lang="ts">
-const { $tel, $mail } = useNuxtApp()
+const appConfig = useAppConfig()
 const props = defineProps({
   title: {
     type: String,
