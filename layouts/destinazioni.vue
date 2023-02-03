@@ -81,7 +81,7 @@
           <li v-if="prev && prev.layout === 'destinazioni'">
             <SummaryDestinazioni :article="prev" />
           </li>
-          <li v-if="prev && next.layout === 'destinazioni'">
+          <li v-if="next && next.layout === 'destinazioni'">
             <SummaryDestinazioni :article="next" />
           </li>
         </ul>
