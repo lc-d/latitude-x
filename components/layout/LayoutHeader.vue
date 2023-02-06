@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-primary-light-opacity z-10 absolute w-full backdrop-blur-sm"
+    class="bg-primary-light-opacity z-20 absolute w-full backdrop-blur-sm"
     :class="{ open: isOpen, 'backdrop-blur-md': isOpen }"
     @keydown.esc="isOpen = false"
   >
@@ -38,22 +38,22 @@
           :class="{ 'space-x-4': !isOpen, 'space-y-8': isOpen }"
         >
           <li>
-            <BaseLink :to="'/viaggi'" :isLink="false" @click="menuToggle">
+            <BaseLink :to="'/viaggi'" :isLink="false" @click="isOpen = false">
               DIARIO DEI VIAGGI
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/destinazioni'" :isLink="false" @click="menuToggle">
+            <BaseLink :to="'/destinazioni'" :isLink="false" @click="isOpen = false">
               DESTINAZIONI
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/formazione'" :isLink="false" @click="menuToggle">
+            <BaseLink :to="'/formazione'" :isLink="false" @click="isOpen = false">
               FORMAZIONE
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/chi-siamo'" :isLink="false" @click="menuToggle">
+            <BaseLink :to="'/chi-siamo'" :isLink="false" @click="isOpen = false">
               CHI SIAMO
             </BaseLink>
           </li>

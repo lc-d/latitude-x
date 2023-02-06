@@ -1,5 +1,8 @@
 <template>
   <span :class="getColor">
+    <span v-if="$slots.default" class="mr-2">
+      <ContentSlot :use="$slots.default" unwrap="p" />
+    </span>
     <BaseIcon :icon="icon" :size="size" />
   </span>
 </template>
@@ -18,7 +21,7 @@ const props = defineProps({
     default: '',
   },
 })
-const getColor = computed(() =>{
-    return props.color ? 'text-' + props.color : null
-}) 
+const getColor = computed(() => {
+  return props.color ? 'text-' + props.color : null
+})
 </script>

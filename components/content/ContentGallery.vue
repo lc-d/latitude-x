@@ -10,8 +10,8 @@
   >
     <SwiperSlide v-for="(slide, index) in images" :key="index">
       <figure>
-        <BasePicture :src="slide.src" />
-        <figcaption class="flex justify-between mt-2">
+        <BaseImage :src="slide.src" />
+        <figcaption class="flex justify-between mt-0 text-base">
           <small><i v-if="slide.caption">{{ slide.caption }}</i></small>
           <small><b>{{ index+1 }}</b> / {{ images.length }}</small>
         </figcaption>
@@ -28,3 +28,10 @@ const props = defineProps({
   },
 })
 </script>
+
+<style lang="scss" scoped>
+figure picture img {
+  margin-bottom: 1em;
+}
+
+</style>
