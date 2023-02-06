@@ -4,8 +4,9 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxt/image-edge',
+    'nuxt-swiper',
   ],
   content: {
     documentDriven: true
-  },
+  }
 })

@@ -12,6 +12,35 @@ L’Alta Via del Granito è una traversata ad anello, nella singolare isola gran
 
 La lunghezza dell'itinerario è di circa 28 km, con un dislivello totale di quasi 2030 mt (per chi compie l'ascensione del Cimon di cima d'Asta bisogna aggiungere altri 380 mt).
 
+::content-icon{icon="twitter"}
+::
+
+::content-icon
+---
+icon: menu
+size: xl
+color: primary
+---
+::
+
+::content-gallery
+---
+images: [ 
+    {
+        src: '/img/trekkeraltaviagranito-lagorai_autunno-2021.jpg',
+        caption: '1 pippo'
+    },
+    {
+        src: '/img/sassorosso-lagorai_estate-2021.jpg',
+        caption: '2 pippo'
+    },
+    {
+        src: '/img/trekkeraltaviagranito-lagorai_autunno-2021.jpg'
+    }
+]
+---
+::
+
 I sentieri sono di facile percorrenza (difficoltà EE) ma non sono comunque da sottovalutare per l'impegno fisico. I tempi di percorrenza indicati riguardano il solo cammino, senza includere le soste e si riferiscono a persone con buon allenamento in montagna. Tra i due rifugi non ci sono punti di appoggio, ma in alcuni casi, specie nella seconda tappa, si trovano ricoveri d'emergenza e alcune grotte della Prima Guerra Mondiale. Anche per l'abbigliamento si tenga presente che ci sono molti tratti sopra i 2000 metri.
 
 ### Periodo di svolgimento della escursione

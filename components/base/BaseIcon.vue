@@ -16,7 +16,7 @@ const props = defineProps({
   },
 })
 const getSize = computed(() => {
-    return props.size ? 'icon-'+props.size:null
+    return props.size ? 'icon-'+props.size : null
 })
 </script>
 
