@@ -5,10 +5,11 @@
       'wrapper-lg': hasSidebar,
       'wrapper-md': !hasSidebar,
     }"
+    @keydown.esc="playVideo"
   >
     <section :class="{ 'md:flex md:space-x-4': hasSidebar }">
       <article :class="{ 'md:w-2/3': hasSidebar }">
-        <div v-if="hasImage" :class="{ relative: hasVideo }">
+        <div v-if="hasImage" :class="{ relative: hasVideo }" class="bg-primary">
           <figure class="mb-6">
             <BasePicture
               :src="page.cover_image"
@@ -24,11 +25,13 @@
               class="w-auto h-auto"
               :src="'/img/default/play-button.svg'"
             />
-            <span class="sr-only">Vedi il video di «{{page.title}}»</span>
+            <span class="sr-only">Vedi il video di «{{ page.title }}»</span>
           </BaseButton>
         </div>
         <header>
-          <small class="text-base text-grey capitalize">{{ page.date }}</small>
+          <small class="text-base text-grey capitalize">
+            {{ page.date }} • {{ page.location_name }}
+          </small>
           <h1 class="h1-style mt-3">{{ page.title }}</h1>
         </header>
         <div class="prose">
@@ -53,17 +56,34 @@
     </section>
     <section class="max-w-3xl m-auto mt-12">
       <header class="text-center">
-        <h2 class="h2-style">Scopri altri viaggi</h2>
+        <h2 class="h2-style">Dal nostro diario dei viaggi</h2>
       </header>
       <ul class="mt-6 grid-2">
-        <li v-if="prev && prev.layout === 'viaggi'">
-          <SummaryViaggi :article="prev" />
+        <li>
+          <SummaryViaggi
+            v-if="prev && prev.layout === 'viaggi'"
+            :article="prev"
+          />
         </li>
-        <li v-if="next && next.layout === 'viaggi'">
-          <SummaryViaggi :article="next" />
+        <li>
+          <SummaryViaggi
+            v-if="next && next.layout === 'viaggi'"
+            :article="next"
+          />
         </li>
       </ul>
     </section>
+    <BaseModal v-if="isPlayerOpen" ref="video-wrapper" @close-modal="playVideo">
+      <iframe
+        width="560"
+        height="315"
+        :src="'https://www.youtube.com/embed/' + page.video_id"
+        :title="'YouTube video player per: «' + page.title + '»'"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </BaseModal>
   </div>
 </template>
 
@@ -80,10 +100,16 @@ const hasImage = computed(() => {
   return page.value.cover_image ? true : false
 })
 const hasVideo = computed(() => {
-  return page.value.video_url ? true : false
+  return page.value.video_id ? true : false
 })
-const playVideo = function() {
-  console.log('play video');
-
+const isPlayerOpen = ref(false)
+const playVideo = function () {
+  isPlayerOpen.value = !isPlayerOpen.value
 }
 </script>
+
+<style lang="scss" scoped>
+  iframe {
+    max-width: 100%;
+  }
+</style>

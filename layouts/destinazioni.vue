@@ -64,13 +64,16 @@
           <BaseShare :path="page._path" class="mt-6" />
         </article>
         <aside v-if="hasSidebar" class="md:w-1/3">
-         
-            <h3 class="h3-style mt-12 md:mt-0">Dal nostro diario dei viaggi</h3>
-            <ul class="space-y-4 mt-3 sticky top-2">
-              <li v-for="(viaggio, index) in viaggi" :key="index" class="max-w-sm m-auto">
-                <SummaryViaggi :article="viaggio" />
-              </li>
-            </ul>
+          <h3 class="h3-style mt-12 md:mt-0">Dal nostro diario dei viaggi</h3>
+          <ul class="space-y-4 mt-3 sticky top-2">
+            <li
+              v-for="(viaggio, index) in viaggi"
+              :key="index"
+              class="max-w-sm m-auto"
+            >
+              <SummaryViaggi :article="viaggio" />
+            </li>
+          </ul>
         </aside>
       </section>
       <section class="max-w-3xl m-auto mt-12">
@@ -78,11 +81,17 @@
           <h2 class="h2-style">Scopri altre destinazioni</h2>
         </header>
         <ul class="mt-6 grid-2">
-          <li v-if="prev && prev.layout === 'destinazioni'">
-            <SummaryDestinazioni :article="prev" />
+          <li>
+            <SummaryDestinazioni
+              v-if="prev && prev.layout === 'destinazioni'"
+              :article="prev"
+            />
           </li>
-          <li v-if="next && next.layout === 'destinazioni'">
-            <SummaryDestinazioni :article="next" />
+          <li>
+            <SummaryDestinazioni
+              v-if="next && next.layout === 'destinazioni'"
+              :article="next"
+            />
           </li>
         </ul>
       </section>

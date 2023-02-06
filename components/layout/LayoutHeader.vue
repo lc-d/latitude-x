@@ -38,20 +38,24 @@
           :class="{ 'space-x-4': !isOpen, 'space-y-8': isOpen }"
         >
           <li>
-            <BaseLink :to="'/viaggi'" :isLink="false">
+            <BaseLink :to="'/viaggi'" :isLink="false" @click="menuToggle">
               DIARIO DEI VIAGGI
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/destinazioni'" :isLink="false">
+            <BaseLink :to="'/destinazioni'" :isLink="false" @click="menuToggle">
               DESTINAZIONI
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/formazione'" :isLink="false">FORMAZIONE</BaseLink>
+            <BaseLink :to="'/formazione'" :isLink="false" @click="menuToggle">
+              FORMAZIONE
+            </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/chi-siamo'" :isLink="false">CHI SIAMO</BaseLink>
+            <BaseLink :to="'/chi-siamo'" :isLink="false" @click="menuToggle">
+              CHI SIAMO
+            </BaseLink>
           </li>
         </ul>
       </nav>

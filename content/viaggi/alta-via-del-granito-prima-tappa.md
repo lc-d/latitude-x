@@ -1,7 +1,7 @@
 ---
 title: 'Alta Via del Granito - Prima Tappa'
 cover_image: '/img/altaviagranito-lagorai_autunno-2021.jpg'
-video_url: 'https://www.youtube.com/watch?v=C4vNW3yo5YQ&t=1s'
+video_id: 'C4vNW3yo5YQ'
 location_name: 'Lagorai'
 date: 'ott 2022'
 layout: 'viaggi'

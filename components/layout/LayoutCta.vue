@@ -1,8 +1,7 @@
 <template>
-  <div class="max-w-lg m-auto mt-4 pb-4 border-b border-grey-light">
+  <div class="max-w-lg m-auto mt-4 pb-4">
     <h2 class="h2-style">Contattaci</h2>
     <p class="text-base mt-2">
-      Sei interessato a questa destinazione e vorresti andarci con noi?
       Contattaci dicendo dove vorresti andare e in quanti siete.
     </p>
     <small class="inline-block text-sm mt-2">
