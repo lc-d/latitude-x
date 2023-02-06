@@ -1,7 +1,7 @@
 <template>
   <div>
     <header
-      :style="{ backgroundImage: `url('/img/default/hero.png')` }"
+      :style="{ backgroundImage: `url('/img/default/hero-header.jpg')` }"
       class="hero"
     >
       <div class="hero-wrapper flex items-center">

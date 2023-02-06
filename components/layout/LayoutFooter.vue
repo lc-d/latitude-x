@@ -1,6 +1,6 @@
 <template>
   <footer
-    :style="{ backgroundImage: `url('/img/default/hero-footer.png')` }"
+    :style="{ backgroundImage: `url('/img/default/hero-footer.jpg')` }"
     class="hero hero-footer"
   >
     <div class="text-center text-false-white">
@@ -12,22 +12,48 @@
       <p class="text-2xl drop-shadow-text mt-2">LATITUDE X</p>
     </div>
     <nav class="m-auto">
-      <ul
-        class="text-center space-x-4 space-y-2 text-base text-false-white m-auto my-8"
-      >
-        <li class="inline-block">Diario dei viaggi</li>
-        <li class="inline-block">Destinazioni</li>
-        <li class="inline-block">Formazione</li>
-        <li class="inline-block">Chi siamo</li>
-        <li class="inline-block">Giulia Gabani</li>
-        <li class="inline-block">Francesco Sauro</li>
-        <li class="inline-block">Informativa privacy e cookie</li>
+      <ul class="text-center space-x-4 space-y-2 text-base text-false-white m-auto my-8">
+        <li class="inline-block">
+          <BaseLink :to="'/viaggi'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+            Diario dei viaggi
+          </BaseLink>
+        </li>
+        <li class="inline-block">
+          <BaseLink :to="'/destinazioni'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+            Destinazioni
+          </BaseLink>
+        </li>
+        <li class="inline-block">
+          <BaseLink :to="'/formazione'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+            Formazione
+          </BaseLink>
+        </li>
+        <li class="inline-block">
+          <BaseLink :to="'/chi-siamo'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+            Chi siamo
+          </BaseLink>
+        </li>
+        <li class="inline-block">
+          <BaseLink :to="'/giulia-gabani'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+            Giulia Gabani
+          </BaseLink>
+        </li>
+        <li class="inline-block">
+          <BaseLink :to="'/francesco-sauro'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+            Francesco Sauro
+          </BaseLink>
+        </li>
+        <li class="inline-block">
+          <BaseLink :to="'/privacy-cookie'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+            Informativa privacy e cookie
+          </BaseLink>
+        </li>
       </ul>
     </nav>
   </footer>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 nav {
   max-width: 30rem;
 }

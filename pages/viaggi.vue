@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      :style="{ backgroundImage: `url('/img/default/hero-viaggi.png')` }"
+      :style="{ backgroundImage: `url('/img/default/hero-viaggi.jpg')` }"
       class="hero"
     />
     <section class="top-section wrapper">
