@@ -101,7 +101,8 @@ if (props.isInfinite) {
 
 const startAnimation = function () {
   if (!props.isInfinite) {
-    if (elClass.value === 'rotation') return (elClass.value = 'rotation')
+    if (elClass.value === 'rotation') return
+    elClass.value = 'rotation'
     setTimeout(() => {
       elClass.value = ''
     }, '4000')
