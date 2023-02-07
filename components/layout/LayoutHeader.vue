@@ -1,7 +1,7 @@
 <template>
   <header
-    class="bg-primary-light-opacity z-20 absolute w-full backdrop-blur-sm"
-    :class="{ open: isOpen, 'backdrop-blur-md': isOpen }"
+    class="bg-primary-light-opacity z-20 w-full backdrop-blur-sm"
+    :class="{ 'open fixed backdrop-blur-md': isOpen, 'absolute': !isOpen }"
     @keydown.esc="isOpen = false"
   >
     <div class="wrapper flex justify-between items-center">
