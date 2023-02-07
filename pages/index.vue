@@ -9,7 +9,7 @@
           <LayoutLogo class="m-auto md:m-0" />
           <h1 class="h1-style text-false-white drop-shadow-text mt-3">
             Benvenuti a
-            <b>Latitude X</b>
+            <b class="inline-block">Latitude X</b>
             <br />
             <small>{{ appConfig.text.motto }}</small>
           </h1>
@@ -34,7 +34,7 @@
         <div class="md:w-1/3 mt-12 md:mt-0 max-w-sm md:max-w-none m-auto">
           <BaseLink
             :to="'/destinazioni'"
-            class="md:text-false-white text-lg md:drop-shadow-text hover:text-false-white"
+            class="md:text-false-white text-lg md:drop-shadow-text md:hover:text-false-white"
           >
             <b>Destinazioni</b>
           </BaseLink>

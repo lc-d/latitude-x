@@ -8,5 +8,8 @@ export default defineNuxtConfig({
   ],
   content: {
     documentDriven: true
-  }
+  },
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
 })
