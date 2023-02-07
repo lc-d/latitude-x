@@ -16,6 +16,18 @@
 <script setup>
 const { page } = useContent()
 definePageMeta({
-  layout: false,
+  layout: false
+})
+const getTitle = computed(()=>{
+  return page && page.value ? page.value.title : 'Errore 404'
+})
+const getDescription = computed(()=>{
+  return page && page.value ? page.value.description:'Pagina non trovata'
+})
+useHead({
+  meta: [
+    { name: 'og:title', content: getTitle + ' | Latitude X' },
+    { name: 'og:description', content: getDescription },
+  ],
 })
 </script>

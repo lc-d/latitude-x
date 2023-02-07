@@ -20,6 +20,7 @@
 </template>
 
 <script setup lang="ts">
+const appConfig = useAppConfig()
 const articles = await queryContent('/viaggi/')
   .where({
     navigation: { $ne: false },
@@ -28,6 +29,15 @@ const articles = await queryContent('/viaggi/')
   .only(['_path', 'title', 'cover_image', 'date'])
   .sort({ date: 1 })
   .find()
+  
+useHead({
+  title: appConfig.meta.viaggiTitle,
+  meta: [
+    { name: 'description', content: appConfig.meta.viaggiDescription },
+    { name: 'og:title', content: appConfig.meta.viaggiTitle },
+    { name: 'og:description', content: appConfig.meta.viaggiDescription },
+  ],
+})
 </script>
 
 <style scoped lang="scss">

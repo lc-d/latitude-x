@@ -45,6 +45,15 @@ const articles = await queryContent('/destinazioni/')
   .only(['_path', 'title', 'cover_image', 'activity', 'season', 'difficulty'])
   .sort({ date: 1 })
   .find()
+
+useHead({
+  title: appConfig.meta.destinazioniTitle,
+  meta: [
+    { name: 'description', content: appConfig.meta.destinazioniDescription },
+    { name: 'og:title', content: appConfig.meta.destinazioniTitle },
+    { name: 'og:description', content: appConfig.meta.destinazioniDescription },
+  ],
+})
 </script>
 
 <style scoped lang="scss">

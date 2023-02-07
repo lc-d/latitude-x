@@ -8,3 +8,9 @@
     <LayoutFooter />
   </div>
 </template>
+
+<script setup>
+  useHead({
+    titleTemplate: '%s | Latitude X',
+  })
+</script>

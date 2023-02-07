@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+description: "Da (ormai troppi) anni mi dedico ai trekking, al free-climbing, all’alpinismo e scialpinismo."
 ---
 
 

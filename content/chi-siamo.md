@@ -1,6 +1,7 @@
 ---
 layout: 'page'
 cover_image: '/img/paesaggioaltaviagranito-lagorai_autunno-2021.jpg'
+description: "Scopri chi siamo"
 ---
 
 # Chi siamo

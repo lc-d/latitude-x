@@ -31,6 +31,14 @@ export default defineAppConfig({
         ctaBoxText: "Contattaci dicendo dove vorresti andare e in quanti siete.",
         ctaBoxDisclaimer: "Ci scusiamo in anticipo ma non sempre riusciamo a rispondere subito, a volte dovrete avere un po’ di pazienza.",
     },
+    meta: {
+        homeTitle: "Dove trovi l'avventura",
+        homeDescription: "Vivi l'avventura con Giulia e Francesco partendo in viaggio verso le destinazioni più belle e selvaggie",
+        destinazioniTitle: "Destinazioni",
+        destinazioniDescription: "Tutte le destinazioni",
+        viaggiTitle: "Viaggi",
+        viaggiDescription: "Tutti i viaggi",
+    },
     community: [
         {
             name: "Alessandra",

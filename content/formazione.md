@@ -1,5 +1,6 @@
 ---
 layout: 'page'
+description: "Mettiamo al servizio la nostra esperienza: per rendere sicuri Voi e la vostra azienda. Siamo due formatori specializzati in discipline diverse e complementari."
 ---
 
 # Corsi di primo soccorso aziendale

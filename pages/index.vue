@@ -163,6 +163,15 @@ const destinazioni = await queryContent('/destinazioni/')
   .sort({ date: 1 })
   .limit(4)
   .find()
+  
+useHead({
+  title: appConfig.meta.homeTitle,
+  meta: [
+    { name: 'description', content: appConfig.meta.homeDescription },
+    { name: 'og:title', content: appConfig.meta.homeTitle },
+    { name: 'og:description', content: appConfig.meta.homeDescription },
+  ],
+})
 </script>
 
 <style scoped lang="scss">
