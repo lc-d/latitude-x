@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxtjs/tailwindcss',
-    '@nuxt/image-edge',
+    // '@nuxt/image-edge', // TODO: waiting for module update
     'nuxt-swiper',
   ],
   content: {

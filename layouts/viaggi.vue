@@ -10,10 +10,9 @@
     <section :class="{ 'md:flex md:space-x-4': hasSidebar }">
       <article :class="{ 'md:w-2/3': hasSidebar }">
         <div v-if="hasImage" :class="{ relative: hasVideo }" class="bg-primary">
-          <figure class="mb-6">
-            <BasePicture
+          <figure class="mb-6 img-spacer ratio-16x9">
+            <BaseImage
               :src="page.cover_image"
-              class="img-spacer ratio-16x9"
             />
           </figure>
           <BaseButton

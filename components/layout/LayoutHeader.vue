@@ -10,7 +10,7 @@
           <BaseImage
             height="50"
             width="186"
-            :src="'logo/latitudex-logo-default.svg'"
+            :src="'/logo/latitudex-logo-default.svg'"
             :alt="'Latitude X logo'"
           />
         </BaseLink>
