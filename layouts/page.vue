@@ -1,21 +1,23 @@
 <template>
-<section>
-  <div
+  <section>
+    <div
       v-if="hasImage"
       :style="{ backgroundImage: `url('${page.cover_image}')` }"
       class="hero"
     />
-    <article class="wrapper wrapper-md prose" :class="{ 'pt-24': !hasImage, 'pt-8':hasImage }">
-    <slot />
-  </article>
-</section>
-  
+    <article
+      class="wrapper wrapper-md prose"
+      :class="{ 'pt-24': !hasImage, 'pt-8': hasImage }"
+    >
+      <slot />
+    </article>
+  </section>
 </template>
 
 <script setup>
 const { page } = useContent()
 const hasImage = computed(() => {
-  return page.value.cover_image ? true : false
+  return page.value && page.value.cover_image ? true : false
 })
 </script>
 

@@ -1,13 +1,21 @@
 <template>
-  <NuxtLayout :name="page.layout">
-    <ContentDoc />
-  </NuxtLayout>
+  <div>
+    <NuxtLayout v-if="page" :name="page.layout">
+      <ContentDoc />
+    </NuxtLayout>
+    <NuxtLayout v-else name="page">
+      <ContentDoc>
+        <template #not-found>
+          <LayoutNotFound />
+        </template>
+      </ContentDoc>
+    </NuxtLayout>
+  </div>
 </template>
 
 <script setup>
 const { page } = useContent()
-// const getPage = computed(()=>{
-//   return page.layout ? page.layout : 'page'
-// })
-// console.log(getPage);
+definePageMeta({
+  layout: false,
+})
 </script>

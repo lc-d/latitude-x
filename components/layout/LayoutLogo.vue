@@ -88,18 +88,31 @@
 </template>
 
 <script setup lang="ts">
+const props = defineProps({
+  isInfinite: {
+    type: Boolean,
+    default: false,
+  },
+})
 const elClass = ref('rotation')
-const startAnimation = () => {
-  if (elClass.value === 'rotation') return
-  elClass.value = 'rotation'
-  setTimeout(() => {
-    elClass.value = ''
-  }, '4000')
+if (props.isInfinite) {
+  elClass.value += ' rotation-infinite'
+}
+
+const startAnimation = function () {
+  if (!props.isInfinite) {
+    if (elClass.value === 'rotation') return (elClass.value = 'rotation')
+    setTimeout(() => {
+      elClass.value = ''
+    }, '4000')
+  }
 }
 onMounted(() => {
-  setTimeout(() => {
-    elClass.value = ''
-  }, '4000')
+  if (!props.isInfinite) {
+    setTimeout(() => {
+      elClass.value = ''
+    }, '4000')
+  }
 })
 </script>
 
@@ -111,6 +124,9 @@ svg {
 .rotation {
   transform-origin: 50% 50%;
   animation: spin 4s ease-out 1;
+  &-infinite {
+    animation: rotate 12s linear infinite;
+  }
 }
 @keyframes spin {
   0% {
@@ -130,6 +146,12 @@ svg {
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+@keyframes rotate {
+  
+  100% {
+    transform: rotate(365deg);
   }
 }
 </style>

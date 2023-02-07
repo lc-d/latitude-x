@@ -2,8 +2,8 @@
   <div class="bg-grey-lighter">
     <NuxtLoadingIndicator />
     <LayoutHeader />
-    <main class="mb-24">
-      <NuxtPage />
+    <main class="py-24">
+     <LayoutNotFound />
     </main>
     <LayoutFooter />
   </div>
