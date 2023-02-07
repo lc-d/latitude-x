@@ -45,10 +45,9 @@
               </div>
 
               <div class="sm:w-1/2 mt-6 sm:mt-0">
-                <h3 class="h3-style">Vuoi andare qui?</h3>
+                <h3 class="h3-style">  {{ appConfig.text.ctaSingleTitle }}</h3>
                 <p class="text-sm mt-2">
-                  Contattaci manifestandoci il tuo interesse, se sarà possibile
-                  organizzeremo un viaggio con te.
+                   {{ appConfig.text.ctaSingleText }}
                 </p>
                 <BaseButton class="btn mt-3" @click="isCtaOpen = !isCtaOpen">
                   <span v-if="isCtaOpen">Chiudi il box</span>
@@ -100,6 +99,7 @@
 </template>
 
 <script setup lang="ts">
+const appConfig = useAppConfig()
 const isCtaOpen = ref(false)
 const { page, next, prev } = useContent()
 const viaggi = await queryContent('viaggi')

@@ -2,12 +2,11 @@
   <div class="max-w-lg m-auto mt-4 pb-4">
     <h2 class="h2-style">Contattaci</h2>
     <p class="text-base mt-2">
-      Contattaci dicendo dove vorresti andare e in quanti siete.
+       {{ appConfig.text.ctaBoxText }}
     </p>
     <small class="inline-block text-sm mt-2">
       <i>
-        Ci scusiamo in anticipo ma non sempre riusciamo a rispondere subito, a
-        volte dovrete avere un po’ di pazienza.
+        {{ appConfig.text.ctaBoxDisclaimer }}
       </i>
     </small>
     <div class="max-w-sm m-auto flex space-x-4 mt-4 text-sm">

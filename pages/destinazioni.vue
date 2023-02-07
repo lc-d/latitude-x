@@ -11,11 +11,10 @@
             <b>Destinazioni</b>
           </h1>
           <small class="text-2xl">
-            <b>Scegli la tua meta</b>
+            <b>{{ appConfig.text.ctaListTitle }}</b>
           </small>
           <p class="text-base mt-3">
-            Esprimi la tua preferenza, potremmo organizzare un viaggio per
-            andarci insieme.
+            {{ appConfig.text.ctaListText }}
           </p>
           <BaseButton class="btn mt-3" @click="isCtaOpen = !isCtaOpen">
             <span v-if="isCtaOpen">Chiudi il box</span>
@@ -36,6 +35,7 @@
 </template>
 
 <script setup lang="ts">
+const appConfig = useAppConfig()
 const isCtaOpen = ref(false)
 const articles = await queryContent('/destinazioni/').find()
 </script>

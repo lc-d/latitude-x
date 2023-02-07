@@ -11,16 +11,146 @@
             Benvenuti a
             <b>Latitude X</b>
             <br />
-            <small>Dove trovi l'avventura.</small>
+            <small>{{ appConfig.text.motto }}</small>
           </h1>
         </div>
       </div>
     </header>
     <section class="top-section wrapper">
-      <div class="h-72"></div>
+      <div class="md:flex md:space-x-4">
+        <div class="md:w-2/3">
+          <BaseLink
+            :to="'/viaggi'"
+            class="text-false-white text-lg drop-shadow-text hover:text-false-white"
+          >
+            <b>Diario dei viaggi</b>
+          </BaseLink>
+          <ul class="grid-2 mt-3">
+            <li v-for="(viaggio, index) in viaggi" :key="index">
+              <SummaryViaggi :article="viaggio" />
+            </li>
+          </ul>
+        </div>
+        <div class="md:w-1/3 mt-12 md:mt-0 max-w-sm md:max-w-none m-auto">
+          <BaseLink
+            :to="'/destinazioni'"
+            class="md:text-false-white text-lg md:drop-shadow-text hover:text-false-white"
+          >
+            <b>Destinazioni</b>
+          </BaseLink>
+          <ul class="space-y-4 mt-3 relative">
+            <li
+              v-for="(destinazione, index) in destinazioni"
+              :key="index"
+              class="max-w-sm"
+            >
+              <SummaryDestinazioni :article="destinazione" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div
+        :style="{ backgroundImage: `url('/img/default/hero-middle.jpg')` }"
+        class="hero hero-middle"
+      >
+        <div class="wrapper flex items-center justify-end">
+          <div class="md:w-1/2 text-false-white text-right drop-shadow-text">
+            <blockquote class="h2-style">
+              «{{ appConfig.text.quote }}»
+            </blockquote>
+            <p class="mt-4">
+              <i>{{ appConfig.text.quoteAuthor }}</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper mt-12 prose">
+        <div class="md:flex md:space-x-4">
+          <div class="md:w-1/2">
+            <p>
+              <img
+                src="/logo/latitudex-logo-default.svg"
+                alt="Logo di Latitude X"
+                class="max-w-xs"
+              />
+            </p>
+            <p class="h3-style" v-html="appConfig.text.aboutP1" />
+            <p class="h3-style" v-html="appConfig.text.aboutP2" />
+            <p>
+              <em v-html="appConfig.text.aboutP3" />
+            </p>
+          </div>
+          <div class="md:w-1/2">
+            <div class="sm:flex sm:space-x-4">
+              <div class="sm:w-1/2">
+                <p>
+                  <img
+                    src="/img/default/giulia.jpg"
+                    alt="Foto di Giulia Gabani di profilo con la corda d'arrampicata sulla spalla"
+                    class="m-auto -mb-6"
+                  />
+                </p>
+                <h2 id="giulia-gabani">Giulia Gabani</h2>
+                <ul class="text-sm">
+                  <li
+                    v-for="(text, index) in appConfig.text.giulia"
+                    :key="index"
+                  >
+                    {{ text }}
+                  </li>
+                </ul>
+                <BaseLink :to="'/giulia-gabani'">Leggi di più</BaseLink>
+              </div>
+              <div class="sm:w-1/2 mt-12 sm:mt-0">
+                <p>
+                  <img
+                    src="/img/default/francesco.jpg"
+                    alt="Foto di Francesco Maria Sauro di profilo con la corda d'arrampicata sulla spalla"
+                    class="m-auto -mb-6"
+                  />
+                </p>
+                <h2 id="francesco-sauro">Francesco Sauro</h2>
+                <ul class="text-sm">
+                  <li
+                    v-for="(text, index) in appConfig.text.francesco"
+                    :key="index"
+                  >
+                    {{ text }}
+                  </li>
+                </ul>
+                <BaseLink :to="'/francesco-sauro'">Leggi di più</BaseLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+       <div class="wrapper mt-16 text-center">
+       <h2 class="h1-style">Si sono avventurati con noi</h2>
+        <ul class="grid-6 mt-12">
+          <li v-for="(person, index) in appConfig.community" :for="index">
+            <figure>
+              <img class="rounded-full mb-3 m-auto w-40" :src="'/img/community/' + person.src" />
+              <figcaption>{{person.name}}</figcaption>
+            </figure>
+          </li>
+        </ul>
+       </div>
     </section>
   </div>
 </template>
+
+<script setup lang="ts">
+const appConfig = useAppConfig()
+const viaggi = await queryContent('/viaggi/').sort({ date: -1 }).limit(4).find()
+const destinazioni = await queryContent('/destinazioni/')
+  .sort({ date: -1 })
+  .limit(4)
+  .find()
+</script>
 
 <style scoped lang="scss">
 .hero {
@@ -32,6 +162,13 @@
   background-repeat: no-repeat;
   &-wrapper {
     height: 550px;
+  }
+  &-middle {
+    margin: -120px auto 0 auto;
+    background-position: center center;
+    .wrapper {
+      height: 720px;
+    }
   }
 }
 </style>
