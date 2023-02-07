@@ -37,7 +37,14 @@
 <script setup lang="ts">
 const appConfig = useAppConfig()
 const isCtaOpen = ref(false)
-const articles = await queryContent('/destinazioni/').find()
+const articles = await queryContent('/destinazioni/')
+  .where({
+    navigation: { $ne: false },
+    draft: { $ne: true },
+  })
+  .only(['_path', 'title', 'cover_image', 'activity', 'season', 'difficulty'])
+  .sort({ date: 1 })
+  .find()
 </script>
 
 <style scoped lang="scss">

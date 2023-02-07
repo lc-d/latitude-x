@@ -20,7 +20,14 @@
 </template>
 
 <script setup lang="ts">
-const articles = await queryContent('/viaggi/').find()
+const articles = await queryContent('/viaggi/')
+  .where({
+    navigation: { $ne: false },
+    draft: { $ne: true },
+  })
+  .only(['_path', 'title', 'cover_image', 'date'])
+  .sort({ date: 1 })
+  .find()
 </script>
 
 <style scoped lang="scss">

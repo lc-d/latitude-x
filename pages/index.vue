@@ -145,9 +145,22 @@
 
 <script setup lang="ts">
 const appConfig = useAppConfig()
-const viaggi = await queryContent('/viaggi/').sort({ date: -1 }).limit(4).find()
+const viaggi = await queryContent('/viaggi/')
+  .where({
+    navigation: { $ne: false },
+    draft: { $ne: true },
+  })
+  .only(['_path', 'title', 'cover_image', 'date'])
+  .sort({ date: 1 })
+  .limit(4)
+  .find()
 const destinazioni = await queryContent('/destinazioni/')
-  .sort({ date: -1 })
+  .where({
+    navigation: { $ne: false },
+    draft: { $ne: true },
+  })
+  .only(['_path', 'title', 'cover_image', 'activity', 'season', 'difficulty'])
+  .sort({ date: 1 })
   .limit(4)
   .find()
 </script>
