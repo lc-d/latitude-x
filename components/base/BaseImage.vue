@@ -1,6 +1,6 @@
 <template>
   <img
-    :src="src"
+    :src="getSrc"
     :alt="alt"
     loading="lazy"
   />
@@ -17,4 +17,7 @@ const props = defineProps({
     default: "",
   }
 });
+const getSrc = computed(()=>{
+  return props.src ? props.src : '/img/default/placeholder.jpg'
+})
 </script>

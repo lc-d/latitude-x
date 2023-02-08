@@ -5,7 +5,7 @@
     :has-video="true"
   >
     <header>
-      <small class="text-grey capitalize">{{ article.date }}</small>
+      <small class="text-grey capitalize">{{ $date(article.date) }}</small>
       <h3 class="h4-style">
         <BaseLink :to="article._path" :isLink="false">
           {{ article.title }}
@@ -22,6 +22,7 @@
 
 
 <script setup lang="ts">
+const { $date } = useNuxtApp()
 const props = defineProps({
   article: {
     type: Object,

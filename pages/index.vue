@@ -147,21 +147,19 @@
 const appConfig = useAppConfig()
 const viaggi = await queryContent('/viaggi/')
   .where({
-    navigation: { $ne: false },
-    draft: { $ne: true },
+    draft: { $ne: 'true' }
   })
   .only(['_path', 'title', 'cover_image', 'date'])
-  .sort({ date: 1 })
+  .sort({ date: -1 })
   .limit(4)
   .find()
 const destinazioni = await queryContent('/destinazioni/')
   .where({
-    navigation: { $ne: false },
-    draft: { $ne: true },
+    draft: { $ne: 'true' }
   })
   .only(['_path', 'title', 'cover_image', 'activity', 'season', 'difficulty'])
-  .sort({ date: 1 })
-  .limit(4)
+  .sort({ date: -1 })
+  .limit(3)
   .find()
   
 useHead({

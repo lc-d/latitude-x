@@ -1,13 +1,17 @@
 <template>
   <div>
     <NuxtLayout v-if="page" :name="page.layout">
-      <ContentDoc />
+      <ContentDoc>
+        <template #empty>
+          <p class="text-center mt-12"><b>Questo file non ha contenuto. Scrivi qualcosa!</b></p>
+        </template>
+      </ContentDoc>
     </NuxtLayout>
     <NuxtLayout v-else name="page">
       <ContentDoc>
         <template #not-found>
           <LayoutNotFound />
-        </template>
+        </template> 
       </ContentDoc>
     </NuxtLayout>
   </div>

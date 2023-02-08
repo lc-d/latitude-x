@@ -23,11 +23,10 @@
 const appConfig = useAppConfig()
 const articles = await queryContent('/viaggi/')
   .where({
-    navigation: { $ne: false },
-    draft: { $ne: true },
+    draft: { $ne: 'true' }
   })
   .only(['_path', 'title', 'cover_image', 'date'])
-  .sort({ date: 1 })
+  .sort({ date: -1 })
   .find()
   
 useHead({

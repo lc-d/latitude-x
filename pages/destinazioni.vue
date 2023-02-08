@@ -39,11 +39,10 @@ const appConfig = useAppConfig()
 const isCtaOpen = ref(false)
 const articles = await queryContent('/destinazioni/')
   .where({
-    navigation: { $ne: false },
-    draft: { $ne: true },
+    draft: { $ne: 'true' }
   })
   .only(['_path', 'title', 'cover_image', 'activity', 'season', 'difficulty'])
-  .sort({ date: 1 })
+  .sort({ date: -1 })
   .find()
 
 useHead({

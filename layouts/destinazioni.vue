@@ -107,6 +107,7 @@ const viaggi = await queryContent('viaggi')
   .limit(2)
   .find()
 const hasSidebar = computed(() => {
+  if (!page.value.location_name) return false
   return viaggi.length === 0 ? false : true
 })
 const hasImage = computed(() => {

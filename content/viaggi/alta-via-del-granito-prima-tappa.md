@@ -3,7 +3,9 @@ title: 'Alta Via del Granito - Prima Tappa'
 cover_image: '/img/altaviagranito-lagorai_autunno-2021.jpg'
 video_id: 'C4vNW3yo5YQ'
 location_name: 'Lagorai'
-date: 'ott 2022'
+description: ""
+date: "2023-02-02T13:27:11.546"
+draft: "false"
 layout: 'viaggi'
 ---
 La nostalgia della Translagorai ci ha portato sull'Alta via del Granito.

@@ -2,11 +2,13 @@
 title: 'Alta Via del Granito'
 cover_image: '/img/trekkeraltaviagranito-lagorai_autunno-2021.jpg'
 location_name: 'Lagorai'
-season: 'autunno'
-difficulty: 'media'
+season: 'autunno' 
+difficulty: 'media difficoltà'
 activity: 'trekking'
 layout: 'destinazioni'
 description: "L’Alta Via del Granito è una traversata ad anello, nella singolare isola granitica del gruppo Cima d’Asta - Cime di Rava, nella Catena del Lagorai."
+date: "2023-02-02T13:27:11.546"
+draft: "false"
 ---
 
 L’Alta Via del Granito è una traversata ad anello, nella singolare isola granitica del gruppo Cima d’Asta - Cime di Rava, nella Catena del Lagorai. L’Alta Via percorre una rete di antichi sentieri ed ex strade militari, risalenti alla Prima Guerra Mondiale, collegando gli unici due rifugi del gruppo. Tre giorni di facile cammino fra stupendi paesaggi naturali, severi ricordi della Grande Guerra, malghe ed alpeggi, testimonianze esemplari dell’antico patto dell’uomo con la natura.

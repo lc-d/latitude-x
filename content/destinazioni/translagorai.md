@@ -7,6 +7,8 @@ difficulty: 'alta'
 activity: 'trekking'
 layout: 'destinazioni'
 description: "La Translagorai è un trekking di più giorni che attraversa tutta la selvaggia catena del Lagorai, dalla Panarotta a passo Rolle."
+date: "2023-02-04T13:27:11.546"
+draft: "false"
 ---
 
 ### Descrizione del percorso, dislivello, lunghezza, tempo di percorrenza

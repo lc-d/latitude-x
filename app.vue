@@ -38,11 +38,11 @@ useHead({
       sizes: '16x16',
       href: '/logo/favicon-16x16.png',
     },
-     {
-        rel: 'mask-icon',
-        color: '#5bbad5',
-        href: '/logo/safari-pinned-tab.svg'
-      },
+    {
+      rel: 'mask-icon',
+      color: '#5bbad5',
+      href: '/logo/safari-pinned-tab.svg',
+    },
     {
       rel: 'manifest',
       crossorigin: 'use-credentials',

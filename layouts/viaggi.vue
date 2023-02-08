@@ -29,7 +29,7 @@
         </div>
         <header>
           <small class="text-base text-grey capitalize">
-            {{ page.date }} • {{ page.location_name }}
+            {{ $date(page.date) }} • {{ page.location_name }}
           </small>
           <h1 class="h1-style mt-3">{{ page.title }}</h1>
         </header>
@@ -87,12 +87,14 @@
 </template>
 
 <script setup lang="ts">
+const { $date } = useNuxtApp()
 const { page, next, prev } = useContent()
 const destinazioni = await queryContent('destinazioni')
   .where({ location_name: { $eq: page.value.location_name } })
   .limit(2)
   .find()
 const hasSidebar = computed(() => {
+  if (!page.value.location_name) return false
   return destinazioni.length === 0 ? false : true
 })
 const hasImage = computed(() => {
