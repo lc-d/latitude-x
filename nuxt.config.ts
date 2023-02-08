@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     // '@nuxt/image-edge', // TODO: waiting for module update
     'nuxt-swiper',
+    '@nuxtjs/robots'
   ],
   content: {
     documentDriven: true
@@ -12,4 +13,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' }
   },
+  robots: {
+    rules: {disallow: '/'} // TODO: remove before production
+  }
 })
