@@ -1,42 +1,301 @@
-# Content v2 Minimal Starter
+# Latitude X
 
-Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
+Benvenuti nell'ambiente di sviluppo di latitude X, un'applicazione web in `node` basata su `Nuxt3` ([vedi documentazione](https://nuxt.com/)), in modalità *content driven* ([vedi documentazione](https://content-v2.nuxtjs.org)).
 
-## Setup
+## Indice
 
-Make sure to install the dependencies:
+1. Requisiti
+1. Installazione
+1. Comandi
+1. Impostazioni del sito, file `app.config`
+1. Contenuti, la cartella `content`
+    1. viaggi
+    1. destinazioni
+    1. pagine
+1. File e immagini, la cartella `public`
+1. Uso del markdown
+    1. `content-big`
+    1. `content-small`
+    1. `content-icon`
+    1. `content-gallery`
+    1. `content-columns`
+1. *Front matter cheatsheet*
+1. *Commands cheatsheet*
+
+## Requisiti
+
+Per installare e far girare questa applicazione sulla propria macchina locale, è necessario avere:
+
+1. `git`: apri il terminale e lancia il comando `git --version` e segui le istruzioni per installare *Xcode*
+1. `node` v.16 o superiore: [scarica da questo link](https://nodejs.org/it/download/).
+1. `yarn`: una volta installato `node` lancia da terminale: `npm install --global yarn`
+
+Per accedere al tuo account su github puoi usare [questa guida](https://kbroman.org/github_tutorial/pages/first_time.html).
+
+*Nota: non necessario usare `yarn` se si vuole usare `npm`*
+
+## Installazione
+
+1. Scarica questo repo:
 
 ```bash
-# yarn
+git clone git@github.com:lc-d/latitude-x.git
+```
+
+2. Entra nella cartella del progetto e installa le dipendenze di `node`:
+
+```bash
+cd latitude-x
 yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
 ```
 
-## Development Server
-
-Start the development server on http://localhost:3000
+3. Lancia l'applicazione in locale:
 
 ```bash
-npm run dev
+yarn dev
 ```
 
-## Production
+**Fatto!**
 
-Build the application for production:
+Ora puoi navigare l'applicazione all'indirizzo [http://localhost:3000](http://localhost:3000).
 
-```bash
-npm run build
+## Comandi
+
+L'applicazione è fornita di alcuni comandi per terminale:
+
+| Comando | Funzione |
+|--|--|
+|`yarn dev`| Esegue l'applicazione in locale
+|`yarn new-destinazione`| Crea un nuovo file in markdown nella cartella `/content/destinazioni`|
+|`yarn new-viaggio`| Crea un nuovo file in markdown nella cartella `/content/viaggi`|
+|`yarn new-pagina`| Crea un nuovo file in markdown nella cartella `/content`|
+|`yarn deploy`|TODO: Copia le modifiche in locale sul repo di Github e mette on line una nuova versione del sito
+
+## Impostazioni del sito, file `app.config`
+
+Nel file `/app.config.ts` sono contenute le seguenti informazioni:
+
+- `info`, dove sono definiti:
+  - Numero di telefono e indirizzo e-mail del box di contatto
+  - Numero di elementi paginati nell'elenco dei viaggi
+- `text`, dove ci sono i testi statici del sito
+- `meta`, dove ci sono i meta dati delle pagine statiche del sito
+- `communtity`, dove si trova l'elenco dei membri della community elencato nella homepage
+
+Gli elementi della `communtity` sono definiti da due propietà
+
+- `name`: il nome visualizzato sotto la foto
+- `src`: il nome del file della foto, che deve essere messo dentro la cartella `/public/img/community`
+
+## Contenuti, la cartella `content`
+
+Tutte le pagine del sito, ad eccezione dell'homepage `/`, di `/destinazioni` e `/viaggi`, corrispondo ai relativi file in markdown dentro la cartella `/content` e nelle relative sotto cartelle.
+
+L'url della pagina è costituito dal nome del file e dalla sotto cartella in cui si trova, es.: *https://latitudex.it/viaggi/alta-via-del-granito-prima-tappa* corrisponde al markdown dentro la cartella `/content/viaggi` col nome: *alta-via-del-granito-prima-tappa.md*.
+
+*Nota bene*: Il nome del file corrisponde allo *slug* della pagina, pertanto non usare caratteri speciali nei nomi dei file.
+
+### Viaggi
+
+Dentro la cartella `/content/viaggi` sono contenuti tutti gli articoli nella categoria "viaggi". Un articolo del tipo *viaggi* è un file markdown, dotato di un *frontmatter*, come nell'esempio che segue:
+
+```js
+---
+title: "Alta Via del Granito - Prima Tappa"
+cover_image: "/img/altaviagranito-lagorai_autunno-2021.jpg"
+video_id: "C4vNW3yo5YQ"
+location_name: "Lagorai"
+description: "La nostalgia della Translagorai ci ha portato sull'Alta via del Granito. Nonostante il freddo pungente e già proiettati sullo scialpinismo, ci siamo rimessi gli scarponi per percorrere questo itinerario, che ci ha stupito per la sua bellezza"
+layout: "viaggi"
+date: "2023-02-09T14:57:46.645"
+draft: "false"
+---
+
+Corpo del testo
 ```
 
-Locally preview production build:
+### Destinazioni
 
-```bash
-npm run preview
+Dentro la cartella `/content/destinazioni` sono contenuti tutti gli articoli nella categoria "destinazioni". Un articolo del tipo *destinazioni* è un file markdown, dotato di un *frontmatter*, come nell'esempio che segue:
+
+```js
+---
+title: "Translagorai"
+cover_image: "/img/sassorosso-lagorai_estate-2021.jpg"
+location_name: "Lagorai"
+season: "estate"
+difficulty: "alta"
+activity: "trekking"
+description: "La Translagorai è un trekking di più giorni che attraversa tutta la selvaggia catena del Lagorai, dalla Panarotta a passo Rolle."
+layout: "destinazioni"
+date: "2023-02-04T13:27:11.546"
+draft: "false"
+---
+
+Corpo del testo
 ```
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+### Pagine
+
+Dentro la cartella `/content` sono contenuti tutte le pagine statiche che sono richiamate dal menu di navigazione o da un altro link interno. Una pagina è un file markdown, dotato di un *frontmatter*, come nell'esempio che segue:
+
+```js
+---
+cover_image: ""
+description: ""
+layout: "page"
+---
+
+Corpo del testo
+```
+
+## File e immagini, la cartella `public`
+
+Tutti i file statici sono conservati dentro la cartella `/public`. Al suo interno ci sono le cartelle `/public/logo` – dove c'è il logo nelle sue diverse versioni, e `/public/img` dove si possono mettere tutte le immagini richiamate negli articoli. All'interno di quest'ultima cartella ci sono due sotto cartelle:
+
+- `/public/img/default`: dove sono conservate tutte le immagini di base del sito
+- `/public/img/community`: dove ci sono tutte le foto dei membri della community. *Nota bene*: queste immagini dovrebbero essere dei quadrati di 280x280 pixel.
+
+## Uso del markdown
+
+Con il markdown è possibile inserire contenuti e formattare il testo come indcato in [questa guida](https://www.markdownguide.org/cheat-sheet/). Questa applicazione inoltre mette a disposizione delle formattazioni speciali del testo attraverso i *content slot*.
+
+### `content-big`
+
+Permettere di avere un testo più grande senza ricorre ai titoli, es.:
+
+```txt
+::content-big
+Lorem ipsum dolor sit amet
+::
+```
+
+### `content-small`
+
+Permettere di avere un testo più piccolo senza ricorre ai titoli, es.:
+
+```txt
+::content-small
+Lorem ipsum dolor sit amet
+::
+```
+
+### `content-gallery`
+
+Crea una galleria di immagini, es.:
+
+```txt
+::content-gallery
+---
+images: [ 
+    {
+        src: '/img/nome-file-1.jpg',
+        caption: 'Didascalia immagine 1'
+    },
+    {
+        src: '/img/nome-file-2.jpg',
+        caption: 'Didascalia immagine 2'
+    },
+    {
+        src: '/img/nome-file-3.jpg'
+    }
+]
+---
+::
+```
+
+### `content-icon`
+
+Permette di inserire un'icona in linea col testo, es.:
+
+```txt
+::content-icon{icon="nome-icona"}
+::
+```
+
+Si può definire anche una dimensione e un diverso colore in questo modo:
+
+```txt
+::content-icon
+---
+icon: nome-icona
+size: xl
+color: primary
+---
+::
+```
+
+Valori possibili:
+
+- `size`:
+  - xs
+  - sm
+  - lg
+  - xl
+- `color`: 
+  - primary
+  - primary-light
+  - primary-light-opacity
+  - primary-dark
+  - primary-darker'
+  - accent
+  - grey
+  - grey-light
+  - grey-lighter
+  - grey-dark
+  - false-white
+  - black
+- `icon`:
+  - copy
+  - link
+  - facebook
+  - linkedin
+  - twitter
+  - back
+  - goto
+  - arrow-next
+  - menu
+  - close
+  - chevron-right
+  - chevron-left
+  - chevron-down
+  - chevron-up
+  - phone
+  - mail
+  - mobile
+  - trekking
+  - heart
+  - estate
+  - autunno
+  - inverno
+  - primavera
+  - location
+  - ciclismo
+  - whatsapp
+  - instagram
+  - youtube
+
+### `content-columns`
+
+Permette di creare due clonne dentro la pagina, es.:
+
+```txt
+
+::content-columns
+#left
+Lorem ipsum doloro sit amet
+
+#right
+Lorem ipsum doloro sit amet
+::
+```
+
+## *Front matter cheatsheet*
+
+| Attributo | Descrizione |
+|--|--|
+
+## *Commands cheatsheet*
+
+| Comando | Funzione |
+|--|--|
