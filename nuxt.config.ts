@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     // '@nuxt/image-edge', // TODO: waiting for module update
     'nuxt-swiper',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
   ],
   content: {
     documentDriven: true
@@ -14,6 +14,14 @@ export default defineNuxtConfig({
     pageTransition: { name: 'page', mode: 'out-in' }
   },
   robots: {
-    rules: {disallow: '/'} // TODO: remove before production
+    rules: {
+      disallow: '/', // TODO: remove before production
+      sitemap: 'https://latitudex.it/sitemap.xml'
+    } 
+  },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
   }
 })
