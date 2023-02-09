@@ -4,10 +4,11 @@
     :path="article._path"
     :horizontal="true"
     :border="true"
+    :title="article.title"
   >
     <header>
       <h3 class="h4-style mt-1">
-        <BaseLink :to="article._path" :isLink="false">
+        <BaseLink :to="article._path" :isLink="false" :title="`Leggi la destinazione: «${article.title}»`">
           {{ article.title }}
         </BaseLink>
       </h3>

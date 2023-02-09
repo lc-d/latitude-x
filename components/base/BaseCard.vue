@@ -8,12 +8,13 @@
       :isLink="false"
       class="block"
       :class="{ relative: hasVideo }"
+      :title="`Leggi «${title}»`"
     >
       <span
         class="img-spacer"
         :class="{ 'ratio-1x1 h-full': horizontal, 'ratio-3x2': !horizontal }"
       >
-        <BaseImage :src="image" :alt="alt" />
+        <BaseImage :src="image" />
       </span>
       <BaseImage
         v-if="hasVideo"
@@ -33,7 +34,7 @@ const props = defineProps({
     type: String,
     default: '',
   },
-  alt: {
+  title: {
     type: String,
     default: '',
   },

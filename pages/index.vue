@@ -21,6 +21,7 @@
         <div class="md:w-2/3">
           <BaseLink
             :to="'/viaggi'"
+            title="Vedi tutti i viaggi di Latitude X"
             class="text-false-white text-lg drop-shadow-text hover:text-false-white"
           >
             <b>Diario dei viaggi</b>
@@ -34,6 +35,7 @@
         <div class="md:w-1/3 mt-12 md:mt-0 max-w-sm md:max-w-none m-auto">
           <BaseLink
             :to="'/destinazioni'"
+            title="Vedi tutte le destinazioni di Latitude X"
             class="md:text-false-white text-lg md:drop-shadow-text md:hover:text-false-white"
           >
             <b>Destinazioni</b>
@@ -101,7 +103,7 @@
                     {{ text }}
                   </li>
                 </ul>
-                <BaseLink :to="'/giulia-gabani'">Leggi di più</BaseLink>
+                <BaseLink :to="'/giulia-gabani'" title="Leggi di più su Giulia Gabani">Leggi di più</BaseLink>
               </div>
               <div class="sm:w-1/2 mt-12 sm:mt-0">
                 <p>
@@ -120,7 +122,7 @@
                     {{ text }}
                   </li>
                 </ul>
-                <BaseLink :to="'/francesco-sauro'">Leggi di più</BaseLink>
+                <BaseLink :to="'/francesco-sauro'" title="Leggi di più su Francesco Sauro">Leggi di più</BaseLink>
               </div>
             </div>
           </div>

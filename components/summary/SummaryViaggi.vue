@@ -3,11 +3,12 @@
     :image="article.cover_image"
     :path="article._path"
     :has-video="true"
+    :title="article.title"
   >
     <header>
       <small class="text-grey capitalize">{{ $date(article.date) }}</small>
       <h3 class="h4-style">
-        <BaseLink :to="article._path" :isLink="false">
+        <BaseLink :to="article._path" :isLink="false" :title="`Leggi il viaggio: «${article.title}»`">
           {{ article.title }}
         </BaseLink>
       </h3>

@@ -22,6 +22,7 @@
         aria-controls="main-menu"
         :aria-expanded="isOpen"
         @click="menuToggle"
+        :title="isOpen ? 'Chiudi il menu principale':'Apri il menu principale'"
       >
         <span v-if="isOpen" class="text-primary-darker">
           <BaseIcon :icon="'close'" :size="'lg'" />
@@ -38,22 +39,22 @@
           :class="{ 'space-x-4': !isOpen, 'space-y-8': isOpen }"
         >
           <li>
-            <BaseLink :to="'/viaggi'" :isLink="false" @click="isOpen = false">
+            <BaseLink :to="'/viaggi'" :isLink="false" @click="isOpen = false" title="Vedi tutti i viaggi di Latitude X">
               DIARIO DEI VIAGGI
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/destinazioni'" :isLink="false" @click="isOpen = false">
+            <BaseLink :to="'/destinazioni'" :isLink="false" @click="isOpen = false" title="Vedi tutte le destinazioni di Latitude X">
               DESTINAZIONI
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/formazione'" :isLink="false" @click="isOpen = false">
+            <BaseLink :to="'/formazione'" :isLink="false" @click="isOpen = false" title="Vedi l'offerta formativa di Latitude X">
               FORMAZIONE
             </BaseLink>
           </li>
           <li>
-            <BaseLink :to="'/chi-siamo'" :isLink="false" @click="isOpen = false">
+            <BaseLink :to="'/chi-siamo'" :isLink="false" @click="isOpen = false" title="Vedi chi siamo">
               CHI SIAMO
             </BaseLink>
           </li>

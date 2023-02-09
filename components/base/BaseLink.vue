@@ -1,7 +1,6 @@
 <template>
   <NuxtLink
     :to="to"
-    :title="title"
     :class="{ 'text-primary hover:text-primary-dark underline underline-offset-2': isLink }"
   >
     <slot />
@@ -14,10 +13,6 @@ const props = defineProps({
   to: {
     type: String,
     default: '#',
-  },
-  title: {
-    type: String,
-    default: null,
   },
   isLink: {
     type: Boolean,

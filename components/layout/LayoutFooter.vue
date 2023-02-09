@@ -14,37 +14,37 @@
     <nav class="m-auto">
       <ul class="text-center space-x-4 space-y-2 text-base text-false-white m-auto my-8">
         <li class="inline-block">
-          <BaseLink :to="'/viaggi'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+          <BaseLink :to="'/viaggi'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2" title="Vedi tutti i viaggi di Latitude X">
             Diario dei viaggi
           </BaseLink>
         </li>
         <li class="inline-block">
-          <BaseLink :to="'/destinazioni'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+          <BaseLink :to="'/destinazioni'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2" title="Vedi tutte le destinazioni di Latitude X">
             Destinazioni
           </BaseLink>
         </li>
         <li class="inline-block">
-          <BaseLink :to="'/formazione'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+          <BaseLink :to="'/formazione'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2" title="Vedi l'offeta formativa di Latitude X">
             Formazione
           </BaseLink>
         </li>
         <li class="inline-block">
-          <BaseLink :to="'/chi-siamo'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+          <BaseLink :to="'/chi-siamo'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2" title="Vedi Chi siamo">
             Chi siamo
           </BaseLink>
         </li>
         <li class="inline-block">
-          <BaseLink :to="'/giulia-gabani'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+          <BaseLink :to="'/giulia-gabani'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2" title="Vedi chi è Giulia Gabani">
             Giulia Gabani
           </BaseLink>
         </li>
         <li class="inline-block">
-          <BaseLink :to="'/francesco-sauro'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+          <BaseLink :to="'/francesco-sauro'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2" title="Vedi chi è Francesco Sauro">
             Francesco Sauro
           </BaseLink>
         </li>
         <li class="inline-block">
-          <BaseLink :to="'/privacy-cookie'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2">
+          <BaseLink :to="'/privacy-cookie'" :isLink="false" class="drop-shadow-text hover:underline underline-offset-2" title="Vedi l'informativa sulla privacy">
             Informativa privacy e cookie
           </BaseLink>
         </li>
