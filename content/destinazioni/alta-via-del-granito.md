@@ -15,17 +15,6 @@ L’Alta Via del Granito è una traversata ad anello, nella singolare isola gran
 
 La lunghezza dell'itinerario è di circa 28 km, con un dislivello totale di quasi 2030 mt (per chi compie l'ascensione del Cimon di cima d'Asta bisogna aggiungere altri 380 mt).
 
-::content-icon{icon="twitter"}
-::
-
-::content-icon
----
-icon: menu
-size: xl
-color: primary
----
-::
-
 ::content-gallery
 ---
 images: [ 
