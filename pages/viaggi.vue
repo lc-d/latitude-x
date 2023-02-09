@@ -11,24 +11,51 @@
         </h1>
       </header>
       <ul class="grid-3 mt-8">
-        <li v-for="(article, index) in articles" :key="index">
+        <li v-for="(article, index) in listedArticles" :key="index">
           <SummaryViaggi :article="article" />
         </li>
       </ul>
+      <div v-if="isPagged" class="text-center mt-12">
+        <BaseButton v-if="areMoreArticles" @click="getMoreArticles" class="btn">
+          Carica altri viaggi
+        </BaseButton>
+        <p class="mt-2">
+          <small v-if="areMoreArticles">Elencati <b>{{ listedArticles.length }}</b> di <b>{{ articles.length }}</b> viaggi</small>
+          <small v-else>Hai caricato tutti i viaggi</small>
+        </p>
+      </div>
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
 const appConfig = useAppConfig()
+const limit = ref(appConfig.info.pagination)
+const skip = limit.value
+const isPagged = ref(true)
 const articles = await queryContent('/viaggi/')
   .where({
-    draft: { $ne: 'true' }
+    draft: { $ne: 'true' },
   })
   .only(['_path', 'title', 'cover_image', 'date'])
   .sort({ date: -1 })
   .find()
-  
+
+const listedArticles = computed(() => {
+  return articles.slice(0, limit.value)
+})
+onMounted(() => {
+  if (listedArticles.value.length === articles.length) {
+   isPagged.value = false
+  }
+})
+const areMoreArticles = computed(() => {
+  return listedArticles.value.length === articles.length ? false : true
+})
+const getMoreArticles = () => {
+  limit.value += skip
+}
+
 useHead({
   title: appConfig.meta.viaggiTitle,
   meta: [
