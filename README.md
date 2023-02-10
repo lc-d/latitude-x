@@ -170,15 +170,15 @@ Corpo del testo
 |`location_name`| Il nome della location rappresenta una chiave per collegare tra loro le "destinazioni" con i "viaggi".|
 |`season`| Possibili valori sono: `autunno`, `primavera`, `estate` e `inverno`.
 |`difficulty`| Indicare la difficoltà nel modo più opportuno. |
-|`activity`| Possibili valori sonon:  `trekking`, `ciclismo` e `navigazione`.
+|`activity`| Possibili valori sono:  `trekking`, `ciclismo` e `navigazione`.
 |`layout`| Definisce il layout della pagina, deve avere uno di questi valori: `destinazioni`, `viaggi` o `page`.|
 |`description`| Si riferisce alla descrizione per i motori di ricerca, dovrebbe essere lunga circa 155 caratteri. |
-|`date`| La data dell'articolo in formato anglossassone. Viene mostrata (mese e anno) nei "viaggi" ma viene sempre usata per definire l'ordinamento nelle liste, dal più recente al meno recente. *Nota bene*: anno e giorno sono invertiti in questo formato, es: `date: "2023-02-06T13:27:11.546"` corrisponde al 6 febbraio 2023, dopo la "T" segue l'ora. |
+|`date`| La data dell'articolo in formato anglossassone. Viene mostrata (mese e anno) solo nei "viaggi" ma viene sempre usata per definire l'ordinamento nelle liste, dal più recente al meno recente. *Nota bene*: anno e giorno sono invertiti in questo formato, es: `date: "2023-02-06T13:27:11.546"` corrisponde al 6 febbraio 2023, dopo la "T" segue l'ora. |
 |`draft`| Può avere due valori: `"true"` o `"false"`, se `"true"` allora l'articolo non verrà mostrato nelle liste. |
 
 ## Uso del markdown
 
-Con il markdown è possibile inserire contenuti e formattare il testo come indcato in [questa guida](https://www.markdownguide.org/cheat-sheet/). Questa applicazione inoltre mette a disposizione delle formattazioni speciali del testo attraverso i *content slot*.
+Con il markdown è possibile inserire contenuti e formattare il testo come indicato in [questa guida](https://www.markdownguide.org/cheat-sheet/). Questa applicazione inoltre mette a disposizione delle formattazioni speciali del testo attraverso i *content slot*.
 
 ### `content-big`
 
@@ -192,7 +192,7 @@ Lorem ipsum dolor sit amet
 
 ### `content-small`
 
-Permettere di avere un testo più piccolo senza ricorre ai titoli, es.:
+Permettere di avere un testo più piccolo, es.:
 
 ```markdown
 ::content-small
