@@ -77,6 +77,7 @@ Nel file `/app.config.ts` sono contenute le seguenti informazioni:
 - `info`, dove sono definiti:
   - Numero di telefono e indirizzo e-mail del box di contatto
   - Numero di elementi paginati nell'elenco dei viaggi
+  - Il link al profilo Youtube e Instagram presenti al pie' di pagina
 - `text`, dove ci sono i testi statici del sito
 - `meta`, dove ci sono i meta dati delle pagine statiche del sito
 - `communtity`, dove si trova l'elenco dei membri della community elencato nella homepage
@@ -88,10 +89,10 @@ Gli elementi della `communtity` sono definiti da due propietà
 
 ## File e immagini, la cartella `public`
 
-Tutti i file statici sono conservati dentro la cartella `/public`. Al suo interno ci sono le cartelle `/public/logo` – dove c'è il logo nelle sue diverse versioni, e `/public/img` dove si possono mettere tutte le immagini richiamate negli articoli. All'interno di quest'ultima cartella ci sono due sotto cartelle:
+Tutti i file statici sono conservati dentro la cartella `/public`. Al suo interno ci sono le cartelle `/public/logo` – dove c'è il logo nelle sue diverse versioni – e `/public/img` dove si possono mettere tutte le immagini richiamate negli articoli. All'interno di quest'ultima cartella ci sono due sotto cartelle:
 
 - `/public/img/default`: dove sono conservate tutte le immagini di base del sito
-- `/public/img/community`: dove ci sono tutte le foto dei membri della community. *Nota bene*: queste immagini dovrebbero essere dei quadrati di 280x280 pixel.
+- `/public/img/community`: dove ci sono tutte le foto dei membri della community. *Nota bene*: queste immagini dovrebbero essere dei quadrati di 280x280 pixel
 
 La dimensione massima di un'immagine non dovrebbe superere i 1440px di lato, con una risoluzione di 72dpi.
 
@@ -107,7 +108,7 @@ L'url della pagina è costituito dal nome del file e dalla sotto cartella in cui
 
 Dentro la cartella `/content/viaggi` sono contenuti tutti gli articoli nella categoria "viaggi". Un articolo del tipo *viaggi* è un file markdown, dotato di un *frontmatter*, come nell'esempio che segue:
 
-```js
+```markdown
 ---
 title: "Alta Via del Granito - Prima Tappa"
 cover_image: "/img/altaviagranito-lagorai_autunno-2021.jpg"
@@ -126,7 +127,7 @@ Corpo del testo
 
 Dentro la cartella `/content/destinazioni` sono contenuti tutti gli articoli nella categoria "destinazioni". Un articolo del tipo *destinazioni* è un file markdown, dotato di un *frontmatter*, come nell'esempio che segue:
 
-```js
+```markdown
 ---
 title: "Translagorai"
 cover_image: "/img/sassorosso-lagorai_estate-2021.jpg"
@@ -147,7 +148,7 @@ Corpo del testo
 
 Dentro la cartella `/content` sono contenuti tutte le pagine statiche che sono richiamate dal menu di navigazione o da un altro link interno. Una pagina è un file markdown, dotato di un *frontmatter*, come nell'esempio che segue:
 
-```js
+```markdown
 ---
 cover_image: ""
 description: ""
@@ -181,7 +182,7 @@ Con il markdown è possibile inserire contenuti e formattare il testo come indca
 
 Permettere di avere un testo più grande senza ricorre ai titoli, es.:
 
-```txt
+```markdown
 ::content-big
 Lorem ipsum dolor sit amet
 ::
@@ -191,7 +192,7 @@ Lorem ipsum dolor sit amet
 
 Permettere di avere un testo più piccolo senza ricorre ai titoli, es.:
 
-```txt
+```markdown
 ::content-small
 Lorem ipsum dolor sit amet
 ::
@@ -201,7 +202,7 @@ Lorem ipsum dolor sit amet
 
 Crea una galleria di immagini, es.:
 
-```txt
+```markdown
 ::content-gallery
 ---
 images: [ 
@@ -225,14 +226,14 @@ images: [
 
 Permette di inserire un'icona in linea col testo, es.:
 
-```txt
+```markdown
 ::content-icon{icon="nome-icona"}
 ::
 ```
 
 Si può definire anche una dimensione e un diverso colore in questo modo:
 
-```txt
+```markdown
 ::content-icon
 ---
 icon: nome-icona
@@ -296,7 +297,7 @@ Valori possibili:
 
 Permette di creare due clonne dentro la pagina, es.:
 
-```txt
+```markdown
 
 ::content-columns
 #left

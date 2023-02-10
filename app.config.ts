@@ -4,6 +4,8 @@ export default defineAppConfig({
         pagination: 24,
         tel: "+393333508514",
         mail: "lorenzo@cataldi.design",
+        youtube: "https://www.youtube.com/@francescoegiulia8785",
+        instagram: "#"
     },
     text: {
         motto: "Dove trovi l'avventura.",
