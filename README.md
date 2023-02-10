@@ -8,19 +8,18 @@ Benvenuti nell'ambiente di sviluppo di latitude X, un'applicazione web in `node`
 1. Installazione
 1. Comandi
 1. Impostazioni del sito, file `app.config`
+1. File e immagini, la cartella `public`
 1. Contenuti, la cartella `content`
     1. viaggi
     1. destinazioni
     1. pagine
-1. File e immagini, la cartella `public`
+1. *Front matter cheatsheet*
 1. Uso del markdown
     1. `content-big`
     1. `content-small`
-    1. `content-icon`
     1. `content-gallery`
+    1. `content-icon`
     1. `content-columns`
-1. *Front matter cheatsheet*
-1. *Commands cheatsheet*
 
 ## Requisiti
 
@@ -69,7 +68,7 @@ L'applicazione è fornita di alcuni comandi per terminale:
 |`yarn new-destinazione`| Crea un nuovo file in markdown nella cartella `/content/destinazioni`|
 |`yarn new-viaggio`| Crea un nuovo file in markdown nella cartella `/content/viaggi`|
 |`yarn new-pagina`| Crea un nuovo file in markdown nella cartella `/content`|
-|`yarn deploy`|TODO: Copia le modifiche in locale sul repo di Github e mette on line una nuova versione del sito
+|`yarn deploy`| Copia le modifiche in locale sul repo di Github e mette on line una nuova versione del sito
 
 ## Impostazioni del sito, file `app.config`
 
@@ -86,6 +85,15 @@ Gli elementi della `communtity` sono definiti da due propietà
 
 - `name`: il nome visualizzato sotto la foto
 - `src`: il nome del file della foto, che deve essere messo dentro la cartella `/public/img/community`
+
+## File e immagini, la cartella `public`
+
+Tutti i file statici sono conservati dentro la cartella `/public`. Al suo interno ci sono le cartelle `/public/logo` – dove c'è il logo nelle sue diverse versioni, e `/public/img` dove si possono mettere tutte le immagini richiamate negli articoli. All'interno di quest'ultima cartella ci sono due sotto cartelle:
+
+- `/public/img/default`: dove sono conservate tutte le immagini di base del sito
+- `/public/img/community`: dove ci sono tutte le foto dei membri della community. *Nota bene*: queste immagini dovrebbero essere dei quadrati di 280x280 pixel.
+
+La dimensione massima di un'immagine non dovrebbe superere i 1440px di lato, con una risoluzione di 72dpi.
 
 ## Contenuti, la cartella `content`
 
@@ -149,12 +157,21 @@ layout: "page"
 Corpo del testo
 ```
 
-## File e immagini, la cartella `public`
+## *Front-matter cheatsheet*
 
-Tutti i file statici sono conservati dentro la cartella `/public`. Al suo interno ci sono le cartelle `/public/logo` – dove c'è il logo nelle sue diverse versioni, e `/public/img` dove si possono mettere tutte le immagini richiamate negli articoli. All'interno di quest'ultima cartella ci sono due sotto cartelle:
-
-- `/public/img/default`: dove sono conservate tutte le immagini di base del sito
-- `/public/img/community`: dove ci sono tutte le foto dei membri della community. *Nota bene*: queste immagini dovrebbero essere dei quadrati di 280x280 pixel.
+| Attributo | Descrizione |
+|--|--|
+|`title`| Il titolo dell'articolo, corrisponde all'`h1`. *Nota bene*: dove presente non va messo nel corpo del testo un altro `h1`, es.: `# titolo`, ma solo `h2`, es.: `## titolo`.
+|`cover_image`| L'immagine di copertina, meglio se in formato orizzontale.|
+|`video_id`| L'id del video youtube da integrare nell'articolo.|
+|`location_name`| Il nome della location rappresenta una chiave per collegare tra loro le "destinazioni" con i "viaggi".|
+|`season`| Possibili valori sono: `autunno`, `primavera`, `estate` e `inverno`.
+|`difficulty`| Indicare la difficoltà nel modo più opportuno. |
+|`activity`| Possibili valori sonon:  `trekking`, `ciclismo` e `navigazione`.
+|`layout`| Definisce il layout della pagina, deve avere uno di questi valori: `destinazioni`, `viaggi` o `page`.|
+|`description`| Si riferisce alla descrizione per i motori di ricerca, dovrebbe essere lunga circa 155 caratteri. |
+|`date`| La data dell'articolo in formato anglossassone. Viene mostrata (mese e anno) nei "viaggi" ma viene sempre usata per definire l'ordinamento nelle liste, dal più recente al meno recente. *Nota bene*: anno e giorno sono invertiti in questo formato, es: `date: "2023-02-06T13:27:11.546"` corrisponde al 6 febbraio 2023, dopo la "T" segue l'ora. |
+|`draft`| Può avere due valori: `"true"` o `"false"`, se `"true"` allora l'articolo non verrà mostrato nelle liste. |
 
 ## Uso del markdown
 
@@ -232,12 +249,12 @@ Valori possibili:
   - sm
   - lg
   - xl
-- `color`: 
+- `color`:
   - primary
   - primary-light
   - primary-light-opacity
   - primary-dark
-  - primary-darker'
+  - primary-darker
   - accent
   - grey
   - grey-light
@@ -289,13 +306,3 @@ Lorem ipsum doloro sit amet
 Lorem ipsum doloro sit amet
 ::
 ```
-
-## *Front matter cheatsheet*
-
-| Attributo | Descrizione |
-|--|--|
-
-## *Commands cheatsheet*
-
-| Comando | Funzione |
-|--|--|
