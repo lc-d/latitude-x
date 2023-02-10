@@ -1,3 +1,5 @@
+![Latitude X logo](/public/logo/latitudex-logo-default.svg)
+
 # Latitude X
 
 Benvenuti nell'ambiente di sviluppo di latitude X, un'applicazione web in `node` basata su `Nuxt3` ([vedi documentazione](https://nuxt.com/)), in modalità *content driven* ([vedi documentazione](https://content-v2.nuxtjs.org)).
