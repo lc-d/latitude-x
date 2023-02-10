@@ -95,10 +95,12 @@ a:hover {
     display: block;
     li {
       text-align: center;
-
-      a:hover {
-        text-decoration: underline;
-      }
+      a {
+        font-weight: bolder;
+        &:hover {
+          text-decoration: underline;
+        }
+      }   
     }
   }
   button {

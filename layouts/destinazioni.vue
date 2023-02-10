@@ -57,7 +57,7 @@
             </div>
           </header>
           <LayoutCta v-if="isCtaOpen" :title="page.title" />
-          <div class="prose">
+          <div class="prose mt-8">
             <slot />
           </div>
           <BaseShare :path="page._path" class="mt-6" />
