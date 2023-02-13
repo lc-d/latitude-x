@@ -72,8 +72,8 @@
         <div class="md:flex md:space-x-4">
           <div class="md:w-1/2">
             <p>
-              <img
-                src="/logo/latitudex-logo-default.svg"
+              <BaseImage
+                :src="'/logo/latitudex-logo-default.svg'"
                 alt="Logo di Latitude X"
                 class="max-w-xs"
               />
@@ -88,8 +88,8 @@
             <div class="sm:flex sm:space-x-4">
               <div class="sm:w-1/2">
                 <p>
-                  <img
-                    src="/img/default/giulia.jpg"
+                  <BaseImage
+                    :src="'/img/default/giulia.jpg'"
                     alt="Foto di Giulia Gabani di profilo con la corda d'arrampicata sulla spalla"
                     class="m-auto -mb-6"
                   />
@@ -112,8 +112,8 @@
               </div>
               <div class="sm:w-1/2 mt-12 sm:mt-0">
                 <p>
-                  <img
-                    src="/img/default/francesco.jpg"
+                  <BaseImage
+                    :src="'/img/default/francesco.jpg'"
                     alt="Foto di Francesco Maria Sauro di profilo con la corda d'arrampicata sulla spalla"
                     class="m-auto -mb-6"
                   />

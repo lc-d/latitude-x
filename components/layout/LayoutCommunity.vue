@@ -26,7 +26,7 @@
     >
       <SwiperSlide v-for="(person, index) in appConfig.community" :for="index">
         <figure>
-          <img
+          <BaseImage
             class="rounded-full mb-3 m-auto w-24"
             :src="'/img/community/' + person.src"
           />
