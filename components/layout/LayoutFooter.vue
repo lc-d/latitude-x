@@ -6,7 +6,8 @@
     <div class="text-center text-false-white">
       <BaseImage
         :src="'/logo/latitudex-logo-icon.svg'"
-        width="105"
+        :width="105"
+        alt="'Latitude X logo'"
         class="m-auto pt-24"
       />
       <p class="text-2xl drop-shadow-text mt-2">LATITUDE X</p>

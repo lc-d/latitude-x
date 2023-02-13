@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.4.2",
+    "@nuxt/image-edge": "^1.0.0-27919678.2f5b64b",
     "@nuxtjs/robots": "^3.0.0",
     "@nuxtjs/tailwindcss": "^6.3.0",
     "@tailwindcss/typography": "^0.5.9",

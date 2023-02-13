@@ -29,6 +29,8 @@
           <BaseImage
             class="rounded-full mb-3 m-auto w-24"
             :src="'/img/community/' + person.src"
+            :width="120"
+            :format="'webp'"
           />
           <figcaption>{{ person.name }}</figcaption>
         </figure>

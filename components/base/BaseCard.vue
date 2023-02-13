@@ -14,7 +14,11 @@
         class="img-spacer"
         :class="{ 'ratio-1x1 h-full': horizontal, 'ratio-3x2': !horizontal }"
       >
-        <BaseImage :src="image" />
+        <BaseImage
+          :width="420" 
+          :src="image" 
+          :format="'webp'"
+        />
       </span>
       <BaseImage
         v-if="hasVideo"

@@ -8,10 +8,10 @@
       <div class="sm:w-1/3">
         <BaseLink :to="'/'" :title="'Torna alla homepage'" :isLink="false">
           <BaseImage
-            height="50"
-            width="186"
+            :height="50"
+            :width="186"
             :src="'/logo/latitudex-logo-default.svg'"
-            :alt="'Latitude X logo'"
+            alt="'Latitude X logo'"
           />
         </BaseLink>
       </div>

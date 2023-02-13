@@ -13,6 +13,7 @@
           <figure class="mb-6 img-spacer ratio-16x9">
             <BaseImage
               :src="page.cover_image"
+              :width="1280"
             />
           </figure>
           <BaseButton

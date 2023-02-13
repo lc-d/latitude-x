@@ -10,7 +10,7 @@
   >
     <SwiperSlide v-for="(slide, index) in images" :key="index">
       <figure>
-        <BaseImage :src="slide.src" />
+        <BaseImage :src="slide.src" :width="1280" />
         <figcaption class="flex justify-between mt-0 text-base">
           <small><i v-if="slide.caption">{{ slide.caption }}</i></small>
           <small><b>{{ index+1 }}</b> / {{ images.length }}</small>
