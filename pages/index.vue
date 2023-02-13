@@ -103,7 +103,12 @@
                     {{ text }}
                   </li>
                 </ul>
-                <BaseLink :to="'/giulia-gabani'" title="Leggi di più su Giulia Gabani">Leggi di più</BaseLink>
+                <BaseLink
+                  :to="'/giulia-gabani'"
+                  title="Leggi di più su Giulia Gabani"
+                >
+                  Leggi di più
+                </BaseLink>
               </div>
               <div class="sm:w-1/2 mt-12 sm:mt-0">
                 <p>
@@ -122,7 +127,12 @@
                     {{ text }}
                   </li>
                 </ul>
-                <BaseLink :to="'/francesco-sauro'" title="Leggi di più su Francesco Sauro">Leggi di più</BaseLink>
+                <BaseLink
+                  :to="'/francesco-sauro'"
+                  title="Leggi di più su Francesco Sauro"
+                >
+                  Leggi di più
+                </BaseLink>
               </div>
             </div>
           </div>
@@ -130,17 +140,7 @@
       </div>
     </section>
     <section>
-       <div class="wrapper mt-16 text-center">
-       <h2 class="h1-style">Si sono avventurati con noi</h2>
-        <ul class="grid-6 mt-12">
-          <li v-for="(person, index) in appConfig.community" :for="index">
-            <figure>
-              <img class="rounded-full mb-3 m-auto w-40" :src="'/img/community/' + person.src" />
-              <figcaption>{{person.name}}</figcaption>
-            </figure>
-          </li>
-        </ul>
-       </div>
+     <LayoutCommunity />
     </section>
   </div>
 </template>
@@ -149,7 +149,7 @@
 const appConfig = useAppConfig()
 const viaggi = await queryContent('/viaggi/')
   .where({
-    draft: { $ne: 'true' }
+    draft: { $ne: 'true' },
   })
   .only(['_path', 'title', 'cover_image', 'date'])
   .sort({ date: -1 })
@@ -157,13 +157,13 @@ const viaggi = await queryContent('/viaggi/')
   .find()
 const destinazioni = await queryContent('/destinazioni/')
   .where({
-    draft: { $ne: 'true' }
+    draft: { $ne: 'true' },
   })
   .only(['_path', 'title', 'cover_image', 'activity', 'season', 'difficulty'])
   .sort({ date: -1 })
   .limit(3)
   .find()
-  
+
 useHead({
   title: appConfig.meta.homeTitle,
   meta: [

@@ -1,6 +1,6 @@
 <template>
   <Swiper
-    :modules="[SwiperAutoplay, SwiperEffectCreative]"
+    :modules="[SwiperAutoplay]"
     :slides-per-view="1"
     :loop="true"
     :autoplay="{
