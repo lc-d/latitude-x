@@ -82,19 +82,20 @@ Nel file `/app.config.ts` sono contenute le seguenti informazioni:
   - Il link al profilo Youtube e Instagram presenti al pie' di pagina
 - `text`, dove ci sono i testi statici del sito
 - `meta`, dove ci sono i meta dati delle pagine statiche del sito
-- `communtity`, dove si trova l'elenco dei membri della community elencato nella homepage
+- `communtity`, dove si trova l'elenco dei membri della community mostrato nella homepage
+- `sponsor`, dove si trova l'elenco degli sponsor mostrato nella homepage
 
-Gli elementi della `communtity` sono definiti da due propietà
+Gli elementi della `communtity` e degli `sponsor` sono definiti da due propietà
 
 - `name`: il nome visualizzato sotto la foto
-- `src`: il nome del file della foto, che deve essere messo dentro la cartella `/public/img/community`
+- `src`: il nome del file della foto, che deve essere messo dentro la cartella `/public/img/community`, per la community, dentro `/public/img/sponsor` per gli sponsor.
 
 ## File e immagini, la cartella `public`
 
 Tutti i file statici sono conservati dentro la cartella `/public`. Al suo interno ci sono le cartelle `/public/logo` – dove c'è il logo nelle sue diverse versioni – e `/public/img` dove si possono mettere tutte le immagini richiamate negli articoli. All'interno di quest'ultima cartella ci sono due sotto cartelle:
 
 - `/public/img/default`: dove sono conservate tutte le immagini di base del sito
-- `/public/img/community`: dove ci sono tutte le foto dei membri della community. *Nota bene*: queste immagini dovrebbero essere dei quadrati di 280x280 pixel
+- `/public/img/community` e `/public/img/sponsor`: dove ci sono tutte le foto dei membri della community e degli sponsor. *Nota bene*: queste immagini dovrebbero essere dei quadrati di 280x280 pixel
 
 La dimensione massima di un'immagine non dovrebbe superere i 1440px di lato, con una risoluzione di 72dpi.
 
