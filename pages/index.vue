@@ -140,7 +140,14 @@
       </div>
     </section>
     <section>
-     <LayoutCommunity />
+      <div class="wrapper wrapper-lg mt-16">
+        <LayoutCommunity />
+      </div>
+    </section>
+    <section>
+      <div class="wrapper wrapper-md mt-16">
+        <LayoutSponsor />
+      </div>
     </section>
   </div>
 </template>

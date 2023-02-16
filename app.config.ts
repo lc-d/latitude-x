@@ -33,6 +33,8 @@ export default defineAppConfig({
         ctaSingleTitle: "Vuoi andare qui?",
         ctaBoxText: "Contattaci dicendo dove vorresti andare e in quanti siete.",
         ctaBoxDisclaimer: "Ci scusiamo in anticipo ma non sempre riusciamo a rispondere subito, a volte dovrete avere un po’ di pazienza.",
+        communtyTitle: "Si sono avventurati con noi",
+        sponsorTitle: "I nostri sponsor",
     },
     meta: {
         homeTitle: "Dove trovi l'avventura",
@@ -92,5 +94,19 @@ export default defineAppConfig({
             src: "tiziana.jpg"
         },
         
+    ],
+    sponsor: [
+        {
+            name: "Sponsor 1",
+            src: ""
+        },
+        {
+            name: "Sponsor 2",
+            src: ""
+        },
+        {
+            name: "Sponsor 3",
+            src: ""
+        },
     ],
 })
