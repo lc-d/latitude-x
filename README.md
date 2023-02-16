@@ -80,12 +80,21 @@ Nel file `/app.config.ts` sono contenute le seguenti informazioni:
   - Numero di telefono e indirizzo e-mail del box di contatto
   - Numero di elementi paginati nell'elenco dei viaggi
   - Il link al profilo Youtube e Instagram presenti al pie' di pagina
+- `menu`, dove sono elencati gli elementi del menù principale
 - `text`, dove ci sono i testi statici del sito
 - `meta`, dove ci sono i meta dati delle pagine statiche del sito
 - `communtity`, dove si trova l'elenco dei membri della community mostrato nella homepage
 - `sponsor`, dove si trova l'elenco degli sponsor mostrato nella homepage
 
-Gli elementi della `communtity` e degli `sponsor` sono definiti da due propietà
+Gli elementi del `menu` principale sono definiti da tre proprieta:
+
+- `name`, il testo del link
+- `to`, il percorso di destinazion, es: `/chi-siamo`
+- `title`, il titolo del link per motori di ricerca e ipovedenti
+
+*Nota bene*: Il menù al pie' di pagina si genera automaticamente sulla base delle pagine presenti, è possibile definire un nome del link diverso dal titolo della pagina nel frontmatter, vedi il paragrafo "*Front matter cheatsheet*".
+
+Gli elementi della `community` e degli `sponsor` sono definiti da due propietà
 
 - `name`: il nome visualizzato sotto la foto
 - `src`: il nome del file della foto, che deve essere messo dentro la cartella `/public/img/community`, per la community, dentro `/public/img/sponsor` per gli sponsor.
@@ -176,6 +185,18 @@ Corpo del testo
 |`description`| Si riferisce alla descrizione per i motori di ricerca, dovrebbe essere lunga circa 155 caratteri. |
 |`date`| La data dell'articolo in formato anglossassone. Viene mostrata (mese e anno) solo nei "viaggi" ma viene sempre usata per definire l'ordinamento nelle liste, dal più recente al meno recente. *Nota bene*: anno e giorno sono invertiti in questo formato, es: `date: "2023-02-06T13:27:11.546"` corrisponde al 6 febbraio 2023, dopo la "T" segue l'ora. |
 |`draft`| Può avere due valori: `"true"` o `"false"`, se `"true"` allora l'articolo non verrà mostrato nelle liste. |
+|`navigation`| Sotto questa voce si può definire il nome del link che la pagina mostra nel menu al pie' di pagina, vedi nota qua sotto.|
+
+### `navigation`
+
+Questo parametro ha una sotto propietà `title` e deve essere scritto nel modo che segue:
+
+```markdown
+---
+navigation:
+  title: "Formazione"
+---
+```
 
 ## Uso del markdown
 

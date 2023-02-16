@@ -38,24 +38,9 @@
           class="flex text-sm"
           :class="{ 'space-x-4': !isOpen, 'space-y-8': isOpen }"
         >
-          <li>
-            <BaseLink :to="'/viaggi'" :isLink="false" @click="isOpen = false" title="Vedi tutti i viaggi di Latitude X">
-              DIARIO DEI VIAGGI
-            </BaseLink>
-          </li>
-          <li>
-            <BaseLink :to="'/destinazioni'" :isLink="false" @click="isOpen = false" title="Vedi tutte le destinazioni di Latitude X">
-              DESTINAZIONI
-            </BaseLink>
-          </li>
-          <li>
-            <BaseLink :to="'/formazione'" :isLink="false" @click="isOpen = false" title="Vedi l'offerta formativa di Latitude X">
-              FORMAZIONE
-            </BaseLink>
-          </li>
-          <li>
-            <BaseLink :to="'/chi-siamo'" :isLink="false" @click="isOpen = false" title="Vedi chi siamo">
-              CHI SIAMO
+          <li v-for="(item, index) in appConfig.menu.header" :key="index" class="uppercase">
+           <BaseLink :to="item.to" :isLink="false" @click="isOpen = false" :title="item.title">
+              {{ item.name }}
             </BaseLink>
           </li>
         </ul>
@@ -65,6 +50,7 @@
 </template>
 
 <script setup lang="ts">
+const appConfig = useAppConfig()
 const isOpen = ref(false)
 const menuToggle = () => {
   isOpen.value = !isOpen.value

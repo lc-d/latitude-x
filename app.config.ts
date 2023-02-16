@@ -7,6 +7,30 @@ export default defineAppConfig({
         youtube: "https://www.youtube.com/@francescoegiulia8785",
         instagram: "#"
     },
+    menu: {
+        header: [
+            {
+                name: "Viaggi",
+                to: "/viaggi",
+                title: "Scopri tutti i viaggi fatti da Latitude X"
+            },
+            {
+                name: "Destinazioni",
+                to: "/destinazioni",
+                title: "Scopri tutte le destinazioni proposte da Latitude X"
+            },
+            {
+                name: "Formazione",
+                to: "/formazione",
+                title: "Scopri l'offerta formativa di Latitude X"
+            },
+            {
+                name: "Chi siamo",
+                to: "/chi-siamo",
+                title: "Scopri chi siamo"
+            },
+        ],
+    },
     text: {
         motto: "Dove trovi l'avventura.",
         quote: "L'ebbrezza di quell’ora passata lassù isolato dal mondo, nella gloria delle altezze, potrebbe essere sufficiente a giustificare qualunque follia",

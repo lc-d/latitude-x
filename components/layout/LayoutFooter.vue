@@ -14,80 +14,26 @@
     </div>
     <div class="wrapper">
       <nav class="menu">
-        <ul
-          class="text-center space-x-4 space-y-2 text-base text-false-white m-auto mt-6"
-        >
-          <li class="inline-block">
-            <BaseLink
-              :to="'/viaggi'"
-              :isLink="false"
-              class="drop-shadow-text hover:underline underline-offset-2"
-              title="Vedi tutti i viaggi di Latitude X"
+        <ContentNavigation v-slot="{ navigation }">
+          <ul
+            class="text-center space-x-4 space-y-2 text-base text-false-white m-auto mt-6"
+          >
+            <li
+              v-for="link of navigation"
+              :key="link._path"
+              class="inline-block"
             >
-              Diario dei viaggi
-            </BaseLink>
-          </li>
-          <li class="inline-block">
-            <BaseLink
-              :to="'/destinazioni'"
-              :isLink="false"
-              class="drop-shadow-text hover:underline underline-offset-2"
-              title="Vedi tutte le destinazioni di Latitude X"
-            >
-              Destinazioni
-            </BaseLink>
-          </li>
-          <li class="inline-block">
-            <BaseLink
-              :to="'/formazione'"
-              :isLink="false"
-              class="drop-shadow-text hover:underline underline-offset-2"
-              title="Vedi l'offeta formativa di Latitude X"
-            >
-              Formazione
-            </BaseLink>
-          </li>
-          <li class="inline-block">
-            <BaseLink
-              :to="'/chi-siamo'"
-              :isLink="false"
-              class="drop-shadow-text hover:underline underline-offset-2"
-              title="Vedi Chi siamo"
-            >
-              Chi siamo
-            </BaseLink>
-          </li>
-          <li class="inline-block">
-            <BaseLink
-              :to="'/giulia-gabani'"
-              :isLink="false"
-              class="drop-shadow-text hover:underline underline-offset-2"
-              title="Vedi chi è Giulia Gabani"
-            >
-              Giulia Gabani
-            </BaseLink>
-          </li>
-          <li class="inline-block">
-            <BaseLink
-              :to="'/francesco-sauro'"
-              :isLink="false"
-              class="drop-shadow-text hover:underline underline-offset-2"
-              title="Vedi chi è Francesco Sauro"
-            >
-              Francesco Sauro
-            </BaseLink>
-          </li>
-          <li class="inline-block">
-            <BaseLink
-              :to="'/privacy-cookie'"
-              :isLink="false"
-              class="drop-shadow-text hover:underline underline-offset-2"
-              title="Vedi l'informativa sulla privacy"
-            >
-              Informativa privacy e cookie
-            </BaseLink>
-          </li>
-        </ul>
+              <BaseLink
+                :to="link._path"
+                :isLink="false"
+                class="drop-shadow-text hover:underline underline-offset-2"
+              >
+                {{ link.title }}
+                <span v-if="link.children">({{link.children.length }})</span>
+              </BaseLink>
+            </li>
+          </ul>
+        </ContentNavigation>
       </nav>
       <nav
         v-if="appConfig.info.youtube || appConfig.info.instagram"
