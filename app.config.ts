@@ -10,7 +10,7 @@ export default defineAppConfig({
     menu: {
         header: [
             {
-                name: "Viaggi",
+                name: "Diario dei viaggi",
                 to: "/viaggi",
                 title: "Scopri tutti i viaggi fatti da Latitude X"
             },
