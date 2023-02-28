@@ -21,15 +21,17 @@ module.exports.new = function (arg) {
         const post = '---\ntitle: ""\ncover_image: ""\nlocation_name: ""\nseason: "" # autunno | primavera | estate | inverno\ndifficulty: ""\nactivity: ""  # trekking | ciclismo | navigazione\ndescription: ""\nlayout: "' + postType + '"\ndate: "' + date + '"\ndraft: "false"\n---\n\n'
         fs.writeFile(fileName, post, function (err) { if (err) throw err; });
         
-    } else if (arg === 'pagina') {
-        console.log("INFO: Creo una pagina")
+    } else if (arg === 'pagina' || arg == 'formazione') {
+        const msg = arg === 'pagina' ? 'Creo una pagina' : 'Creo un corso'
+        folderName = arg === 'pagina' ? folderName : "./content/formazione"
+        console.log("INFO: " + msg)
         const postType = "page"
         const fileName = folderName + '/new-' + arg + '.md'
         const post = '---\ncover_image: ""\ndescription: ""\nlayout: "' + postType + '"\n---\n\n'
         fs.writeFile(fileName, post, function (err) { if (err) throw err; });
         
     } else {
-        console.log("WARN: Devi indicare un tipo di post tra: 'destinazione', 'viaggio' o 'pagina'")
+        console.log("WARN: Devi indicare un tipo di post tra: 'destinazione', 'viaggio', 'formazione' o 'pagina'")
         return
     }
 

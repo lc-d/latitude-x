@@ -27,7 +27,7 @@ const hasImage = computed(() => {
   max-width: 1440px;
   margin: 0 auto;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center;
   background-repeat: no-repeat;
 }
 </style>

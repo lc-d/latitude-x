@@ -70,6 +70,7 @@ L'applicazione è fornita di alcuni comandi per terminale:
 |`yarn new-destinazione`| Crea un nuovo file in markdown nella cartella `/content/destinazioni`|
 |`yarn new-viaggio`| Crea un nuovo file in markdown nella cartella `/content/viaggi`|
 |`yarn new-pagina`| Crea un nuovo file in markdown nella cartella `/content`|
+|`yarn new-formazione`| Crea un nuovo file in markdown nella cartella `/content/formazione`|
 |`yarn deploy`| Copia le modifiche in locale sul repo di Github e mette on line una nuova versione del sito
 
 ## Impostazioni del sito, file `app.config`
@@ -156,7 +157,7 @@ draft: "false"
 Corpo del testo
 ```
 
-### Pagine
+### Pagine / Corsi di formazione
 
 Dentro la cartella `/content` sono contenuti tutte le pagine statiche che sono richiamate dal menu di navigazione o da un altro link interno. Una pagina è un file markdown, dotato di un *frontmatter*, come nell'esempio che segue:
 
