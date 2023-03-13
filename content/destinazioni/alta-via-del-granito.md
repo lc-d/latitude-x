@@ -7,7 +7,7 @@ difficulty: 'media difficoltà'
 activity: 'trekking'
 layout: 'destinazioni'
 description: "L’Alta Via del Granito è una traversata ad anello, nella singolare isola granitica del gruppo Cima d’Asta - Cime di Rava, nella Catena del Lagorai."
-date: "2023-02-02T13:27:11.546"
+date: "2023-10-02T13:27:11.546"
 draft: "false"
 ---
 
@@ -19,20 +19,20 @@ La lunghezza dell'itinerario è di circa 28 km, con un dislivello totale di quas
 ---
 images: [ 
     {
-        src: '/img/trekkeraltaviagranito-lagorai_autunno-2021.jpg',
-        caption: '1 pippo'
+        src: '/img/lagorai/altaviagranito-lagorai_autunno-2021.jpg',
+        caption: 'Laghi del Lagorai'
     },
     {
-        src: '/img/sassorosso-lagorai_estate-2021.jpg',
-        caption: '2 pippo'
+        src: '/img/lagorai/lagoaltaviagranito-lagorai_autunno-2021.jpg',
+        caption: 'Laghi del Lagorai'
     },
     {
-        src: '/img/trekkeraltaviagranito-lagorai_autunno-2021.jpg'
+        src: '/img/lagorai/ghiaccioaltaviagranito-lagorai_autunno-2021.jpg',
+        caption: 'Lago ghiacciato'
     }
 ]
 ---
 ::
-
 I sentieri sono di facile percorrenza (difficoltà EE) ma non sono comunque da sottovalutare per l'impegno fisico. I tempi di percorrenza indicati riguardano il solo cammino, senza includere le soste e si riferiscono a persone con buon allenamento in montagna. Tra i due rifugi non ci sono punti di appoggio, ma in alcuni casi, specie nella seconda tappa, si trovano ricoveri d'emergenza e alcune grotte della Prima Guerra Mondiale. Anche per l'abbigliamento si tenga presente che ci sono molti tratti sopra i 2000 metri.
 
 ### Periodo di svolgimento della escursione
