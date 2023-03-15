@@ -1,6 +1,6 @@
 <template>
-     <h2 class="h3-style text-center">{{ appConfig.text.sponsorTitle }}</h2>
-    <ul class="grid grid-4 mt-6 content-center justify-items-center">
+    <h2 class="h3-style text-center">{{ appConfig.text.sponsorTitle }}</h2>
+    <ul class="grid grid-6 mt-6 content-center justify-items-center">
     <li v-for="(sponsor, index) in appConfig.sponsor" :key="index" class="flex items-center">
      <figure class="text-center">
         <BaseImage

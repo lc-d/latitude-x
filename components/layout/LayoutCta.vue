@@ -1,8 +1,11 @@
 <template>
   <div class="max-w-lg m-auto mt-4 pb-4">
     <h2 class="h2-style">Contattaci</h2>
-    <p class="text-base mt-2">
+    <p v-if="!formazione" class="text-base mt-2">
        {{ appConfig.text.ctaBoxText }}
+    </p>
+    <p v-else class="text-base mt-2">
+      {{ appConfig.text.formazioneCtaBoxText }}
     </p>
     <small class="inline-block text-sm mt-2">
       <i>
@@ -49,6 +52,10 @@ const props = defineProps({
     type: String,
     default: '',
   },
+  formazione: {
+    type: Boolean,
+    default: false
+  }
 })
 const getTitle = computed( () => {
   return props.title ? 'Ciao,%20mi%20interessa:%20' + props.title + '.' : 'Ciao,%20vorrei%20informazioni%20su:%20...'
