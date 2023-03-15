@@ -58,7 +58,7 @@ export default defineAppConfig({
         ctaBoxText: "Contattaci dicendo dove vorresti andare e in quanti siete.",
         ctaBoxDisclaimer: "Ci scusiamo in anticipo ma non sempre riusciamo a rispondere subito, a volte dovrete avere un po’ di pazienza.",
         communtyTitle: "Si sono avventurati con noi",
-        sponsorTitle: "I nostri sponsor",
+        sponsorTitle: "I nostri partner",
     },
     meta: {
         homeTitle: "Dove trovi l'avventura",
