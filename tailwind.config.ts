@@ -18,6 +18,7 @@ export default <Partial<Config>>{
             'grey-dark': '#474747',
             'false-white': '#F6FFFF',
             'black': '#0B0B0B',
+            'white': '#FFF',
         },
         extend: {
             dropShadow: {

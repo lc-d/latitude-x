@@ -121,16 +121,65 @@ export default defineAppConfig({
     ],
     sponsor: [
         {
-            name: "Sponsor 1",
-            src: ""
+            name: "Alpamayo",
+            src: "alpamayo.png"
         },
         {
-            name: "Sponsor 2",
-            src: ""
+            name: "Assoguide",
+            src: "assoguidelogo.jpg"
         },
         {
-            name: "Sponsor 3",
-            src: ""
+            name: "Atena",
+            src: "atena.jpeg"
         },
+        {
+            name: "Consilia",
+            src: "consilia.png"
+        },
+        {
+            name: "DNA Formazione",
+            src: "dna-formazione.png"
+        },
+        {
+            name: "EAT",
+            src: "EAT.png"
+        },
+        {
+            name: "Forema",
+            src: "forema.png"
+        },
+        {
+            name: "Gomi",
+            src: "gomi.jpeg"
+        },
+        {
+            name: "HeS",
+            src: "HeS.png"
+        },
+        {
+            name: "Igeam",
+            src: "Igeam-logo-audiosafety.png"
+        },
+        {
+            name: "Omnia",
+            src: "omnia.jpeg"
+        },
+        {
+            name: "Right Driving",
+            src: "right-driving.jpg"
+        },
+        {
+            name: "Sinergika",
+            src: "sinergika.png"
+        },
+        {
+            name: "Tortugavan",
+            src: "tortugavan.png"
+        },
+        {
+            name: "Unipd",
+            src: "unipd.png"
+        },
+       
     ],
 })
