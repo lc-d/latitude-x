@@ -8,6 +8,7 @@ navigation:
 
 # Corsi di primo soccorso aziendale
 
+<!--
 Mettiamo al servizio la nostra esperienza: per rendere sicuri Voi e la vostra azienda. Siamo due formatori specializzati in discipline diverse e complementari:
 
 - Giulia è medico chirurgo e docente formatore con 7 anni di esperienza come Soccorritrice per il SUEM 118 di Padova nelle ambulanze della Croce Rossa Italiana. Collabora con diversi Enti di formazione accreditati di Veneto e Lazio tra cui: Consilia Srl, Igeam Academy Srl, Omnia Formazione Srl, DNA Srl, Atena SPA e Health & Safety Srl.
@@ -60,20 +61,4 @@ Lo scenario simulativo è pensato per permettere ai discenti di provare ad agire
 |Primo soccorso Domestico|Chiunque sia interessato ad una formazione di primo soccorso|8 ore| da definire
 |Primo soccorso in outdoor e ambienti impervi|Tutti coloro che frequentano l’ambiente outdoor, amatori, professionisti, guide e coordinatori di viaggio.|8/10 ore| da definire
 
-::content-gallery
----
-images: [ 
-    {
-        src: '/img/nome-file-1.jpg',
-        caption: 'Didascalia immagine 1'
-    },
-    {
-        src: '/img/nome-file-2.jpg',
-        caption: 'Didascalia immagine 2'
-    },
-    {
-        src: '/img/nome-file-3.jpg'
-    }
-]
----
-::
+-->

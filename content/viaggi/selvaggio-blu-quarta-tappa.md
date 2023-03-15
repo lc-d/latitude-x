@@ -1,6 +1,6 @@
 ---
 title: "Selvaggio Blu - Quarta Tappa"
-cover_image: "img/sardegna/selvaggioblu4_sardegna_estate-2021-2.jpg"
+cover_image: "/img/sardegna/selvaggioblu4_sardegna_estate-2021-2.jpg"
 video_id: "28gxEhMdAao"
 location_name: "Sardegna"
 description: ""

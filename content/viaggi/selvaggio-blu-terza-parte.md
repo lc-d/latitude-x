@@ -1,6 +1,6 @@
 ---
 title:  "Selvaggio Blu - Terza Tappa"
-cover_image: "img/sardegna/selvaggioblu3_sardegna_estate-2021-2.jpg"
+cover_image: "/img/sardegna/selvaggioblu3_sardegna_estate-2021-2.jpg"
 video_id: "jvsMV13Pbek"
 location_name: "Sardegna"
 description: ""

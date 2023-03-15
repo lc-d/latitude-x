@@ -1,6 +1,6 @@
 ---
 title: "Cordillera Blanca - Santa Cruz"
-cover_image: "img/peru/santacruz2-peru_inverno-2022.jpg"
+cover_image: "/img/peru/santacruz2-peru_inverno-2022.jpg"
 video_id: "0Y_Ywv4QN2w"
 location_name: "peru"
 description: ""

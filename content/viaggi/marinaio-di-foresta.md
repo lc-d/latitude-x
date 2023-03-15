@@ -1,6 +1,6 @@
 ---
 title: "Pedra Longa - Via Marinaio di Foresta"
-cover_image: "img/sardegna/marinaiodiforesta-pedralonga_primavera-2022.jpg"
+cover_image: "/img/sardegna/marinaiodiforesta-pedralonga_primavera-2022.jpg"
 video_id: "DSYYpa4Qcco"
 location_name: "sardegna"
 description: ""

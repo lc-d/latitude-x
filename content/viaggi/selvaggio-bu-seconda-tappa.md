@@ -1,6 +1,6 @@
 ---
 title:  "Selvaggio Blu - Seconda Tappa"
-cover_image: "img/sardegna/selvaggioblu2_sardegna_estate-2021-2.jpg"
+cover_image: "/img/sardegna/selvaggioblu2_sardegna_estate-2021-2.jpg"
 video_id: "qRZmHHQ5OMY"
 location_name: "Sardegna"
 description: ""

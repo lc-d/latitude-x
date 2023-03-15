@@ -1,6 +1,6 @@
 ---
 title: "Trekking in Peru"
-cover_image: "img/peru/santacruz-peru_inverno-2022.jpg"
+cover_image: "/img/peru/santacruz-peru_inverno-2022.jpg"
 location_name: "Peru"
 season: "estate" # autunno | primavera | estate | inverno
 difficulty: "alta"

@@ -16,7 +16,6 @@ const appConfig = useAppConfig()
 const article = await queryContent('/')
   .where({ _path: '/formazione' })
   .findOne()
-console.log('article', article)
 
 const articles = await queryContent('/formazione/')
   .where({

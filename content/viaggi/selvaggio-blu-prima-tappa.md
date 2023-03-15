@@ -1,6 +1,6 @@
 ---
 title: "Selvaggio Blu - Prima Tappa"
-cover_image: "img/sardegna/selvaggioblu_sardegna_estate-2021-2.jpg"
+cover_image: "/img/sardegna/selvaggioblu_sardegna_estate-2021-2.jpg"
 video_id: "Lmw4_sZqa54"
 location_name: "Sardegna"
 description: ""

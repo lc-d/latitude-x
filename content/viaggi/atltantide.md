@@ -1,6 +1,6 @@
 ---
 title: "Atlantide - Punta Su Mulone"
-cover_image: "img/sardegna/atlantide-sardegna_primavera-2022.jpg"
+cover_image: "/img/sardegna/atlantide-sardegna_primavera-2022.jpg"
 video_id: "7t1shY24KgQ"
 location_name: "sardegna"
 description: ""

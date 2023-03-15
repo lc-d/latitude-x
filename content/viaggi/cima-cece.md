@@ -1,6 +1,6 @@
 ---
 title: "Lagorai - Cima Cece"
-cover_image: "img/lagorai/cimacece-lagorai_primavera-2021.jpg"
+cover_image: "/img/lagorai/cimacece-lagorai_primavera-2021.jpg"
 video_id: "lCT32wYEv6M"
 location_name: "Lagorai"
 description: ""

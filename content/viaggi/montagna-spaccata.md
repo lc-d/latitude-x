@@ -1,6 +1,6 @@
 ---
 title: "Montagna Spaccata - Gaeta"
-cover_image: "img/gaeta/gaeta-montagnaspaccata_inverno-2021.jpg"
+cover_image: "/img/gaeta/gaeta-montagnaspaccata_inverno-2021.jpg"
 video_id: "x-f7KM3LG-o"
 location_name: "gaeta"
 description: ""

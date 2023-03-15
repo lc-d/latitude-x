@@ -1,6 +1,6 @@
 ---
 title: "Alta Via dei Colli Euganei"
-cover_image: "img/euganei/altaviaeuganei-euganei_estate-2021.jpg"
+cover_image: "/img/euganei/altaviaeuganei-euganei_estate-2021.jpg"
 location_name: "Colli Euganei"
 season: "estate"  # autunno | primavera | estate | inverno
 difficulty: "bassa"

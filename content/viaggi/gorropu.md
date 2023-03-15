@@ -1,6 +1,6 @@
 ---
 title: "Gola di Gorropu - Via Lughe 'e via mia"
-cover_image: "img/sardegna/gorropu-sardegna_estate-2022.jpg"
+cover_image: "/img/sardegna/gorropu-sardegna_estate-2022.jpg"
 video_id: "i4bz5qFVO-U"
 location_name: "sardegna"
 description: ""

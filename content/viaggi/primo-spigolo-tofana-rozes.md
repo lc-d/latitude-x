@@ -1,6 +1,6 @@
 ---
 title: "Primo Spigolo della Tofana di Rozes"
-cover_image: "img/tofana/tofanarozes-tofana_estate-2022.jpg"
+cover_image: "/img/tofana/tofanarozes-tofana_estate-2022.jpg"
 video_id: "UN4xWoSEH2s"
 location_name: "dolomiti"
 description: ""

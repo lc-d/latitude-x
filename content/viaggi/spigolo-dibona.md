@@ -1,6 +1,6 @@
 ---
 title: "Tre Cime di Lavaredo - Spigolo Dibona"
-cover_image: "img/dibona/dibona-lavaredo_estate-2022.jpg"
+cover_image: "/img/dibona/dibona-lavaredo_estate-2022.jpg"
 video_id: "3Jm6gSTv9LY"
 location_name: "dolomiti"
 description: ""

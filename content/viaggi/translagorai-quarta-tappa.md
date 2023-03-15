@@ -1,6 +1,6 @@
 ---
 title: 'Translagorai - Quarta Tappa'
-cover_image: "img/lagorai/colbricon-lagorai_autunno-2021.jpg"
+cover_image: "/img/lagorai/colbricon-lagorai_autunno-2021.jpg"
 video_id: "gzUwC31JXLE"
 location_name: 'Lagorai'
 description: ""

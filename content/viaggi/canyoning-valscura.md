@@ -1,6 +1,6 @@
 ---
 title: "Canyoning in Val Scura"
-cover_image: "img/valscura/valscura-lavarone_estate-2021.jpg"
+cover_image: "/img/valscura/valscura-lavarone_estate-2021.jpg"
 video_id: "AVxvTsMMrJ0"
 location_name: "lavarone"
 description: ""

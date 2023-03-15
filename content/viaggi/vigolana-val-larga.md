@@ -1,6 +1,6 @@
 ---
 title: "Vigolana - Val Larga"
-cover_image: "img/vigolana/bivaccoemadonnina-vigolana_estate-2020.jpg"
+cover_image: "/img/vigolana/bivaccoemadonnina-vigolana_estate-2020.jpg"
 video_id: "70aXs1n1CVo"
 location_name: "vigolana"
 description: ""

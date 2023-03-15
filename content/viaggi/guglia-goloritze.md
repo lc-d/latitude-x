@@ -1,6 +1,6 @@
 ---
 title: "Guglia di Goloritzè"
-cover_image: "img/sardegna/aguglia-calagoloritze_primavera-2022.jpg"
+cover_image: "/img/sardegna/aguglia-calagoloritze_primavera-2022.jpg"
 video_id: "jNfWBhYoXL8"
 location_name: "sardegna"
 description: ""
