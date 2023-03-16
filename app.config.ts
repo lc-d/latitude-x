@@ -68,6 +68,8 @@ export default defineAppConfig({
         homeTitle: "Dove trovi l'avventura",
         homeDescription: "Vivi l'avventura con Giulia e Francesco partendo in viaggio verso le destinazioni più belle e selvaggie",
         destinazioniTitle: "Destinazioni",
+        formazioneTitle: "Formazione",
+        formazioneDescription: "Offerta formativa per la sicurezza vostra e della vostra azienda",
         destinazioniDescription: "Tutte le destinazioni",
         viaggiTitle: "Viaggi",
         viaggiDescription: "Tutti i viaggi",

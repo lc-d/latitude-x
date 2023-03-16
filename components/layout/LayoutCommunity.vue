@@ -16,7 +16,7 @@
         slidesPerView: 8,
       },
     }"
-    :loop="true"
+    :loop="false"
     :autoplay="{
       delay: 1000,
       disableOnInteraction: true,

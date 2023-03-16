@@ -47,11 +47,11 @@ const articles = await queryContent('/formazione/')
   .find()
 
 useHead({
-  title: appConfig.meta.destinazioniTitle,
+  title: appConfig.meta.formazioneTitle,
   meta: [
-    { name: 'description', content: appConfig.meta.destinazioniDescription },
-    { name: 'og:title', content: appConfig.meta.destinazioniTitle },
-    { name: 'og:description', content: appConfig.meta.destinazioniDescription },
+    { name: 'description', content: appConfig.meta.formazioneDescription },
+    { name: 'og:title', content: appConfig.meta.formazioneTitle },
+    { name: 'og:description', content: appConfig.meta.formazioneDescription },
   ],
 })
 </script>
