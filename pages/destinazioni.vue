@@ -6,7 +6,7 @@
     />
     <section class="top-section wrapper lg:flex lg:space-x-4">
       <header class="lg:w-1/3 mb-8">
-        <div class="sticky top-20">
+        <div class="sticky top-2">
           <h1 class="h1-style">
             <b>Destinazioni</b>
           </h1>

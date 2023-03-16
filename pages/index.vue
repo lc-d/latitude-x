@@ -145,7 +145,7 @@
       </div>
     </section>
     <section>
-      <div class="wrapper wrapper-md mt-16">
+      <div class="wrapper wrapper-lg mt-16">
         <LayoutSponsor />
       </div>
     </section>

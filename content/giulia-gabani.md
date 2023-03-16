@@ -1,6 +1,6 @@
 ---
 layout: 'page'
-cover_image: '/img/giulia-sperlonga_inverno-2021.jpg'
+cover_image: '/img/giulia/giulia-sperlonga_inverno-2021.jpg'
 description: "Padovana itinerante dal 1996. Cresciuta sotto il segno dell’Ariete, forse la causa del mio spirito dinamico e l’innata perseveranza nel raggiungere gli obiettivi."
 ---
 
