@@ -54,7 +54,7 @@ export default defineAppConfig({
         ctaListText: "Esprimi la tua preferenza, potremmo organizzare un viaggio per andarci insieme.",
         ctaListTitle: "Scegli la tua meta",
         formazioneCtaTitle: "Scegli tra la nostra offerta formativa",
-        formazioneCtaText: "Mettiamo al servizio la nostra esperienza: per rendere sicuri voi e la vostra azienda.",
+        formazioneCtaText: "Mettiamo al servizio la nostra esperienza nell'emergenza sanitaria: per rendere sicuri voi e la vostra azienda.",
         
         ctaSingleText: "Contattaci manifestandoci il tuo interesse, se sarà possibile organizzeremo un viaggio con te.",
         ctaSingleTitle: "Vuoi andare qui?",
