@@ -1,10 +1,10 @@
 ---
-cover_image:  ""
+cover_image:  "img/formazione/bls1-tribunalevenezia_inverno-2023.jpg"
 description: ""
 layout: "page"
 ---
 
-# Formazione Primo Soccorso Aziendale BLS
+# Aggiornamento Primo Soccorso Aziendale 
 
 Mettiamo al servizio la nostra esperienza: per rendere sicuri Voi e la vostra azienda. Siamo due formatori specializzati in discipline diverse e complementari:
 
@@ -20,7 +20,7 @@ NOI INSIEME A VOI: PER RENDERVI SICURI NELLA VOSTRA AZIENDA
 ## METODOLOGIA
 
 - Formazione di legge, ai sensi del D. Lgs. 81/2008
-Lezioni frontali
+- Lezioni frontali
 - Metodi attivi: lavori di gruppo, video, giochi d’aula, casi clinici, etc.
 - Scenario simulativo dell’ambiente lavorativo del cliente
 - Formazione a piccoli gruppi
