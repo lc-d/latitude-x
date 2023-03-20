@@ -18,15 +18,16 @@ A 3 anni mio padre mi portò sul Becco di Filadonna in Vigolana. Però non ne lo
 
 A 4 anni, tanto ero alto, già non riuscivo a muovermi negli Optimist e seguivo sempre e solo la mia rotta, tra le imprecazioni degli istruttori. Lì nacque l’amore per il mare.
 
-Poi di onde, sentieri e pareti ne sono passate in questi anni. La Natura mi ha offerto e mi ha insegnato tanto. Sono diventato skipper appena ho potuto e poi Logistic & Expedition Coordinator per Miles Beyond – società specializzata nel supporto tecnico e logistico in luoghi estremi.
+Poi di onde, sentieri e pareti ne sono passate in questi anni. La Natura mi ha offerto e mi ha insegnato tanto. Sono diventato skipper appena ho potuto e poi Logistic Coordinator per Miles Beyond – società specializzata nel supporto tecnico e logistico in luoghi estremi.
 
-Dal 2017 sono il Logistic Coordinator dei training CAVES e PANGAEA dell’Agenzia Spaziale Europea e ho avuto la fortuna di partecipare e organizzare spedizioni in varie parti del mondo, dalla Groenlandia al Messico, dal Venezuela al Perù, dalle Dolomiti alla Sardegna.
+Dal 2017 sono il Logistic Coordinator dei training CAVES e PANGAEA dell’Agenzia Spaziale Europea e ho avuto la fortuna di partecipare in spedizioni in varie parti del Mondo, dalla Groenlandia al Messico, dal Venezuela al Perù, dalle Dolomiti alla Sardegna.
 
 Da (ormai troppi) anni mi dedico ai trekking, al free-climbing, all’alpinismo e scialpinismo.
 Ultimamente – e solo grazie a Giulia – cerco di portare nelle case degli italiani (cit. ☺) un po’ di queste esperienze.
 
+Dal 2011 sono soccorritore nelle ambulanze della Croce Rossa di Padova, con all'attivo più di 5.000 interventi di soccorso e sono istruttore di BLS-D e co-docente tecnico nei corsi di BLS.
 Dal 2019 sono operatore del CNSAS - Corpo Nazionale del Soccorso Alpino e Speleologico.
-Sono guida presso AssoGuide.
+Sono guida associata AssoGuide e skipper.
 
 
 ## Contatti
