@@ -185,6 +185,10 @@ export default defineAppConfig({
             name: "Unipd",
             src: "unipd.png"
         },
+        {
+            name: "Alpamayo",
+            src: "logo-grupo-alpamayo-tours.jpg"
+        },
        
     ],
 })

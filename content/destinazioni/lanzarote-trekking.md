@@ -40,7 +40,7 @@ Il nostro intento è quello di farvi sentire parte di una **Community**, per que
 6. **Hiking alla Caldera Blanca e al Vulcano Corona: vista panoramica dell'isola**
 7. **Tramonto dalla spettacolare Montagna Bermeja**
 8. **Visita al villaggio perduto dei pescatori a Tenesar** 
-9. **Tour delle attrazzioni: Jameos del Agua, Cueva de los Verdes e Lagomar Museum**
+9. **Tour delle attrazioni: Jameos del Agua, Cueva de los Verdes e Lagomar Museum**
 10. **Spiaggia di Famara e Playa Papagayo**
 11. **Tour tra le splendide vigne e cantine della Geria**
 ::
