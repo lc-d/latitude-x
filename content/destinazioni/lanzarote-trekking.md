@@ -14,23 +14,23 @@ draft: "false"
 
 ::content-small
 Vi presentiamo Lanzarote, un'isola caratterizzata da un paesaggio bivalente: lava vulcanica e bianche abitazioni. Tutto circondato dall'Oceano e con un gradevole clima caldo-secco.
-L'isola si presta a piacevoli passeggiate, trekking e brevi escursioni turistiche. Vi attendono i panorami caratteristici di questa isola vulcanica, preservata nel suo selvaggio aspetto, con distese di nera lava solidificata e montagne rosso fuoco. Per gli amanti del genere, i venti oceanici e le onde schiumose invitano il velista o il surfista a solcarne le correnti. 
+Lanzarote si presta a piacevoli passeggiate, trekking e brevi escursioni turistiche. Vi attendono i panorami caratteristici di questa isola vulcanica, preservata nel suo selvaggio aspetto, con distese di nera lava solidificata e montagne rosso fuoco. Per gli amanti del genere, i venti oceanici e le onde schiumose invitano il velista o il surfista a solcarne le correnti. 
 Pesseggerete su sentieri che conducono ai crateri dei vulcani, tra colate laviche e lava tube, o su alte scogliere a picco sull'Oceano. 
 ::
 ::content-small
-Solo una regola: dimenticarsi della civiltà e, per qualche giorno, farsi immergere dal clima di quest'isola, che con le sue bellezze ci mostra un mondo primordiale fatto di paesaggi che richiamano le sconosciute forme del pianeta Marte.  
+Solo una regola: dimenticarsi della civiltà e, per qualche giorno, farsi immergere dal clima dell'arcipelado delle Canarie, che con le sue bellezze ci mostra un mondo primordiale fatto di paesaggi che richiamano le sconosciute forme del pianeta Marte.  
 ::
 ![alt text](/img/lanzarote/scogliera2-lanzarote_autunno-2021.jpg)
 ::content-big
-**In questo viaggio:**
+In questo **viaggio:**
 ::
 Vivremo un'esperienza di **Gruppo**: le giornate saranno scandite da un programma strutturato ma posato. Ogni mattina, la **Logistica** ci preleverà con il Van per supportarci in tutti gli spostamenti all'interno dell'isola. La giornata inizierà con un *briefing* del coordinatore al gruppo, sulle attività che verranno svolte e la previsione degli orari. 
 Pranzeremo e ceneremo nei ristoranti tipici per assaggiare i *tapas* e i piatti della **Cucina canaria**.
 L'*alternanza* tra passeggiate, hiking e visite dei migliori siti, avrà l'intento di farci vivere questa permanenza a Lanzarote in modo completo e vario. Faremo anche una gita a **La Graciosa**, l’isola a nord di Lanzarote, per chiudere un cerchio di per sé già perfetto.
 
-Il nostro intento è quello di farvi sentire parte di una **Community**, per questo sarà nostra cura strutturare diversi momenti di convivialità tra cui una serata con grigliata di carne/pesce presso la nostra struttura di appoggio o esperienze mirate a rendere questo viaggio alla *scoperta di nuovi stimoli*.
+Il nostro intento è quello di farvi sentire parte di una **Community**, per questo sarà nostra cura strutturare diversi momenti di convivialità, tra cui serate con grigliate di carne/pesce presso la nostra struttura di appoggio o esperienze mirate a rendere questo viaggio alla *scoperta di nuovi stimoli*.
 
-## **Elenco delle Attività:**
+## Elenco delle Attività:
 ::content-small
 1. **Parco nazionale Timanfaya: tour dei crateri vulcanici**
 2. **Ruta del litoral: hiking sulla scogliera nord di Lanzarote**
@@ -55,14 +55,14 @@ Il nostro intento è quello di farvi sentire parte di una **Community**, per que
 - Logistica completa e accompagnatori 
 - Guida per le escursioni 
 - L'assistenza del coordinatore
-- lezione di Yoga ogni mattina (facoltativo)
+- Lezione di Yoga ogni mattina (facoltativo)
 ::
 #right
 **La quota viaggio non comprende:**
 ::content-small
 - Trasferimenti A/R per Lanzarote
 - Pasti e bevande dove non indicato
-- Tutto ciò che non è menzionato in "Cosa è incluso"
+- Biglietti d'ingresso per le visite turistiche quando indicato
 ::
 :: 
 ::content-columns
@@ -74,7 +74,7 @@ Questo tour è voglia di esplorare, trekking, natura e relax… Lanzarote offre 
 #left
 ::content-small
 ## Impegno fisico:
-L’impegno fisico di questo viaggio è basso: sono previste escursioni a piedi, anche lunghe, adatte a tutto il gruppo. Le giornate anche se ricche di attività, saranno strutturate in modo da prevedere le giuste pause e permettere di viversi il clima *canario* dell'isola. Ci saranno diversi spostamenti ma i ritmi saranno il giusto compromesso tra serrati e rilassati per permettere di tornare a casa avendo visto il meglio di Lanzarote! 
+L’impegno fisico di questo viaggio è basso: sono previste escursioni a piedi, anche lunghe, adatte a tutto il gruppo. Le giornate anche se ricche di attività, saranno strutturate in modo da prevedere le giuste pause e permettere di viversi il clima *canario* dell'isola. Ci saranno diversi spostamenti, ma i ritmi saranno il giusto compromesso tra serrati e rilassati, per permettere di tornare a casa avendo visto il meglio di Lanzarote! 
 ::
 ::
 ## **Dalla nostra galleria:**
