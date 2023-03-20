@@ -41,7 +41,19 @@ L’impegno fisico di questo viaggio è medio: ci saranno alcuni spostamenti ma 
 ::content-big
 **Elenco delle Attività:**
 ::
-1. *Trekking a...*
+1. Parco nazionale Timanfaya: tour dei crateri vulcanici
+2. Ruta del litoral: hiking sulla scogliera nord di Lanzarote
+3. Isola Graciosa: tour in Jeep/bici verso le selvagge spiaggie del Nord
+4. Villagio dei pescatori a Famara
+5. Pico Partido: trekking al cratere del vulcano
+6. Ruta del litoral: hiking sulla scogliera nord di Lanzarote
+7. Visita panomarica alla Caldera Blanca
+8. Tramonto dalla montagna Bermeja
+9. Monte Corona
+7. Risco de Famara: hiking sulla costa da Famara ad Haria
+5. Tour di un giorno delle migliori attrazzioni turistiche
+6. Surf e spiaggia 
+
 ::content-columns
 #right
 
@@ -61,6 +73,7 @@ descrizione attività
 - 6 notti: sistemazione in camera doppia o singola
 - Tutte le colazioni
 - Noleggio auto e van per i trasporti interni
+- Carburante ed eventuali parcheggi
 - Logistica completa e accompagnatori
 - Guida per le escursioni
 - L'assistenza del coordinatore
