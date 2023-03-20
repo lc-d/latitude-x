@@ -18,15 +18,18 @@ L'isola si presta a piacevoli passeggiate, trekking e brevi escursioni turistich
 Pesseggerete su sentieri che conducono ai crateri dei vulcani, tra colate laviche e lava tube, o su alte scogliere a picco sull'Oceano. 
 ::
 ::content-small
-Solo una regola: dimenticarsi della civiltà e, per qualche giorno, farsi immergere dal clima di quest'isola che con le sue bellezze ci mostra un mondo primordiale fatto di paesaggi che richiamano le sconosciute forme del paienta Marte.  
+Solo una regola: dimenticarsi della civiltà e, per qualche giorno, farsi immergere dal clima di quest'isola, che con le sue bellezze ci mostra un mondo primordiale fatto di paesaggi che richiamano le sconosciute forme del pianeta Marte.  
 ::
 ![alt text](/img/lanzarote/scogliera2-lanzarote_autunno-2021.jpg)
 ::content-big
 **In questo viaggio:**
 ::
+Vivremo un'esperienza di **Gruppo**: le giornate saranno scandite da un programma strutturato ma posato. Ogni mattina, la **Logistica** ci preleverà con il Van per supportarci in tutti gli spostamenti all'interno dell'isola. La giornata inizierà con un *briefing* del coordinatore al gruppo, sulle attività che verranno svolte e la previsione degli orari. 
+Pranzeremo e ceneremo nei ristoranti tipici per assaggiare i *tapas* e i piatti della **Cucina canaria**.
+L'*alternanza* tra passeggiate, hiking e visite dei migliori siti, avrà l'intento di farci vivere questa permanenza a Lanzarote in modo completo e vario. Faremo anche una gita a **La Graciosa**, l’isola a nord di Lanzarote, per chiudere un cerchio di per sé già perfetto.
 
+Il nostro intento è quello di farvi sentire parte di una **Community**, per questo sarà nostra cura strutturare diversi momenti di convivialità tra cui una serata con grigliata di carne/pesce presso la nostra struttura di appoggio o esperienze mirate a rendere questo viaggio alla *scoperta di nuovi stimoli*.
 
-Nel nostro viaggio a Lanzarote scopriremo **Teguise**, l’antica capitale, e le opere di **César Manrique**, tra il **Jardin de Cactus**, dove si respira una pace quasi magica, e la **Cueva de los Verdes**, un tunnel che si è formato nella roccia lavica che riserva anche una piccola sorpresa. Poi passeremo alla natura, con il **Parco Nazionale di Timanfaya** e il trekking alla **Caldera Blanca**, dove i paesaggi ci daranno la sensazione di passeggiare sulla Luna, e al surf, tra **Caleta Caballo** e la **spiaggia di Famara**, una delle più belle di tutta l’isola. Ovviamente non mancherà il relax, tra **Playa Papagayo**, **Playa Mujeres** e **Playa Blanca**, e le piscine naturali di **Los Charcones**, dove ci pensa l’oceano a fornire l’acqua. Faremo anche una gita a **La Graciosa**, l’isola a nord di Lanzarote, per chiudere un cerchio di per sé già perfetto. 
 ## **Elenco delle Attività:**
 ::content-small
 1. **Parco nazionale Timanfaya: tour dei crateri vulcanici**
@@ -52,6 +55,7 @@ Nel nostro viaggio a Lanzarote scopriremo **Teguise**, l’antica capitale, e le
 - Logistica completa e accompagnatori 
 - Guida per le escursioni 
 - L'assistenza del coordinatore
+- lezione di Yoga ogni mattina (facoltativo)
 ::
 #right
 **La quota viaggio non comprende:**
