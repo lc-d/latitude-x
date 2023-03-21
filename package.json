@@ -13,15 +13,15 @@
   },
   "devDependencies": {
     "@nuxt/content": "^2.4.3",
-    "@nuxt/image-edge": "^1.0.0-27919678.2f5b64b",
+    "@nuxt/image-edge": "^1.0.0-27968280.9739e4d",
     "@nuxtjs/robots": "^3.0.0",
-    "@nuxtjs/tailwindcss": "^6.3.0",
+    "@nuxtjs/tailwindcss": "^6.6.1",
     "@tailwindcss/typography": "^0.5.9",
     "date-format": "^4.0.14",
     "nuxt": "^3.3.1",
-    "nuxt-swiper": "^0.1.9",
-    "sass": "^1.57.1",
-    "sass-loader": "^13.2.0",
+    "nuxt-swiper": "^1.0.1",
+    "sass": "^1.59.3",
+    "sass-loader": "^13.2.1",
     "sitemap": "^7.1.1"
   },
   "dependencies": {}
