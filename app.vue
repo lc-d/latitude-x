@@ -6,6 +6,7 @@
       <NuxtPage />
     </main>
     <LayoutFooter />
+    <LayoutCookieBanner />
   </div>
 </template>
 
@@ -50,6 +51,7 @@ useHead({
     },
   ],
 })
+
 </script>
 
 <style>

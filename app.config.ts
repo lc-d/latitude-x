@@ -64,6 +64,7 @@ export default defineAppConfig({
         formazioneCtaBoxText: "Offriamo un percorso che abbraccia tutti gli aspetti della formazione in ambito di emergenza sanitaria, rilasciando tutte le certificazioni a norma di legge.",
         communtyTitle: "Si sono avventurati con noi",
         sponsorTitle: "I nostri partner",
+        cookieBanner: "Questo sito usa cookie per analizzare il traffico in modo anonimo. Accentandoli ci aiuterai a migliorare il nostro servizio.",
     },
     meta: {
         homeTitle: "Dove trovi l'avventura",
