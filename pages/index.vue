@@ -22,7 +22,7 @@
           <BaseLink
             :to="'/viaggi'"
             title="Vedi tutti i viaggi di Latitude X"
-            class="text-false-white text-lg drop-shadow-text hover:text-false-white"
+            class="!text-false-white text-lg drop-shadow-text hover:text-false-white"
           >
             <b>Diario dei viaggi</b>
           </BaseLink>
