@@ -38,7 +38,7 @@
 const appConfig = useAppConfig()
 const isCtaOpen = ref(false)
 const $img = useImage()
-const articles = await queryContent('destinazioni')
+const articles = await queryContent('/destinazioni/')
   .where({
     draft: { $ne: 'true' }
   })
