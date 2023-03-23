@@ -154,7 +154,6 @@
 
 <script setup lang="ts">
 const appConfig = useAppConfig()
-const $img = useImage()
 const viaggi = await queryContent('/viaggi/')
   .where({
     draft: { $ne: 'true' },
@@ -179,6 +178,9 @@ useHead({
     { name: 'og:description', content: appConfig.meta.homeDescription },
   ],
 })
+
+// NOTE: nuxt-image `useImage()` do not work 
+const $img = useImage()
 const heroBackgroundStyles = computed(() => {
   const imgUrl = $img('/img/default/hero-header.jpg', { width: 1440 })
   return { backgroundImage: `url('${imgUrl}')` }

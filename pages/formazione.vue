@@ -37,7 +37,6 @@
 <script setup lang="ts">
 const appConfig = useAppConfig()
 const isCtaOpen = ref(false)
-const $img = useImage()
 const articles = await queryContent('/formazione/')
   .where({
     draft: { $ne: 'true' },
@@ -54,6 +53,9 @@ useHead({
     { name: 'og:description', content: appConfig.meta.formazioneDescription },
   ],
 })
+
+// NOTE: nuxt-image `useImage()` do not work 
+const $img = useImage()
 const backgroundStyles = computed(() => {
   const imgUrl = $img('/img/default/formazione.jpg', { width: 1440 })
   return { backgroundImage: `url('${imgUrl}')` }

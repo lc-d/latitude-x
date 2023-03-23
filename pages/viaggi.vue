@@ -33,7 +33,6 @@ const appConfig = useAppConfig()
 const limit = ref(appConfig.info.pagination)
 const skip = limit.value
 const isPagged = ref(true)
-const $img = useImage()
 const articles = await queryContent('/viaggi/')
   .where({
     draft: { $ne: 'true' },
@@ -64,6 +63,8 @@ useHead({
     { name: 'og:description', content: appConfig.meta.viaggiDescription },
   ],
 })
+// NOTE: nuxt-image `useImage()` do not work 
+const $img = useImage()
 const backgroundStyles = computed(() => {
   const imgUrl = $img('/img/default/hero-viaggi.jpg', { width: 1440 })
   return { backgroundImage: `url('${imgUrl}')` }
