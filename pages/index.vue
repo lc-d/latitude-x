@@ -1,7 +1,7 @@
 <template>
   <div>
     <header
-      :style="heroBackgroundStyles"
+      :style="{ backgroundImage: `url('/img/default/hero-header.jpg')` }"
       class="hero"
     >
       <div class="hero-wrapper flex items-center">
@@ -54,7 +54,7 @@
     </section>
     <section>
       <div
-        :style="middleBackgroundStyles"
+        :style="{ backgroundImage: `url('/img/default/hero-middle.jpg')` }"
         class="hero hero-middle"
       >
         <div class="wrapper flex items-center justify-end">

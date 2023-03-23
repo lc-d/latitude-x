@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      :style="backgroundStyles"
+      :style="{ backgroundImage: `url('/img/default/formazione.jpg')` }"
       class="hero"
     />
     <section class="top-section wrapper lg:flex lg:space-x-4">

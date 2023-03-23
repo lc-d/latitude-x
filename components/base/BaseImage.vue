@@ -1,5 +1,5 @@
 <template>
-  <nuxt-img
+  <img
     :src="getSrc"
     :alt="alt"
     loading="lazy"
