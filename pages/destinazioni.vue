@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      :style="{ backgroundImage: `url('/img/default/hero-destinazioni.jpg')` }"
+      :style="backgroundStyles"
       class="hero"
     />
     <section class="top-section wrapper lg:flex lg:space-x-4">
@@ -37,6 +37,7 @@
 <script setup lang="ts">
 const appConfig = useAppConfig()
 const isCtaOpen = ref(false)
+const $img = useImage()
 const articles = await queryContent('/destinazioni/')
   .where({
     draft: { $ne: 'true' }
@@ -52,6 +53,10 @@ useHead({
     { name: 'og:title', content: appConfig.meta.destinazioniTitle },
     { name: 'og:description', content: appConfig.meta.destinazioniDescription },
   ],
+})
+const backgroundStyles = computed(() => {
+  const imgUrl = $img('/img/default/hero-destinazioni.jpg', { width: 1440 })
+  return { backgroundImage: `url('${imgUrl}')` }
 })
 </script>
 

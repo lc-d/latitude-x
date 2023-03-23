@@ -1,7 +1,7 @@
 <template>
   <div>
     <header
-      :style="{ backgroundImage: `url('/img/default/hero-header.jpg')` }"
+      :style="heroBackgroundStyles"
       class="hero"
     >
       <div class="hero-wrapper flex items-center">
@@ -54,7 +54,7 @@
     </section>
     <section>
       <div
-        :style="{ backgroundImage: `url('/img/default/hero-middle.jpg')` }"
+        :style="middleBackgroundStyles"
         class="hero hero-middle"
       >
         <div class="wrapper flex items-center justify-end">
@@ -154,6 +154,7 @@
 
 <script setup lang="ts">
 const appConfig = useAppConfig()
+const $img = useImage()
 const viaggi = await queryContent('/viaggi/')
   .where({
     draft: { $ne: 'true' },
@@ -170,7 +171,6 @@ const destinazioni = await queryContent('/destinazioni/')
   .sort({ date: -1 })
   .limit(3)
   .find()
-
 useHead({
   title: appConfig.meta.homeTitle,
   meta: [
@@ -178,6 +178,14 @@ useHead({
     { name: 'og:title', content: appConfig.meta.homeTitle },
     { name: 'og:description', content: appConfig.meta.homeDescription },
   ],
+})
+const heroBackgroundStyles = computed(() => {
+  const imgUrl = $img('/img/default/hero-header.jpg', { width: 1440 })
+  return { backgroundImage: `url('${imgUrl}')` }
+})
+const middleBackgroundStyles = computed(() => {
+  const imgUrl = $img('/img/default/hero-middle.jpg', { width: 1440 })
+  return { backgroundImage: `url('${imgUrl}')` }
 })
 </script>
 

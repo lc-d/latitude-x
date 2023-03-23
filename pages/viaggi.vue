@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      :style="{ backgroundImage: `url('/img/default/hero-viaggi.jpg')` }"
+      :style="backgroundStyles"
       class="hero"
     />
     <section class="top-section wrapper">
@@ -33,6 +33,7 @@ const appConfig = useAppConfig()
 const limit = ref(appConfig.info.pagination)
 const skip = limit.value
 const isPagged = ref(true)
+const $img = useImage()
 const articles = await queryContent('/viaggi/')
   .where({
     draft: { $ne: 'true' },
@@ -55,7 +56,6 @@ const areMoreArticles = computed(() => {
 const getMoreArticles = () => {
   limit.value += skip
 }
-
 useHead({
   title: appConfig.meta.viaggiTitle,
   meta: [
@@ -63,6 +63,10 @@ useHead({
     { name: 'og:title', content: appConfig.meta.viaggiTitle },
     { name: 'og:description', content: appConfig.meta.viaggiDescription },
   ],
+})
+const backgroundStyles = computed(() => {
+  const imgUrl = $img('/img/default/hero-viaggi.jpg', { width: 1440 })
+  return { backgroundImage: `url('${imgUrl}')` }
 })
 </script>
 
