@@ -8,10 +8,14 @@ layout: "page"
 
 Mettiamo al servizio la nostra esperienza: per rendere sicuri Voi e la vostra azienda. Siamo due formatori specializzati in discipline diverse e complementari:
 
-- Giulia è medico chirurgo e docente formatore con 7 anni di esperienza come Soccorritrice per il SUEM 118 di Padova nelle ambulanze della Croce Rossa Italiana. Collabora con diversi Enti di formazione accreditati di Veneto e Lazio tra cui: Consilia Srl, Igeam Academy Srl, Omnia Formazione Srl, DNA Srl, Atena SPA e Health & Safety Srl.
+- Giulia è Medico Chirurgo, laureata con Lode presso l’Università di Padova. 
+Dopo l’abilitazione alla Professione, ha iniziato ad occuparsi di formazione, ottenendo il ruolo di medico titolare dei corsi di primo soccorso aziendale.
+Docente formatore con 8 anni di esperienza come Soccorritrice per il SUEM 118 di Padova, nelle ambulanze della Croce Rossa Italiana. 
+Collabora con diversi Enti di formazione accreditati di tutta Italia nell’ambito dei corsi BLS, tra cui: Consilia Srl, Igeam Academy Srl, Omnia Formazione Srl, DNA Srl, Atena SPA e Health & Safety Srl.
 [Leggi di più](/giulia-gabani)
-- Francesco è soccorritore presso la Croce Rossa di Padova da 12 anni con un’esperienza di più di 8 000 interventi di soccorso. Operatore del Soccorso Alpino e Speleologico del Veneto. Ha esperienza in materia di sicurezza e coordinamento della logistica per spedizioni in ambienti ostili e impervi.
-link per aprire la pagina della Bio completa [Leggi di più](/francesco-sauro)
+
+- Francesco è Operatore del Soccorso Alpino e Speleologico del Veneto. Soccorritore dal 2011 presso la Croce Rossa di Padova - SUEM 118, con all’attivo più di 8 000 interventi di soccorso. Ha esperienza in materia di sicurezza e coordinamento della logistica per spedizioni in ambienti ostili e impervi. Logistic Coordinator dei corsi per Astronauti CAVES e PANGAEA e Istruttore certificato per l’Agenzia Spaziale Europea.
+[Leggi di più](/francesco-sauro)
 
 ::content-big
 NOI INSIEME A VOI: PER RENDERVI SICURI NELLA VOSTRA AZIENDA

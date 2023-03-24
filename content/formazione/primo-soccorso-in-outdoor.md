@@ -42,6 +42,19 @@ A fianco dell’attività formativa ai sensi del decreto legislativo 81 del 2008
 La formazione viene condotta in piccoli gruppi, lasciando molto spazio alla simulazione pratica, seguendo le più aggiornate linee guida sanitarie. Vengono simulati i più probabili scenari dove i futuri addetti al Primo Soccorso si troveranno poi a dover realmente operare. Le esercitazioni pratiche vengono effettuare con manichini a busto intero e prevedono la simulazione di diversi “casi clinici” che riproducono fedelmente l’evento avverso.
 Lo scenario simulativo è pensato per permettere ai discenti di provare ad agire direttamente sul campo interagendo con i colleghi di squadra.
 
+### Programma
+- Protezione Individuale
+- Valutazione dell'infortunato
+- Allertamento dei Soccorsi, Piani di Evacuazione e la catena del soccorso in ambiente impervio
+- Stop the bleed (Compressione, Packing, Tourniquet) con certificazione
+- Trauma (mobilizzazione ed immobilizzazione, arto superiore, arto inferiore)
+- Ipotermia
+- Ipertermia e Colpo di Calore
+- Gestione della Ferita (medicazioni, cerotti e bende)
+- Mental Health (Attacco di Panico)
+- Anafilassi
+
+
 ### Proposte
 
 - **Corso di Formazione Primo Soccorso aziendale**: Corso rivolto alle diverse categorie d’aziende ai sensi del decreto legislativo 81 del 2008. I corsi di Primo Soccorso sono progettati e organizzati nel rispetto degli standard ministeriali previsti per la formazione degli addetti alla gestione delle emergenze di primo soccorso in azienda, secondo le indicazioni del *Decreto Ministeriale n. 388/03*
