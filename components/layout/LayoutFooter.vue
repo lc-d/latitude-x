@@ -5,14 +5,13 @@
   >
     <div class="text-center text-false-white">
       <BaseLink :to="'/'" :title="'Torna alla homepage'" :isLink="false">
-       
-      <BaseImage
-        :src="'/logo/latitudex-logo-icon.svg'"
-        width="105"
-        height="105"
-        alt="'Latitude X logo'"
-        class="m-auto pt-24"
-      />
+        <BaseImage
+          :src="'/logo/latitudex-logo-icon.svg'"
+          width="105"
+          height="105"
+          alt="'Latitude X logo'"
+          class="m-auto pt-24"
+        />
       </BaseLink>
       <p class="text-2xl drop-shadow-text mt-2">LATITUDE X</p>
     </div>
