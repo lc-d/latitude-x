@@ -4,12 +4,16 @@
     class="hero hero-footer"
   >
     <div class="text-center text-false-white">
+      <BaseLink :to="'/'" :title="'Torna alla homepage'" :isLink="false">
+       
       <BaseImage
         :src="'/logo/latitudex-logo-icon.svg'"
-        :width="105"
+        width="105"
+        height="105"
         alt="'Latitude X logo'"
         class="m-auto pt-24"
       />
+      </BaseLink>
       <p class="text-2xl drop-shadow-text mt-2">LATITUDE X</p>
     </div>
     <div class="wrapper">
@@ -18,20 +22,18 @@
           <ul
             class="text-center space-x-4 space-y-2 text-base text-false-white m-auto mt-6"
           >
-            <li
-              v-for="link of navigation"
-              :key="link._path"
-              class="inline-block"
-            >
-              <BaseLink
-                :to="link._path"
-                :isLink="false"
-                class="drop-shadow-text hover:underline underline-offset-2"
-              >
-                {{ link.title }}
-                <span v-if="link.children">({{link.children.length }})</span>
-              </BaseLink>
-            </li>
+            <template v-for="link of navigation" :key="link._path">
+              <li v-if="link.title" class="inline-block">
+                <BaseLink
+                  :to="link._path"
+                  :isLink="false"
+                  class="is-link-shadow"
+                >
+                  {{ link.title }}
+                  <span v-if="link.children">({{ link.children.length }})</span>
+                </BaseLink>
+              </li>
+            </template>
           </ul>
         </ContentNavigation>
       </nav>

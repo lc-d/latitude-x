@@ -107,7 +107,12 @@
   .h4-style {
     @apply text-base sm:text-lg md:text-xl leading-normal;
   }
-
+  .is-link {
+    @apply text-primary hover:text-primary-dark underline underline-offset-2
+  }
+  .is-link-shadow {
+    @apply drop-shadow-text hover:underline underline-offset-2
+  }
   .img-spacer {
     display: block;
     z-index: 1;

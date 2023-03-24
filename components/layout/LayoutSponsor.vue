@@ -6,7 +6,8 @@
         <BaseImage
           class="rounded bg-white mb-3 p-1 m-auto"
           :src="sponsor.src ? '/img/sponsor/' + sponsor.src : null"
-          :width="120"
+          width="120"
+          height="120"
         />
         <figcaption class="text-sm">{{ sponsor.name }}</figcaption>
       </figure>

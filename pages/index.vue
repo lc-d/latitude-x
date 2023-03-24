@@ -19,13 +19,15 @@
     <section class="top-section wrapper">
       <div class="md:flex md:space-x-4">
         <div class="md:w-2/3">
-          <BaseLink
-            :to="'/viaggi'"
-            title="Vedi tutti i viaggi di Latitude X"
-            class="!text-false-white text-lg drop-shadow-text hover:text-false-white"
-          >
-            <b>Diario dei viaggi</b>
-          </BaseLink>
+          <h2>
+            <BaseLink
+              :to="'/viaggi'"
+              title="Vedi tutti i viaggi di Latitude X"
+              class="!text-false-white text-lg drop-shadow-text hover:text-false-white"
+            >
+              <b>Diario dei viaggi</b>
+            </BaseLink>
+          </h2>
           <ul class="grid-2 mt-3">
             <li v-for="(viaggio, index) in viaggi" :key="index">
               <SummaryViaggi :article="viaggio" />
@@ -33,13 +35,15 @@
           </ul>
         </div>
         <div class="md:w-1/3 mt-12 md:mt-0 max-w-sm md:max-w-none m-auto">
-          <BaseLink
-            :to="'/destinazioni'"
-            title="Vedi tutte le destinazioni di Latitude X"
-            class="md:text-false-white text-lg md:drop-shadow-text md:hover:text-false-white"
-          >
-            <b>Destinazioni</b>
-          </BaseLink>
+          <h2>
+            <BaseLink
+              :to="'/destinazioni'"
+              title="Vedi tutte le destinazioni di Latitude X"
+              class="md:text-false-white text-lg md:drop-shadow-text md:hover:text-false-white"
+            >
+              <b>Destinazioni</b>
+            </BaseLink>
+          </h2>
           <ul class="space-y-4 mt-3 relative">
             <li
               v-for="(destinazione, index) in destinazioni"
@@ -76,6 +80,8 @@
                 :src="'/logo/latitudex-logo-default.svg'"
                 alt="Logo di Latitude X"
                 class="max-w-xs"
+                width="300"
+                height="80"
               />
             </p>
             <p class="h3-style" v-html="appConfig.text.aboutP1" />
@@ -92,6 +98,8 @@
                     :src="'/img/default/giulia.jpg'"
                     alt="Foto di Giulia Gabani di profilo con la corda d'arrampicata sulla spalla"
                     class="m-auto -mb-6"
+                    width="351"
+                    height="300"
                   />
                 </p>
                 <h2 id="giulia-gabani">Giulia Gabani</h2>
@@ -116,6 +124,8 @@
                     :src="'/img/default/francesco.jpg'"
                     alt="Foto di Francesco Maria Sauro di profilo con la corda d'arrampicata sulla spalla"
                     class="m-auto -mb-6"
+                    width="351"
+                    height="300"
                   />
                 </p>
                 <h2 id="francesco-sauro">Francesco Sauro</h2>
@@ -179,7 +189,7 @@ useHead({
   ],
 })
 
-// NOTE: nuxt-image `useImage()` do not work 
+// NOTE: nuxt-image `useImage()` do not work in static generation!
 const $img = useImage()
 const heroBackgroundStyles = computed(() => {
   const imgUrl = $img('/img/default/hero-header.jpg', { width: 1440 })

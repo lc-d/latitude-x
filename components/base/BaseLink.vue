@@ -1,7 +1,7 @@
 <template>
   <NuxtLink
     :to="to"
-    :class="{ 'text-primary hover:text-primary-dark underline underline-offset-2': isLink }"
+    :class="{ 'is-link': isLink }"
   >
     <slot />
     <BaseIcon v-if="isLink" :icon="'arrow-next'" class="ml-2" />

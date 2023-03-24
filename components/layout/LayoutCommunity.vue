@@ -28,7 +28,8 @@
         <BaseImage
           class="rounded-full mb-3 m-auto w-24"
           :src="'/img/community/' + person.src"
-          :width="120"
+          width="120"
+          height="120"
         />
         <figcaption class="text-sm"><i>{{ person.name }}</i></figcaption>
       </figure>

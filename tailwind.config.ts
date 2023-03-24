@@ -12,7 +12,7 @@ export default <Partial<Config>>{
             'primary-dark': '#386B6B',
             'primary-darker': '#294C4B',
             'accent': '#3DEBEA',
-            'grey': '#9A9A9A',
+            'grey': '#7d7d7d',
             'grey-light': '#D6D6D6',
             'grey-lighter': '#F0F0F0',
             'grey-dark': '#474747',
