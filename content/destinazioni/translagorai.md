@@ -27,8 +27,5 @@ Il periodo migliore per percorrere questo itinerario va dalla seconda metà di g
 L’equipaggiamento necessario è quello da trekking in montagna più tutta l’attrezzatura per pernottare in tenda o in bivacco. La Guida vi fornirà una check-list dettagliata di tutto.
 Dal momento che la Translagorai è un trekking in ambiente severo e isolato, si richiede al partecipante un’ottima forma fisica. In ogni caso la partecipazione è condizionata ad una valutazione della Guida, a seguito di un colloquio.
 
-### Quota di partecipazione
-
-La quota di partecipazione è di euro 450 a testa con un minimo di 6 partecipanti e un massimo di 8.
-
-Per gruppi più piccoli si può chiedere un preventivo personalizzato.
+## Translagorai LIGHT
+## Translagorai CLASSIC

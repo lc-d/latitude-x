@@ -4,4 +4,4 @@ description: ""
 layout: "page"
 ---
 
-# Corso BLSD per l'autorizzazione all'utilizzo del DAE
+# Corso BLS-D per l'autorizzazione all'utilizzo del Defibrillatore automatico esterno
