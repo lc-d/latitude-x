@@ -190,6 +190,7 @@ useHead({
 })
 
 // NOTE: nuxt-image `useImage()` do not work in static generation!
+/*
 const $img = useImage()
 const heroBackgroundStyles = computed(() => {
   const imgUrl = $img('/img/default/hero-header.jpg', { width: 1440 })
@@ -199,6 +200,7 @@ const middleBackgroundStyles = computed(() => {
   const imgUrl = $img('/img/default/hero-middle.jpg', { width: 1440 })
   return { backgroundImage: `url('${imgUrl}')` }
 })
+*/
 </script>
 
 <style scoped lang="scss">

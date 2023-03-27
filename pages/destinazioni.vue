@@ -55,11 +55,13 @@ useHead({
 })
 
 // NOTE: nuxt-image `useImage()` do not work 
+/*
 const $img = useImage()
 const backgroundStyles = computed(() => {
   const imgUrl = $img('/img/default/hero-destinazioni.jpg', { width: 1440 })
   return { backgroundImage: `url('${imgUrl}')` }
 })
+*/
 </script>
 
 <style scoped lang="scss">
