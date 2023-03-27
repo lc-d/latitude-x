@@ -16,7 +16,6 @@ export default defineNuxtConfig({
   robots: {
     rules: {
       disallow: '',
-      allow: '/',
       sitemap: 'https://latitudex.it/sitemap.xml'
     } 
   },
