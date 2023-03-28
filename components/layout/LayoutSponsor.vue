@@ -7,7 +7,7 @@
           class="rounded bg-white mb-3 p-1 m-auto"
           :src="sponsor.src ? '/img/sponsor/' + sponsor.src : null"
           width="120"
-          height="120"
+          height="auto"
         />
         <figcaption class="text-sm">{{ sponsor.name }}</figcaption>
       </figure>
