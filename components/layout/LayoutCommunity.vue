@@ -23,7 +23,7 @@
     }"
     class="mt-12"
   >
-    <SwiperSlide v-for="(person, index) in appConfig.community" :for="index">
+    <SwiperSlide v-for="(person, index) in appConfig.community" :key="index">
       <figure class="text-center">
         <BaseImage
           class="rounded-full mb-3 m-auto w-24"
