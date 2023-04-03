@@ -1,7 +1,7 @@
 ---
 title: "Etna Skialp e Vanlife"
 cover_image: "img/etna/etna-sicilia_inverno-2023.jpg"
-video_id: "IS5uW-c34yI"
+video_id: "mkIXZAPkegk"
 location_name: "sicilia"
 description: ""
 layout: "viaggi"
