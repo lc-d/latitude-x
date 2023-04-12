@@ -42,8 +42,8 @@ Nasce così **questa piccola comunità** dove, oltre a condividere le nostre esp
 ## Francesco Sauro
 
     ::content-small
-    - Logistic Coordinatori and Managing Director per Miles Beyond
-    - Logistic Coordinator corsi CAVES e PANGAEA dell' Agenzia Spaziale Europea
+    - Logistic Coordinator and Managing Director per Miles Beyond
+    - Logistic Coordinator corsi CAVES e PANGAEA dell'Agenzia Spaziale Europea
     - Operatore del CNSAS (Corpo Nazionale del Soccorso Alpino e Speleologico)
     - Guida associata AssoGuide e Skipper
     - Istruttore BLSD e Soccorritore in ambulanza per la Croce Rossa Italiana - SUEM 118.
