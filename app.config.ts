@@ -50,7 +50,7 @@ export default defineAppConfig({
             "Logistic Coordinator corsi CAVES e PANGAEA dell'Agenzia Spaziale Europea",
             "Operatore del CNSAS (Corpo Nazionale del Soccorso Alpino e Speleologico)",
             "Guida associata AssoGuide e Skipper",
-            "Istruttore BLSD e Soccoritore in ambulanza per la Croce Rossa Italiana - SUEM 118.",
+            "Istruttore BLSD e Soccorritore in ambulanza per la Croce Rossa Italiana - SUEM 118.",
         ],
         ctaListText: "Esprimi la tua preferenza, potremmo organizzare un viaggio per andarci insieme.",
         ctaListTitle: "Scegli la tua meta",

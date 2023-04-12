@@ -28,7 +28,7 @@ Nasce così **questa piccola comunità** dove, oltre a condividere le nostre esp
     - Medico Chirurgo abilitato. Laureata con il massimo dei voti presso l’Università degli Studi di Padova
     - Docente titolare dei corsi di formazione e aggiornamento di Primo Soccorso aziendale e gestione delle emergenze sanitarie
     - Discipline praticate: trekking, biking, arrampicata sportiva, alpinismo su roccia, canyoning e sci di fondo
-    - Soccorritrice in ambulanza per la Croce Rossa Italiana - SUEM 118.
+    - Istruttrice BLSD e Soccorritrice in ambulanza per la Croce Rossa Italiana - SUEM 118
     - Content creator e video maker per passione ed esperienza.
     ::
 
@@ -42,10 +42,11 @@ Nasce così **questa piccola comunità** dove, oltre a condividere le nostre esp
 ## Francesco Sauro
 
     ::content-small
-    - Logistic & Expedition Coordinator per Miles Beyond.
-    - Training Logistic Coordinator CAVES e PANGAEA (Agenzia Spaziale Europea)
+    - Logistic Coordinatori and Managing Director per Miles Beyond
+    - Logistic Coordinator corsi CAVES e PANGAEA dell' Agenzia Spaziale Europea
     - Operatore del CNSAS (Corpo Nazionale del Soccorso Alpino e Speleologico)
-    - Guida presso AssoGuide
+    - Guida associata AssoGuide e Skipper
+    - Istruttore BLSD e Soccorritore in ambulanza per la Croce Rossa Italiana - SUEM 118.
     ::
 
     ::content-icon{icon="arrow-next"}
