@@ -10,11 +10,45 @@ description: "L’Alta Via del Granito è una traversata ad anello, nella singol
 date: "2023-10-02T13:27:11.546"
 draft: "false"
 ---
+# La traversata ad anello nella singolare isola granitica del Lagorai
+::content-small
+Il Lagorai ci attende: con il suo paesaggio granitico, dai colori caldi e il suo silenzio selvaggio. Una breve ma intensa immersione nel clima di questa catena montuosa, che con il suo caratteristico alternarsi di paesaggi dal volto lunare ed erbose distese di verde, lascia impresso nella mente il suo ricordo. 
+Ambienti unici che nascondono tra le valli numerosi specchi d’acqua cristallina, i famosi laghi del Logorai, il tesoro intatto di queste montagne. Percorreremo un giro ad anello che ci farà immergere in questo ambiente e dormiremo sotto le stelle, avvolti dal silenzio dello spazio sconfinato, ammaliati dal bagliore della Via Lattea sopra le nostre teste.
+::
+::content-columns
+#left
+![alt text](/img/lagorai/vialattea-lagorai_autunno-2021.jpg)
+#right
+![alt text](/img/lagorai/altavia-lagorai_autunno-2021.jpg)
+::
+::content-big
+In questo **trekking:**
+::
+L’**Alta Via del Granito** è un percorso di trekking ad anello in **tre tappe giornaliere** che vi farà inoltrare nel selvaggio gruppo granitico della **Cima d’Asta**, nella catena del **Lagorai**. Un percorso splendido in una zona montana isolata e poco frequentata. Un’immersione nella natura, in questa traversata da percorrere in tenda e dormire sotto una stellata. 
+Il trekking parte da **Malga Sorgazza** in Val Malene, in località **Pieve Tesino** in provincia di **Trento**, e si snoda per **28 km** e circa 2000 metri di dislivello (per chi vuole compiere l'ascensione di Cima d'Asta bisogna aggiungere altri 380 mt).
+L’Alta Via del Granito ha anche forte connotazione **storica**, visto che percorre una rete di antichi sentieri ed ex strade militari, risalenti alla Prima Guerra Mondiale. Tre giorni di facile cammino fra stupendi paesaggi naturali, severi ricordi della Grande Guerra, malghe ed alpeggi, testimonianze esemplari dell’antico patto dell’uomo con la natura. *Pronti a partire?*
+## Indice:
+::content-small
+1. **Impegno fisico**
+2. **Percorso e pernottamento**
+3. **Equipaggiamento**
+4. **Quando andare**
+5. **Quota di partecipazione**
+::
+## Impegno fisico:
+Questo trekking rappresenta una buona via di mezzo per approcciare un percorso a piedi di durata non troppo elevata. I sentieri sono di facile percorrenza (difficoltà EE) e non sono caratterizzati da grandi difficoltà tecniche. 
+## Percorso e pernottamento:
+L’Alta Via del Granito si divide nei suoi giorni di trekking solitamente in 3 tappe. Volendo si può fare in due tappe, ma prevedendo diverse ore di cammino al giorno. Ci sono diverse modalità di pernottamento: sarà possibile appoggiarsi ai bivacchi o ai rifugi oppure dormire in tenda. Noi proporremo l’opzione più selvaggia, affascinante e flessibile allo stesso tempo. Infatti, questi luoghi isolati sono il posto ideale per trascorrere le notti in tenda nella natura, sovrastati da un cielo stellato. 
+## Equipaggiamento:	
+L’equipaggiamento necessario è quello da trekking in montagna più tutta l’attrezzatura per pernottare in tenda. La Guida vi fornirà una check-list dettagliata di tutto.
+## Quando andare:	
+Indicativamente il periodo migliore per percorrere il trekking dell’Alta Via del Granito va da fine giugno a ottobre, sarà da valutare a seconda della scelta del periodo, le condizioni della neve lungo i sentieri che a fine giugno potrebbe ancora persistere. La scelta delle date potrà adattarsi alle esigenze del Gruppo.
+## Quota di partecipazione:
+La quota di partecipazione è di euro 150 a testa con un minimo di 6 partecipanti e un massimo di 8. Per gruppi più piccoli si può chiedere un preventivo personalizzato. La quota include, ovviamente, l’accompagnamento di una guida di trekking esperta, la presenza di un medico, il trasporto in Van A/R con partenza da Padova, eventuali consulenze pre-trekking per quanto riguarda l’equipaggiamento necessario da portare.
+Non sono inclusi i pasti, che però verranno concordati con il medico e la guida.
+Eventualmente, è possibile il noleggio dell’attrezzatura come, a titolo di esempio, sacco a pelo, materassino, tenda, bastoncini da trekking.
 
-L’Alta Via del Granito è una traversata ad anello, nella singolare isola granitica del gruppo Cima d’Asta - Cime di Rava, nella Catena del Lagorai. L’Alta Via percorre una rete di antichi sentieri ed ex strade militari, risalenti alla Prima Guerra Mondiale, collegando gli unici due rifugi del gruppo. Tre giorni di facile cammino fra stupendi paesaggi naturali, severi ricordi della Grande Guerra, malghe ed alpeggi, testimonianze esemplari dell’antico patto dell’uomo con la natura.
-
-La lunghezza dell'itinerario è di circa 28 km, con un dislivello totale di quasi 2030 mt (per chi compie l'ascensione del Cimon di cima d'Asta bisogna aggiungere altri 380 mt).
-
+## **Dalla nostra galleria:**
 ::content-gallery
 ---
 images: [ 
@@ -33,18 +67,4 @@ images: [
 ]
 ---
 ::
-I sentieri sono di facile percorrenza (difficoltà EE) ma non sono comunque da sottovalutare per l'impegno fisico. I tempi di percorrenza indicati riguardano il solo cammino, senza includere le soste e si riferiscono a persone con buon allenamento in montagna. Tra i due rifugi non ci sono punti di appoggio, ma in alcuni casi, specie nella seconda tappa, si trovano ricoveri d'emergenza e alcune grotte della Prima Guerra Mondiale. Anche per l'abbigliamento si tenga presente che ci sono molti tratti sopra i 2000 metri.
 
-### Periodo di svolgimento della escursione
-
-Il periodo consigliato va dal 20 giugno al 20 settembre, anche se la traversata si può effettuare fino a fine settembre-ottobre. In tal caso bisognerà munirsi di tendina e sacco-pelo o fare affidamento sui ricoveri invernali dei rifugi. All'inizio dell'estate, a seconda di di come è stato l'inverno, si può trovare ancora neve sui sentieri, soprattutto verso cima d'Asta, in questo caso sono utili le ghette. In piena stagione estiva è indispensabile prenotare con un certo anticipo e per semplice questione di rispetto e delicatezza nei confronti delle altrui esigenze,si raccomanda di disdire con tempestività - ove possibile - le eventuali mancate presenze.
-
-### Equipaggiamento
-
-L’equipaggiamento necessario è quello da trekking in montagna più tutta l’attrezzatura per pernottare in tenda o in bivacco. La Guida vi fornirà una check-list dettagliata di tutto.
-
-### Quota di partecipazione
-
-La quota di partecipazione è di euro 250 a testa con un minimo di 6 partecipanti e un massimo di 8.
-
-Per gruppi più piccoli si può chiedere un preventivo personalizzato.

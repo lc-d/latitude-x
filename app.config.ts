@@ -42,7 +42,7 @@ export default defineAppConfig({
             "Medico Chirurgo abilitato. Laureata con il massimo dei voti presso l’Università degli Studi di Padova",
             "Docente titolare dei corsi di formazione e aggiornamento di Primo Soccorso aziendale e gestione delle emergenze sanitarie",
             "Discipline praticate: trekking, biking, arrampicata sportiva, alpinismo su roccia, canyoning e sci di fondo",
-            "Istruttrice BLS e Soccorritrice in ambulanza per la Croce Rossa Italiana - SUEM 118",
+            "Istruttrice BLSD e Soccorritrice in ambulanza per la Croce Rossa Italiana - SUEM 118",
             "Content creator e video maker per passione ed esperienza.",
         ],
         francesco: [
