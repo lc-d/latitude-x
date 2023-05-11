@@ -208,7 +208,7 @@ Con il markdown è possibile inserire contenuti e formattare il testo come indic
 Attributes works on:
 
 - image: `![](/icon.png){.inline.m-0.bg-primary}`
-- link: `[link](#attributes){.bg-primary}`
+- link: `[link](#attributes){.btn}`
 - code: ``` `code`{.text-primary} ```
 - texts: `_italic_{.bg-primary}` and `**bold**{.bg-primary}`
 - span: `[a word]{.bg-primary}`
