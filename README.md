@@ -113,7 +113,7 @@ La dimensione massima di un'immagine non dovrebbe superere i 1440px di lato, con
 
 Tutte le pagine del sito, ad eccezione dell'homepage `/`, di `/destinazioni` e `/viaggi`, corrispondo ai relativi file in markdown dentro la cartella `/content` e nelle relative sotto cartelle.
 
-L'url della pagina è costituito dal nome del file e dalla sotto cartella in cui si trova, es.: *https://latitudex.it/viaggi/alta-via-del-granito-prima-tappa* corrisponde al markdown dentro la cartella `/content/viaggi` col nome: *alta-via-del-granito-prima-tappa.md*.
+L'url della pagina è costituito dal nome del file e dalla sotto cartella in cui si trova, es.: *<https://latitudex.it/viaggi/alta-via-del-granito-prima-tappa>* corrisponde al markdown dentro la cartella `/content/viaggi` col nome: *alta-via-del-granito-prima-tappa.md*.
 
 *Nota bene*: Il nome del file corrisponde allo *slug* della pagina, pertanto non usare caratteri speciali nei nomi dei file.
 
@@ -202,6 +202,16 @@ navigation:
 ## Uso del markdown
 
 Con il markdown è possibile inserire contenuti e formattare il testo come indicato in [questa guida](https://www.markdownguide.org/cheat-sheet/). Questa applicazione inoltre mette a disposizione delle formattazioni speciali del testo attraverso i *content slot*.
+
+### Attributi in linea
+
+Attributes works on:
+
+- image: `![](/icon.png){.inline.m-0.bg-primary}`
+- link: `[link](#attributes){.bg-primary}`
+- code: ``` `code`{.text-primary} ```
+- texts: `_italic_{.bg-primary}` and `**bold**{.bg-primary}`
+- span: `[a word]{.bg-primary}`
 
 ### `content-big`
 
