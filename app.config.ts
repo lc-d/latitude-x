@@ -154,7 +154,7 @@ export default defineAppConfig({
         },
         {
             name: "Staff P&P",
-            src: "staffp&p.jpg"
+            src: "staffpep.jpg"
         },
         {
             name: "Alpamayo",
