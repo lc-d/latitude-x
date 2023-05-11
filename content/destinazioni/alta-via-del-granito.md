@@ -48,7 +48,7 @@ La quota di partecipazione è di euro 150 a testa con un minimo di 6 partecipant
 Non sono inclusi i pasti, che però verranno concordati con il medico e la guida.
 Eventualmente, è possibile il noleggio dell’attrezzatura come, a titolo di esempio, sacco a pelo, materassino, tenda, bastoncini da trekking.
 
-## **Dalla nostra galleria:**
+**Dalla nostra galleria:**{.text-2xl}
 ::content-gallery
 ---
 images: [ 

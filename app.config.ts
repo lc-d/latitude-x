@@ -130,12 +130,37 @@ export default defineAppConfig({
     sponsor: [
         {
             name: "Alpamayo",
-            src: "alpamayo.png"
+            src: "logo-grupo-alpamayo-tours.jpg"
         },
-        {
+           {
             name: "Assoguide",
             src: "assoguidelogo.jpg"
         },
+        {
+            name: "Unipd",
+            src: "unipd.png"
+        },
+        {
+            name: "Right Driving",
+            src: "right-driving.jpg"
+        },
+        {
+            name: "EAT Freedom",
+            src: "EAT.png"
+        },
+        {
+            name: "Tortugavan",
+            src: "tortugavan.png"
+        },
+        {
+            name: "Staff P&P",
+            src: "staffp&p.jpg"
+        },
+        {
+            name: "Alpamayo",
+            src: "alpamayo.png"
+        },
+     
         {
             name: "Atena",
             src: "atena.jpeg"
@@ -148,10 +173,7 @@ export default defineAppConfig({
             name: "DNA Formazione",
             src: "dna-formazione.png"
         },
-        {
-            name: "EAT",
-            src: "EAT.png"
-        },
+
         {
             name: "Forema",
             src: "forema.png"
@@ -172,25 +194,10 @@ export default defineAppConfig({
             name: "Omnia",
             src: "omnia.jpeg"
         },
-        {
-            name: "Right Driving",
-            src: "right-driving.jpg"
-        },
+       
         {
             name: "Sinergika",
             src: "sinergika.png"
-        },
-        {
-            name: "Tortugavan",
-            src: "tortugavan.png"
-        },
-        {
-            name: "Unipd",
-            src: "unipd.png"
-        },
-        {
-            name: "Alpamayo",
-            src: "logo-grupo-alpamayo-tours.jpg"
         },
        
     ],

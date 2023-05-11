@@ -1,6 +1,6 @@
 ---
 title: "Selvaggio Blu & Supramonte"
-cover_image: "/img/sardegna/selvaggioblu3_sardegna_estate-2021-2.jpg"
+cover_image: "/img/sardegna/selvaggioblu_sardegna_primavera-2023.jpg"
 location_name: "Sardegna"
 season: "primavera" # autunno | primavera | estate | inverno
 difficulty: "media"
