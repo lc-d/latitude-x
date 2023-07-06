@@ -1,5 +1,5 @@
 ---
-cover_image: "img/formazione/bls.studenti.jpg"
+cover_image: "/img/formazione/bls-studenti.jpg"
 description: ""
 layout: "page"
 ---

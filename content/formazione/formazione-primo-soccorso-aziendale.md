@@ -1,5 +1,5 @@
 ---
-cover_image:  "img/formazione/bls1-tribunalevenezia_inverno-2023.jpg"
+cover_image:  "/img/formazione/bls1-tribunalevenezia_inverno-2023.jpg"
 description: ""
 layout: "page"
 ---

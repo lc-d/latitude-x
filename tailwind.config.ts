@@ -3,7 +3,7 @@ import type { Config } from 'tailwindcss'
 export default <Partial<Config>>{
     theme: {
         fontFamily: {
-            sans: ['ProximaNova', 'Helvetica', 'sans-serif']
+            sans: ['Montserrat', 'Helvetica', 'sans-serif']
         },
         colors: {
             'primary': '#57989B',

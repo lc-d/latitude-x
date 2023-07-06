@@ -1,5 +1,5 @@
 ---
-cover_image: "img/formazione/ambulanza-peru_inverno-2022.jpg"
+cover_image: "/img/formazione/ambulanza-peru_inverno-2022.jpg"
 description: ""
 layout: "page"
 ---

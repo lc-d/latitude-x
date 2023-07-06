@@ -38,7 +38,7 @@
       </nav>
       <nav
         v-if="appConfig.info.youtube || appConfig.info.instagram"
-        class="inline-flex items-center justify-center space-x-2 text-sm text-false-white pt-3 w-full"
+        class="inline-flex items-center justify-center space-x-2 text-sm text-false-white py-3 w-full"
       >
         <p class="drop-shadow-text">Seguici su:</p>
         <ul class="space-x-2">
@@ -78,11 +78,11 @@ const appConfig = useAppConfig()
 
 <style scoped lang="scss">
 nav.menu {
-  max-width: 30rem;
+  max-width: 35rem;
   margin: 0 auto;
 }
 .hero-footer {
-  height: 400px;
+  min-height: 400px;
   max-width: 1440px;
   margin: 0 auto;
   background-size: cover;
