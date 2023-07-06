@@ -18,11 +18,13 @@
     "@nuxtjs/tailwindcss": "^6.6.4",
     "@tailwindcss/typography": "^0.5.9",
     "date-format": "^4.0.14",
-    "nuxt": "^3.3.1",
+    "nuxt": "^3.5.3",
     "nuxt-swiper": "^1.0.1",
-    "sass": "^1.59.3",
-    "sass-loader": "^13.2.1",
+    "sass": "^1.63.4",
+    "sass-loader": "^13.3.2",
     "sitemap": "^7.1.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "postcss-custom-properties": "^13.2.0"
+  }
 }
