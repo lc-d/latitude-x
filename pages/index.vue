@@ -77,7 +77,7 @@
           <div class="md:w-1/2">
             <p>
               <BaseImage
-                :src="'/logo/latitudex-logo-default.svg'"
+                :src="'/logo/latitudex-logo-linear.svg'"
                 alt="Logo di Latitude X"
                 class="max-w-xs"
                 width="300"
