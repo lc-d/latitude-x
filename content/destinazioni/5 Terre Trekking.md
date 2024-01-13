@@ -1,7 +1,7 @@
 ---
-title: "5 Terre Trekking"
+title: "Cinque Terre Trekking"
 cover_image: "/img/5Terre/5terre-liguria_primavera-2023.jpg"
-location_name: "5 Terre"
+location_name: 'Liguria'
 season: "primavera" # autunno | primavera | estate | inverno
 difficulty: "bassa"
 activity: "trekking"  # trekking | ciclismo | navigazione

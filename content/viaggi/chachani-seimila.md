@@ -2,7 +2,7 @@
 title: "Vulcano Chachani - 6075 mt"
 cover_image: "/img/peru/chachani-peru_inverno-2022.jpg"
 video_id: "cL38cOO1lkI"
-location_name: "peru"
+location_name: "Peru"
 description: ""
 layout: "viaggi"
 date: "2022-02-15T22:48:58.636"

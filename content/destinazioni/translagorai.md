@@ -1,7 +1,7 @@
 ---
 title: 'Translagorai'
 cover_image: '/img/sassorosso-lagorai_estate-2021.jpg'
-location_name: 'Lagorai'
+location_name: 'translagorai'
 season: 'estate'
 difficulty: 'alta'
 activity: 'trekking'

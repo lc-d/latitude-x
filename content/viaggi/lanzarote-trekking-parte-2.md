@@ -2,7 +2,7 @@
 title: "Lanzarote Trekking - Seconda Parte"
 cover_image: "/img/lanzarote/vulcano-lanzarote_autunno-2021.jpg"
 video_id: 'fZFyol_g6IU'
-location_name: ""
+location_name: 'Lanzarote'
 description: ""
 layout: "viaggi"
 date: "2021-11-12T18:32:09.367"

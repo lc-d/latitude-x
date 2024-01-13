@@ -2,7 +2,7 @@
 title: "Lanzarote Trekking - Prima parte"
 cover_image: "/img/lanzarote/montagnabermeca-isolagraciosa_autunno-2021.jpg"
 video_id: "30yy1jETt0k"
-location_name: ""
+location_name: "lanzarote"
 description: ""
 layout: "viaggi"
 date: "2021-11-12T17:30:58.158"

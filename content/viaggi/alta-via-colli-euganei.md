@@ -2,7 +2,7 @@
 title: "Alta Via dei Colli Euganei"
 cover_image: "/img/euganei/altaviaeuganei-euganei_estate-2021.jpg"
 video_id: "RmwsjNF04wc"
-location_name: "colli euganei"
+location_name: 'Colli Euganei'
 description: ""
 layout: "viaggi"
 date: "2021-06-12T22:59:12.427"

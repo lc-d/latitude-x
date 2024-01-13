@@ -2,7 +2,7 @@
 title: "Translagorai - Terza Tappa"
 cover_image: "/img/lagorai/laghetti-lagorai_autunno-2021.jpg"
 video_id: "Dvhyqw39o0E"
-location_name: "lagorai"
+location_name: 'translagorai'
 description: ""
 layout: "viaggi"
 date: "2021-09-24T17:57:30.203"

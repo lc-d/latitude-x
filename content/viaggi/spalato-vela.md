@@ -2,7 +2,7 @@
 title: "Barca a vela in Dalmazia"
 cover_image: "/img/spalato/spalatovela-dalmazia_autunnp-2022.jpg"
 video_id: "KN341oxOsJI"
-location_name: "croazia (spalato)"
+location_name: "Croazia"
 description: ""
 layout: "viaggi"
 date: "2022-10-13T09:01:01.810"

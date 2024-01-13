@@ -2,7 +2,7 @@
 title: "Cusco e Machu Picchu"
 cover_image: "/img/peru/machupicchu-peru_inverno-2022.jpg"
 video_id: "G9qRp9AnEcE"
-location_name: "peru"
+location_name: "Peru"
 description: ""
 layout: "viaggi"
 date: "2022-02-20T16:49:51.813"

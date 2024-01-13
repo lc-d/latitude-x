@@ -2,7 +2,7 @@
 title: "Ponza climbing and sailing"
 cover_image: "/img/ponza/arcoponza-ponza_estate-2021.jpg"
 video_id: "V_y8iBf6rPM"
-location_name: "ponza"
+location_name: "Ponza"
 description: ""
 layout: "viaggi"
 date: "2021-07-12T22:36:21.852"

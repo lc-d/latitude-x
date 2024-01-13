@@ -1,5 +1,5 @@
 ---
-title: "Croazia sailing&climbing"
+title: "Croazia sailing and climbing"
 cover_image: "/img/croazia/dalmazia-croazia_autunno-2022.jpg"
 location_name: "Croazia"
 season: "estate" # autunno | primavera | estate | inverno
