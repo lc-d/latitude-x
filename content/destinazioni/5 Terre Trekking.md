@@ -1,6 +1,6 @@
 ---
 title: "5 Terre Trekking"
-cover_image: "/img/5 terre/5terre-liguria_primavera-2023.jpg"
+cover_image: "/img/5Terre/5terre-liguria_primavera-2023.jpg"
 location_name: "5 Terre"
 season: "primavera" # autunno | primavera | estate | inverno
 difficulty: "bassa"
