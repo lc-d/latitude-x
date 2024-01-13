@@ -2,7 +2,7 @@
 title: 'Translagorai - Prima Tappa'
 cover_image: "/img/sassorosso-lagorai_estate-2021.jpg"
 video_id: "C3YxWS4wBEc"
-location_name: 'Lagorai'
+location_name: 'translagorai'
 description: ""
 layout: "viaggi"
 date: "2021-09-23T12:20:49.420"

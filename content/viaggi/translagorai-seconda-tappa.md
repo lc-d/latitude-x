@@ -2,7 +2,7 @@
 title:  'Translagorai - Seconda Tappa'
 cover_image: '/img/lagorai/tendatrekking-lagorai_estate-2021.jpg'
 video_id: 'iHznGcxt_p0'
-location_name: 'Lagorai'
+location_name: 'translagorai'
 description: ""
 layout: 'viaggi'
 date: "2021-09-24T17:56:47.971"
