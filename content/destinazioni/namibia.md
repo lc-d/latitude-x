@@ -10,4 +10,9 @@ layout: "destinazioni"
 date: "2023-04-15T16:47:53.873"
 draft: "false"
 ---
+::content-big
+Questo **viaggio** è in fase di *elaborazione:*
+::
 
+Stiamo organizzando il prossimo viaggio di Gruppo in **Namibia**!
+Se hai domande riguardo a questo itineraio, **contattaci** e ti daremo tutte le informazioni a riguardo!

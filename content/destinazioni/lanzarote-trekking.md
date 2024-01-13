@@ -1,5 +1,5 @@
 ---
-title: "Lanzarote a 360°"
+title: "Lanzarote Trekking"
 cover_image: '/img/lanzarote/vulcano-lanzarote_autunno-2021.jpg'
 location_name: "Lanzarote"
 season: "autunno" # autunno | primavera | estate | inverno
