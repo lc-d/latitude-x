@@ -5,29 +5,33 @@ export default defineAppConfig({
         tel: "+393405831663",
         mail: "info.latitudex@gmail.com",
         youtube: "https://www.youtube.com/@francescoegiulia8785",
-        instagram: "#"
+        instagram: "https://www.instagram.com/latitudex__academy/"
     },
     menu: {
         header: [
             {
                 name: "Diario dei viaggi",
                 to: "/viaggi",
-                title: "Scopri tutti i viaggi fatti da Latitude X"
+                title: "Scopri tutti i viaggi fatti da Latitude X",
+                newWindow: false
             },
             {
                 name: "Destinazioni",
                 to: "/destinazioni",
-                title: "Scopri tutte le destinazioni proposte da Latitude X"
+                title: "Scopri tutte le destinazioni proposte da Latitude X",
+                newWindow: false
             },
             {
                 name: "Formazione",
-                to: "/formazione",
-                title: "Scopri l'offerta formativa di Latitude X"
+                to: "https://latitudex.academy/",
+                title: "Scopri l'offerta formativa di Latitude X",
+                newWindow: true
             },
             {
                 name: "Chi siamo",
                 to: "/chi-siamo",
-                title: "Scopri chi siamo"
+                title: "Scopri chi siamo",
+                newWindow: false
             },
         ],
     },

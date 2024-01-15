@@ -6,7 +6,7 @@ description: "Scopri chi siamo"
 
 # Chi siamo
 
-![Logo di Latitude X](/logo/latitudex-logo-default.svg){.max-w-xs}
+![Logo di Latitude X](/logo/latitudex-logo-linear.svg){.max-w-xs}
 
 ::content-big
 Tutto è cominciato dal desiderio di documentare e condividere le nostre avventure e, da quando abbiamo cominciato, sempre più persone ci hanno chiesto di organizzare dei viaggi con loro.

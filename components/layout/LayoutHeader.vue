@@ -39,9 +39,21 @@
           :class="{ 'space-x-4': !isOpen, 'space-y-8': isOpen }"
         >
           <li v-for="(item, index) in appConfig.menu.header" :key="index" class="uppercase">
-           <BaseLink :to="item.to" :isLink="false" @click="isOpen = false" :title="item.title">
+           <BaseLink 
+            v-if="!item.newWindow "
+            :to="item.to" 
+            :isLink="false" 
+            @click="isOpen = false"
+            :title="item.title">
               {{ item.name }}
             </BaseLink>
+            <a 
+              v-else 
+              :href="item.to"
+              :title="item.title"
+              target="_blank">
+              {{ item.name }} 
+            </a>
           </li>
         </ul>
       </nav>
