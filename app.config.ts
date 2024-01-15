@@ -5,7 +5,7 @@ export default defineAppConfig({
         tel: "+393405831663",
         mail: "info.latitudex@gmail.com",
         youtube: "https://www.youtube.com/@francescoegiulia8785",
-        instagram: "https://www.instagram.com/latitudex__academy/"
+        instagram: "https://www.instagram.com/latitudex__discovery/"
     },
     menu: {
         header: [
