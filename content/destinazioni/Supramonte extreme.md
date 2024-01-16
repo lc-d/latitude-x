@@ -1,6 +1,6 @@
 ---
 title: "Supramonte Extreme"
-cover_image: "img/sardegna/selvaggioblu5_sardegna_primavera-2023.jpg"
+cover_image: "/img/sardegna/selvaggioblu5_sardegna_primavera-2023.jpg"
 location_name: "Sardegna"
 season: "estate" # autunno | primavera | estate | inverno
 difficulty: "media"

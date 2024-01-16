@@ -1,6 +1,6 @@
 ---
 title: "Ciclovia Delta del Po"
-cover_image: "img/DeltaPo/ciclovia_deltadelpo_estate-2023.jpg"
+cover_image: "/img/DeltaPo/ciclovia_deltadelpo_estate-2023.jpg"
 video_id: "x543JIsHg0g"
 location_name: "Veneto"
 description: ""

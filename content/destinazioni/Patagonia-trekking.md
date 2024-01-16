@@ -1,6 +1,6 @@
 ---
 title: "Patagonia Trekking"
-cover_image: "img/Patagonia/patagonia-patagonia_inverno-2023.jpg"
+cover_image: "/img/Patagonia/patagonia-patagonia_inverno-2023.jpg"
 location_name: "Patagonia"
 season: "inverno" # autunno | primavera | estate | inverno
 difficulty: "media"

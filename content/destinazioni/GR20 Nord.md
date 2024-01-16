@@ -1,6 +1,6 @@
 ---
 title: "GR20 Nord"
-cover_image: "img/GR20/GR20Nord_corsica_estate-2023.jpg"
+cover_image: "/img/GR20/GR20Nord_corsica_estate-2023.jpg"
 location_name: "Corsica"
 season: "autunno" # autunno | primavera | estate | inverno
 difficulty: "media"
