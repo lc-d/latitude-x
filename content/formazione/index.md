@@ -1,4 +1,0 @@
----
-navigation: false
-draft: true
----
