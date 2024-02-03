@@ -1,8 +1,7 @@
 <template>
   <footer
     :style="{ backgroundImage: `url('/img/default/hero-footer.jpg')` }"
-    class="hero hero-footer"
-  >
+    class="hero hero-footer">
     <div class="text-center text-false-white">
       <BaseLink :to="'/'" :title="'Torna alla homepage'" :isLink="false">
         <BaseImage
@@ -10,8 +9,7 @@
           width="105"
           height="105"
           alt="'Latitude X logo'"
-          class="m-auto pt-24"
-        />
+          class="m-auto pt-24" />
       </BaseLink>
       <p class="text-2xl drop-shadow-text mt-2">LATITUDE X</p>
     </div>
@@ -19,15 +17,23 @@
       <nav class="menu">
         <ContentNavigation v-slot="{ navigation }">
           <ul
-            class="text-center space-x-4 space-y-2 text-base text-false-white m-auto mt-6"
-          >
+            class="text-center space-x-4 space-y-2 text-base text-false-white m-auto mt-6">
+            <li class="inline-block">
+              <BaseLink
+                :to="'https://latitudex.academy/'"
+                :isLink="false"
+                title="Vai a Latitude X Academy"
+                target="_blank"
+                class="is-link-shadow">
+                Formazione
+              </BaseLink>
+            </li>
             <template v-for="link of navigation" :key="link._path">
               <li v-if="link.title" class="inline-block">
                 <BaseLink
                   :to="link._path"
                   :isLink="false"
-                  class="is-link-shadow"
-                >
+                  class="is-link-shadow">
                   {{ link.title }}
                   <span v-if="link.children">({{ link.children.length }})</span>
                 </BaseLink>
@@ -38,8 +44,7 @@
       </nav>
       <nav
         v-if="appConfig.info.youtube || appConfig.info.instagram"
-        class="inline-flex items-center justify-center space-x-2 text-sm text-false-white py-3 w-full"
-      >
+        class="inline-flex items-center justify-center space-x-2 text-sm text-false-white py-3 w-full">
         <p class="drop-shadow-text">Seguici su:</p>
         <ul class="space-x-2">
           <li v-if="appConfig.info.youtube" class="inline-block">
@@ -48,8 +53,7 @@
               :isLink="false"
               target="_blank"
               class="drop-shadow-text hover:text-accent"
-              title="Vedi il nostro canale Youtube"
-            >
+              title="Vedi il nostro canale Youtube">
               <BaseIcon icon="youtube" />
               <span class="sr-only">Vedi il nostro canale Youtube</span>
             </BaseLink>
@@ -60,8 +64,7 @@
               :isLink="false"
               target="_blank"
               class="drop-shadow-text hover:text-accent"
-              title="Vedi la nostra pagina Instagram"
-            >
+              title="Vedi la nostra pagina Instagram">
               <BaseIcon icon="instagram" />
               <span class="sr-only">Vedi la nostra pagina Instagram</span>
             </BaseLink>
@@ -81,6 +84,7 @@ nav.menu {
   max-width: 35rem;
   margin: 0 auto;
 }
+
 .hero-footer {
   min-height: 400px;
   max-width: 1440px;
