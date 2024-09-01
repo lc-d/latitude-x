@@ -19,14 +19,14 @@
       <div class="max-w-lg m-auto">
         <span class="bg-secondary px-4 py-1 text-white uppercase rounded-full font-bold">Novità</span>
         <h2 class="text-3xl font-bold mt-4">
-          Il video corso completo di primo soccorso
+          Scopri i Video Corsi di Primo Soccorso e BLS-D
         </h2>
-        <p class="text-2xl mb-4">In uscita a febbraio 2024</p>
+        <p class="text-2xl mb-4">Disponibili ONLINE sulla piattaforma dedicata</p>
         <a href="https://latitudex.academy/" target="_blank" class="btn bg-primary w-full text-white font-bold">
           Scopri di più
         </a>
         <p>
-          Prenota ora la tua copia e ottieni il <strong>10% di sconto</strong>
+          Accedi alla piattaforma on-demand e segui le video-lezioni.
         </p>
       </div>
       <a href="https://latitudex.academy/" target="_blank" class="block w-full max-w-lg m-auto">
