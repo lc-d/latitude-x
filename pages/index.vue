@@ -5,10 +5,10 @@
       class="hero">
       <div class="hero-wrapper flex items-center">
         <div class="wrapper text-center md:text-left">
-          <LayoutLogo class="m-auto md:m-0" />
-          <h1 class="h1-style text-false-white drop-shadow-text mt-3">
+          <LayoutLogo class="m-auto md:m-0" base-color="#FFFFFF" />
+          <h1 class="h1-style text-false-white font-bold drop-shadow-text mt-3">
             Benvenuti a
-            <b class="inline-block">Latitude X</b>
+            <span class="inline-block">Latitude X</span>
             <br />
             <small>{{ appConfig.text.motto }}</small>
           </h1>

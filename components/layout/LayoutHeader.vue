@@ -1,7 +1,7 @@
 <template>
   <header
     class="bg-primary-light-opacity z-20 w-full backdrop-blur-sm"
-    :class="{ 'open fixed backdrop-blur-lg': isOpen, 'absolute': !isOpen }"
+    :class="{ 'open fixed backdrop-blur-lg': isOpen, 'absolute': !isOpen, '!bg-primary-light': route.name != 'index'}"
     @keydown.esc="isOpen = false"
   >
     <div class="wrapper flex justify-between items-center">
@@ -33,7 +33,7 @@
           <span class="sr-only">Apri il menu principale</span>
         </span>
       </BaseButton>
-      <nav id="main-menu" class="hidden sm:block" labelledby="menu-button">
+      <nav id="main-menu" class="hidden sm:block" aria-labelledby="menu-button">
         <ul
           class="flex text-sm"
           :class="{ 'space-x-4': !isOpen, 'space-y-8': isOpen }"
@@ -62,6 +62,7 @@
 </template>
 
 <script setup lang="ts">
+const route = useRoute()
 const appConfig = useAppConfig()
 const isOpen = ref(false)
 const menuToggle = () => {
@@ -83,7 +84,6 @@ a:hover {
   height: 100vh;
   nav {
     display: block;
-    position: absolute;
     position: absolute;
     left: 0;
     top: 100px;
