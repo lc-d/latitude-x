@@ -2,7 +2,7 @@ export default defineAppConfig({
     info: {
         domain: "https://latitudex.it",
         pagination: 24,
-        tel: "+393405831663",
+        tel: "+393487865174",
         mail: "info.latitudex@gmail.com",
         youtube: "https://www.youtube.com/@francescoegiulia8785",
         instagram: "https://www.instagram.com/latitudex__discovery/"
